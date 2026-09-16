@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Associate Career Development | LeadOS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#ED0007;--red-dark:#B90000;--ink:#1D1D1B;--anthracite:#4A4A49;--muted:#706F6F;
+  --line:#DEDEDE;--paper:#fff;--bg:#F2F2F2;
+  --blue:#005691;--blue2:#e8f1f8;--green:#3D8A00;--green2:#eef7e5;--amber:#B75E00;--amber2:#fdf1e0;
+  --violet:#7C3F98;--violet2:#f4ecf9;--coral:#C94F3D;--coral2:#fdece8;
+  --ai-orange:#FF8C00;
+  --sidebar:#16222D;--sidebar-text:#c7ced6;--sidebar-muted:#7c8b99;
+  --font:"Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --shadow:0 10px 30px rgba(29,29,27,.10)
+}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 var(--font)} button,input,textarea,select{font:inherit}
+.app-shell{display:flex;align-items:flex-start;width:100%;min-height:100vh}
+.btn{border:1px solid #6a6a68;background:#fff;color:var(--ink);border-radius:9px;padding:8px 12px;cursor:pointer;font-weight:650}.btn:hover{transform:translateY(-1px)}.btn.primary{background:var(--red);color:#fff;border-color:var(--red)}.btn.ghost{background:transparent;color:var(--ink)}.btn.danger{color:#b42318}.btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.sidebar{position:sticky;top:0;align-self:flex-start;height:100vh;flex:0 0 250px;width:250px;background:var(--sidebar);color:var(--sidebar-text);display:flex;flex-direction:column;padding:16px 14px;overflow:hidden;transition:flex-basis .18s ease,width .18s ease;z-index:25}
+.sidebar.collapsed{flex:0 0 76px;width:76px;padding:16px 10px;align-items:center}
+.sidebar-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding-bottom:14px;margin-bottom:10px;border-bottom:1px solid rgba(255,255,255,.14)}
+.sidebar.collapsed .sidebar-top{flex-direction:column;gap:10px}
+.sidebar-brand{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-decoration:none;color:#fff;min-width:0;background:none;border:0;padding:0;font:inherit;text-align:left;cursor:pointer}
+.sidebar-logo{height:86px;width:auto;max-width:100%;display:block;flex-shrink:0;background:transparent;border-radius:4px;padding:2px}
+.sidebar.collapsed .sidebar-logo{height:32px}
+.sidebar-brand-text{display:flex;flex-direction:column;font-weight:800;letter-spacing:.2px;line-height:1.2;overflow:hidden}
+.sidebar-brand-text small{font-weight:600;color:var(--sidebar-muted);font-size:14px;letter-spacing:.02em;white-space:nowrap}
+.sidebar.collapsed .sidebar-brand-text{display:none}
+.sidebar-toggle{border:1px solid rgba(255,255,255,.2);background:transparent;color:var(--sidebar-muted);border-radius:8px;padding:6px 10px;cursor:pointer;font-weight:800;font-size:13px;flex-shrink:0}
+.sidebar-toggle:hover{color:#fff;border-color:#fff}
+.tabbar-list{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1;min-height:0;overflow-y:auto;padding-top:12px}
+.tab{display:flex;align-items:center;gap:8px;padding:9px 10px;border-radius:9px;background:transparent;color:var(--sidebar-text);cursor:pointer;font-weight:650}
+.tab:hover{background:rgba(255,255,255,.08)}
+.tab .tab-label{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tab .tab-initials{display:none;width:100%;text-align:center;letter-spacing:.03em}
+.tab.active{background:var(--blue);color:#fff}
+.tab .x{border:0;background:transparent;color:inherit;opacity:.75;font-weight:800;cursor:pointer;border-radius:50%;width:20px;height:20px;line-height:20px;text-align:center;flex-shrink:0}
+.tab .x:hover{opacity:1;background:rgba(255,255,255,.18)}
+.sidebar.collapsed .tab{justify-content:center;padding:9px 4px;gap:0}
+.sidebar.collapsed .tab .tab-label,.sidebar.collapsed .tab .x{display:none}
+.sidebar.collapsed .tab .tab-initials{display:block}
+.tab-add{border:1px dashed rgba(255,255,255,.35);background:transparent;color:var(--sidebar-text);border-radius:9px;padding:9px 10px;cursor:pointer;font-weight:700;text-align:left;margin-top:2px}
+.tab-add:hover{color:#fff;border-color:#fff}
+.sidebar.collapsed .tab-add{text-align:center;padding:9px 4px}
+.sidebar.collapsed .tab-add .tab-add-full{display:none}
+.tab-add .tab-add-short{display:none}
+.sidebar.collapsed .tab-add .tab-add-short{display:inline}
+.sidebar-divider{height:1px;background:rgba(255,255,255,.14);margin:14px 4px}
+.sidebar.collapsed .sidebar-divider{width:36px;margin:14px auto}
+.sidebar-link{display:flex;align-items:center;gap:10px;padding:10px;border-radius:9px;color:var(--sidebar-text);text-decoration:none;font-weight:700;font-size:13.5px;background:none;border:0;width:100%;text-align:left;font-family:inherit;cursor:pointer}
+.sidebar-link:hover{background:rgba(255,255,255,.08);color:#fff}
+.sidebar-link-icon{font-size:16px;flex-shrink:0}
+.sidebar.collapsed .sidebar-link span:not(.sidebar-link-icon){display:none}
+.toolkit-link{border:1px solid rgba(0,168,168,.55);background:rgba(0,168,168,.1)}
+.toolkit-link:hover{background:rgba(0,168,168,.2);border-color:#00A8A8}
+.toolkit-link .sidebar-link-badge{margin-left:auto;background:#00A8A8;color:#052426;font-size:10px;font-weight:800;padding:2px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em}
+.sidebar.collapsed .toolkit-link .sidebar-link-badge{display:none}
+.main-area{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{position:sticky;top:0;z-index:20;background:#fff;color:var(--ink);padding:14px 26px;display:flex;gap:12px;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.topbar h1{margin:0;font-size:18px;font-weight:800}
+.eyebrow-mini{display:block;text-transform:uppercase;letter-spacing:.1em;font-size:11px;color:var(--red);font-weight:800;margin-bottom:2px}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.accent-stripe{height:4px;background:linear-gradient(90deg,#ED1C24 0 18%,#F2C500 18% 36%,#00A8A8 36% 54%,#005691 54% 72%,#6C2D85 72% 100%)}
+.canvas-wrap{flex:1;padding:24px;display:flex}
+.canvas{flex:1;min-width:0;background:var(--paper);border-radius:20px;padding:28px;box-shadow:var(--shadow)}
+.hero{border-bottom:2px solid var(--ink);padding-bottom:18px}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--red);font-weight:800}.hero h1{margin:3px 0 5px;font-size:clamp(24px,3.6vw,34px);line-height:1.1;font-weight:300}.subtitle{color:var(--muted);max-width:720px;margin:0}
+.zone-title{display:flex;align-items:center;gap:10px;margin:26px 0 12px}.zone-title h2{margin:0;font-size:19px}
+.zone{margin:26px 0;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 2px 12px rgba(29,29,27,.06);overflow:hidden}
+.zone-header{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:14px;width:100%;padding:16px 20px;cursor:pointer;background:linear-gradient(90deg,var(--zone-tint,#f2f2f2) 0%,#fff 70%);border-left:6px solid var(--zone-accent,var(--red))}
+.zone-header:hover{background:linear-gradient(90deg,var(--zone-tint,#e9e9e9) 0%,#fff 70%)}
+.zone-index{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--zone-accent,var(--red));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px}
+.zone-header h2{margin:0;font-size:18px;font-weight:800;color:var(--ink)}
+.zone-sub{flex:1;min-width:0;color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.zone-chevron{flex-shrink:0;font-size:13px;color:var(--muted);transition:transform .18s ease}
+.zone.collapsed .zone-chevron{transform:rotate(-90deg)}
+.zone-body{padding:22px 20px;border-top:1px solid var(--line)}
+.zone.collapsed .zone-body{display:none}
+.zone-career{--zone-accent:var(--blue);--zone-tint:var(--blue2)}
+.zone-perf{--zone-accent:var(--red);--zone-tint:#fdeceb}
+.zone-notebook{--zone-accent:var(--anthracite);--zone-tint:#f2f2f1}
+.zone-feedback{--zone-accent:var(--violet);--zone-tint:var(--violet2)}
+.identity-summary{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px;color:var(--muted);font-size:14px}
+.identity-summary .identity-sep{color:var(--line)}
+.edit-btn{border:1px solid var(--red);color:var(--red);background:#fff;border-radius:8px;padding:5px 12px;cursor:pointer;font-weight:700;font-size:12.5px;margin-left:4px}
+.edit-btn:hover{background:var(--red);color:#fff}
+.identity{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px;margin:14px 0 6px}
+.field label,.mini-label{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:750;margin-bottom:6px}
+.field input,.field textarea,.field select{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px 11px;background:#fbfbfb;color:var(--ink);outline:none}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(237,0,7,.12)} textarea{min-height:100px;resize:vertical}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.card{border:1px solid var(--line);border-top:6px solid var(--accent);border-radius:14px;padding:17px;background:linear-gradient(180deg,var(--tint),#fff 42%);min-width:0}
+.card h2{margin:0 0 4px;font-size:16px}.hint{margin:0 0 12px;color:var(--muted);font-size:12.5px}
+.strengths{--accent:var(--green);--tint:var(--green2);grid-column:span 6}
+.aspiration{--accent:var(--blue);--tint:var(--blue2);grid-column:span 6}
+.skills{--accent:var(--violet);--tint:var(--violet2);grid-column:span 6}
+.exposure{--accent:var(--amber);--tint:var(--amber2);grid-column:span 6}
+.growth{--accent:var(--red);--tint:#fdeceb;grid-column:span 12}
+.perf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.perf-item{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
+.perf-item:nth-child(5){grid-column:1/-1}
+.perf-item h3{margin:0 0 8px;font-size:13.5px}
+.rating{display:flex;gap:6px;margin-bottom:8px}
+.rating label{position:relative;flex:1;text-align:center;border:1px solid var(--line);border-radius:8px;padding:6px 0;cursor:pointer;font-weight:700;font-size:12.5px;color:var(--muted);background:#fafafa}
+.rating input{position:absolute;opacity:0;width:0;height:0}
+.rating label:has(input:checked){background:var(--blue);border-color:var(--blue);color:#fff}
+.rating label.ai-suggested{outline:2px solid var(--ai-orange);outline-offset:2px}
+.perf-item textarea{min-height:130px}
+.perf-item textarea[readonly]{background:#f5f5f5;color:var(--anthracite);cursor:default}
+.ai-assessment-result{border:1px dashed var(--ai-orange);border-radius:10px;padding:10px;margin-top:8px;background:#fff8f0;white-space:pre-wrap;font-size:13px;color:var(--ink)}
+.positive{--accent:var(--green);--tint:var(--green2);grid-column:span 6}
+.improvement{--accent:var(--amber);--tint:var(--amber2);grid-column:span 6}
+.sbi{--accent:var(--violet);--tint:var(--violet2);grid-column:span 12}
+.sbi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+.sbi-item span.tag{display:inline-block;background:var(--violet);color:#fff;border-radius:6px;padding:2px 8px;font-size:11px;font-weight:800;margin-bottom:6px}
+.sbi-preview{border:1px dashed var(--violet);border-radius:10px;padding:12px;background:#fff;white-space:pre-wrap;font-size:13.5px;min-height:60px;color:var(--ink)}
+.notebook{--accent:var(--anthracite);--tint:#f2f2f1;grid-column:span 12}
+.notebook textarea{min-height:160px}
+.action-row{display:grid;grid-template-columns:3fr 1.3fr auto;gap:8px;margin-bottom:8px;align-items:center}
+.action-row input{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px;background:white}
+.icon-btn{border:0;background:#fff2f0;color:#b42318;border-radius:8px;width:34px;height:34px;cursor:pointer;font-weight:bold}
+.add{border:1px dashed var(--red);color:var(--red);background:white;border-radius:8px;padding:8px 10px;cursor:pointer;font-weight:700}
+.ai-field-action{border:1px solid var(--violet);color:var(--violet);background:#fff;border-radius:8px;padding:6px 10px;cursor:pointer;font-weight:750;font-size:12px;margin-top:8px}
+.ai-field-action:hover{background:var(--violet);color:#fff}.ai-field-action:disabled{opacity:.65;cursor:wait}
+.footer-note{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;color:var(--muted);font-size:12px}
+.status{color:var(--green);font-weight:700}
+.toolkit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.toolkit-section{border:1px solid var(--line);border-top:6px solid var(--accent);border-radius:14px;padding:18px;background:#fff}
+.toolkit-section:nth-child(1){--accent:var(--blue)}
+.toolkit-section:nth-child(2){--accent:var(--violet)}
+.toolkit-section:nth-child(3){--accent:var(--amber)}
+.toolkit-title{font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--ink);margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.toolkit-content{font-size:13px;color:var(--ink);line-height:1.5}
+.toolkit-content p{margin:0 0 8px;color:var(--muted)}
+.toolkit-content ul{margin:0;padding-left:18px}
+.toolkit-content li{margin-bottom:6px;color:var(--ink)}
+.howto-item{border-left:3px solid var(--blue);padding-left:10px;margin-bottom:10px;font-size:13px}
+.howto-item strong{color:var(--ink)}
+.learning-item{display:flex;align-items:flex-start;gap:8px;margin-bottom:10px;font-size:13px}
+.learning-icon{flex-shrink:0;color:var(--amber);font-weight:800}
+.toolkit-add-btn{border:1px dashed var(--blue);color:var(--blue);background:transparent;border-radius:8px;padding:6px 10px;cursor:pointer;font-weight:700;font-size:12px;width:100%;margin-top:8px}
+@media(max-width:900px){.toolkit-grid{grid-template-columns:1fr}}
+@media(max-width:820px){.identity{grid-template-columns:1fr}.grid{display:block}.card{margin-bottom:14px}.perf-grid{grid-template-columns:1fr}.perf-item:nth-child(5){grid-column:auto}.sbi-grid{grid-template-columns:1fr}.action-row{grid-template-columns:1fr auto}.action-row input:first-child{grid-column:1/-1}.canvas{padding:18px}.app-shell{flex-direction:column}.sidebar{position:static;width:100%;height:auto;flex-direction:row;flex-wrap:wrap;box-shadow:none}.sidebar-top{width:100%}.sidebar-section-label{width:100%}.tabbar-list{flex-direction:row;flex-wrap:wrap;width:100%}.sidebar-divider{width:100%}.canvas-wrap{padding:16px}.zone-sub{display:none}}
+@media print{@page{size:A3 landscape;margin:8mm}body{background:white;font-size:11px}.topbar,.sidebar,.accent-stripe{display:none}.canvas-wrap{padding:0}.canvas{width:100%;margin:0;padding:10px;box-shadow:none;border-radius:0}.hero h1{font-size:24px}.identity{margin:8px 0;gap:8px}.grid{gap:8px}.card{padding:10px;border-radius:9px}.card h2{font-size:13px}.hint{font-size:10px;margin-bottom:6px}textarea{min-height:55px}.field input,.field textarea,.field select{padding:6px}.action-row input{padding:5px}.add,.icon-btn{display:none}.footer-note{margin-top:8px}.canvas{-webkit-print-color-adjust:exact;print-color-adjust:exact}.zone{box-shadow:none;border-radius:6px;margin:12px 0}.zone-header{padding:8px 10px}.zone-body{display:block !important;padding:10px}.zone-chevron{display:none}}
+</style>
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-top">
+    <button class="sidebar-brand" type="button" onclick="showAssociateView()">
+      <img src="Bosch-Logo-500x312.png" alt="Bosch" class="sidebar-logo">
+      <span class="sidebar-brand-text">LeadOS<small>Associate Career Development</small></span>
+    </button>
+    <button class="sidebar-toggle" id="tabbarToggle" type="button" onclick="toggleTabbar()" title="Collapse sidebar">«</button>
+  </div>
+  <button class="sidebar-link toolkit-link" id="toolkitNavLink" type="button" onclick="showToolkitView()">
+    <span class="sidebar-link-icon">🧰</span><span>Manager Toolkit</span><span class="sidebar-link-badge">Guide</span>
+  </button>
+  <div class="sidebar-divider"></div>
+  <div class="tabbar-list" id="tabbarList"></div>
+</aside>
+<div class="main-area">
+<header class="topbar">
+  <div>
+    <span class="eyebrow-mini">LeadOS</span>
+    <h1 id="pageTitle">Associate Career Development</h1>
+  </div>
+  <div class="toolbar" id="mainToolbar">
+    <button class="btn" id="saveBtn" onclick="saveLocal()" disabled title="Import or export a JSON file first">Save</button>
+    <button class="btn" onclick="exportJSON()">Export JSON</button>
+    <button class="btn" onclick="handleImportClick()">Import JSON</button>
+    <input id="importFile" type="file" accept="application/json" hidden onchange="importJSON(event)">
+    <button class="btn primary" onclick="window.print()">Print / PDF</button>
+  </div>
+</header>
+<div class="accent-stripe"></div>
+<div class="canvas-wrap">
+<main class="canvas">
+<div id="associateView">
+<section class="hero">
+  <div>
+    <div class="eyebrow">Associate Career Development</div>
+    <h1 id="heroName">Unnamed associate</h1>
+    <div class="identity-summary" id="identitySummary">
+      <span id="summaryRole">No role selected</span>
+      <span class="identity-sep">•</span>
+      <span id="summaryTeam">No team</span>
+      <button class="edit-btn" type="button" id="identityEditBtn" onclick="toggleIdentityEdit()">✎ Edit</button>
+    </div>
+  </div>
+</section>
+
+<section class="identity" id="identityFields" style="display:none">
+  <div class="field"><label>Associate Name</label><input data-key="id-name" placeholder="Full name"></div>
+  <div class="field"><label>Role</label><input data-key="id-role" list="role-options" placeholder="Select or type a role"><datalist id="role-options"></datalist></div>
+  <div class="field"><label>Team Name</label><input data-key="id-team" placeholder="Team / department"></div>
+</section>
+
+<div class="zone zone-career" id="zone-career">
+  <button type="button" class="zone-header" onclick="toggleZone('career')">
+    <span class="zone-index">01</span>
+    <h2>Career Development Canvas</h2>
+    <span class="zone-sub">Strengths, aspirations, skills & growth plan</span>
+    <span class="zone-chevron">▾</span>
+  </button>
+  <div class="zone-body">
+  <section class="grid">
+  <div class="card strengths"><h2>Self-Driving Strengths / Motivation</h2><p class="hint">What energizes this person and where do they naturally excel?</p><div class="field"><textarea data-key="cd-strengths" placeholder="Intrinsic strengths, motivators, distinctive contribution..."></textarea></div></div>
+  <div class="card aspiration"><h2>Career Aspiration (3yrs)</h2><p class="hint">Where would they like to be in 3 years?</p><div class="field"><textarea data-key="cd-aspiration" placeholder="Desired role, impact, direction..."></textarea></div></div>
+  <div class="card skills"><h2>Skills Needed</h2><p class="hint">Which skills or capabilities are required to get there?</p><div class="field"><textarea data-key="cd-skills" placeholder="Technical, leadership, soft skills..."></textarea></div></div>
+  <div class="card exposure"><h2>Exposure / Network</h2><p class="hint">Mentors, stakeholders, communities that can support growth.</p><div class="field"><textarea data-key="cd-exposure" placeholder="Who can this person learn from or connect with?"></textarea></div></div>
+  <div class="card growth">
+    <h2>Priority Growth Area (next 12 months)</h2>
+    <p class="hint">Define the one capability to focus on, then break it into owned, dated action items.</p>
+    <div class="field"><textarea data-key="cd-growth" placeholder="The single priority capability/behavior and why it matters..."></textarea></div>
+    <div class="action-row mini-label"><span>Action item</span><span>Due date</span><span></span></div>
+    <div id="growthActions"></div>
+    <button class="add" type="button" onclick="addGrowthAction()">+ Add action item</button>
+  </div>
+  </section>
+  </div>
+</div>
+
+<div class="zone zone-perf" id="zone-perf">
+  <button type="button" class="zone-header" onclick="toggleZone('perf')">
+    <span class="zone-index">02</span>
+    <h2>Performance Evaluation</h2>
+    <span class="zone-sub">Criteria ratings & AI-assisted assessment</span>
+    <span class="zone-chevron">▾</span>
+  </button>
+  <div class="zone-body">
+  <section class="perf-grid" id="perfGrid"></section>
+  </div>
+</div>
+
+<div class="zone zone-notebook" id="zone-notebook">
+  <button type="button" class="zone-header" onclick="toggleZone('notebook')">
+    <span class="zone-index">03</span>
+    <h2>Individual Notebook</h2>
+    <span class="zone-sub">Ongoing 1:1 notes & observations</span>
+    <span class="zone-chevron">▾</span>
+  </button>
+  <div class="zone-body">
+  <section class="grid">
+  <div class="card notebook"><h2>Individual Remarks</h2><p class="hint">Ongoing notes from 1:1s and everyday observations — a running log to remember context over time.</p><div class="field"><textarea data-key="notebook-notes" placeholder="Date, context and remarks from 1:1 dialogues, informal chats, observations..."></textarea></div></div>
+  </section>
+  </div>
+</div>
+
+<div class="zone zone-feedback" id="zone-feedback">
+  <button type="button" class="zone-header" onclick="toggleZone('feedback')">
+    <span class="zone-index">04</span>
+    <h2>Feedback</h2>
+    <span class="zone-sub">Positive points, improvements & SBI preparation</span>
+    <span class="zone-chevron">▾</span>
+  </button>
+  <div class="zone-body">
+  <section class="grid">
+  <div class="card positive"><h2>Positive Points</h2><p class="hint">What is going well and should continue?</p><div class="field"><textarea data-key="fb-positive" placeholder="Strengths observed, good practices, achievements..."></textarea></div></div>
+  <div class="card improvement"><h2>Improvement Points</h2><p class="hint">What should change or develop further?</p><div class="field"><textarea data-key="fb-improvement" placeholder="Areas to improve, gaps, concerns..."></textarea></div></div>
+  <div class="card sbi">
+    <h2>Feedback Preparation — SBI Model</h2>
+    <p class="hint">Use Situation, Behaviour, Impact to prepare clear, factual feedback before the conversation.</p>
+    <div class="sbi-grid">
+      <div class="field sbi-item"><span class="tag">Situation</span><textarea data-key="sbi-situation" placeholder="When and where did it happen? Be specific (date, meeting, project)..."></textarea></div>
+      <div class="field sbi-item"><span class="tag">Behaviour</span><textarea data-key="sbi-behavior" placeholder="What did you observe the person say or do? Facts, not judgments..."></textarea></div>
+      <div class="field sbi-item"><span class="tag">Impact</span><textarea data-key="sbi-impact" placeholder="What was the effect on you, the team, the customer or the result?"></textarea></div>
+    </div>
+    <button class="add" type="button" onclick="generateSBI()">Generate feedback draft</button>
+    <div class="sbi-preview" id="sbiPreview" style="margin-top:10px">Draft will appear here...</div>
+  </div>
+  </section>
+  </div>
+</div>
+
+<div class="footer-note"><span>One page per associate. Use the list on the left to manage multiple associates.</span><span id="status" class="status"></span></div>
+</div>
+<div id="toolkitView" style="display:none">
+  <div class="zone-title" style="margin:0 0 4px"><h2 style="margin:0;font-size:19px">Manager Toolkit</h2></div>
+  <p class="hint" style="margin-bottom:20px">Shared reference guidance for 1:1s, reviews and feedback conversations — not tied to a single associate page.</p>
+  <div class="toolkit-grid">
+    <div class="toolkit-section">
+      <div class="toolkit-title">📋 Communication Strategy</div>
+      <div class="toolkit-content">
+        <p><strong>Guidelines for Associate Communication:</strong></p>
+        <ul>
+          <li>Regular 1-on-1 frequency & format</li>
+          <li>Clear expectations & goals alignment</li>
+          <li>Feedback timeliness & specificity</li>
+          <li>Career development roadmap review</li>
+          <li>Recognition & celebration moments</li>
+        </ul>
+        <button class="toolkit-add-btn">+ Add guideline</button>
+      </div>
+    </div>
+
+    <div class="toolkit-section">
+      <div class="toolkit-title">📚 Useful How-To's</div>
+      <div class="toolkit-content">
+        <div class="howto-item"><strong>TCL Evaluation</strong><br><span style="color:var(--muted);font-size:12px">Guide on Team Capability Level assessment</span></div>
+        <div class="howto-item"><strong>Performance Evaluation</strong><br><span style="color:var(--muted);font-size:12px">Conducting fair & structured reviews</span></div>
+        <div class="howto-item"><strong>Competence Development</strong><br><span style="color:var(--muted);font-size:12px">Planning skill growth & training paths</span></div>
+        <div class="howto-item"><strong>Feedback Methods</strong><br><span style="color:var(--muted);font-size:12px">SBI model & constructive conversations</span></div>
+        <button class="toolkit-add-btn">+ Add how-to</button>
+      </div>
+    </div>
+
+    <div class="toolkit-section">
+      <div class="toolkit-title">🎓 Learning & Development</div>
+      <div class="toolkit-content">
+        <div class="learning-item">
+          <span class="learning-icon">▶</span>
+          <div>
+            <strong>Management Essentials</strong><br>
+            <span style="color:var(--muted);font-size:12px">Video series on team leadership</span>
+          </div>
+        </div>
+        <div class="learning-item">
+          <span class="learning-icon">▶</span>
+          <div>
+            <strong>Feedback & Coaching</strong><br>
+            <span style="color:var(--muted);font-size:12px">Interactive training modules</span>
+          </div>
+        </div>
+        <div class="learning-item">
+          <span class="learning-icon">▶</span>
+          <div>
+            <strong>Conflict Resolution</strong><br>
+            <span style="color:var(--muted);font-size:12px">Handling difficult conversations</span>
+          </div>
+        </div>
+        <button class="toolkit-add-btn">+ Add resource</button>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+</div>
+</div>
+</div>
+<script>
+const FALLBACK_JOB_TITLES=["SW Engineer L3 - Embedded","SW Engineer L2 - Embedded","SW Engineer L2 - Testing / V&V","SW Engineer L1 - Embedded","SW Engineer L3 - Technical Product Owner"];
+const PERFORMANCE_CRITERIA_KEYS={
+  efficiency:'Efficiency',
+  quality:'Quality',
+  engagement:'Engagement',
+  responsibility:'Responsibility-Taking',
+  cooperation:'Cooperation'
+};
+let performanceExpectationsByRole={};
+const LLM_RELAY_URL='http://localhost:3001';
+function populateRoleOptions(titles){
+  const list=document.getElementById('role-options');
+  list.innerHTML='';
+  titles.forEach(t=>{const o=document.createElement('option');o.value=t;list.appendChild(o)});
+}
+populateRoleOptions(FALLBACK_JOB_TITLES);
+async function loadRoleOptions(){
+  try{
+    const response=await fetch('job_descriptions.json',{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const jobs=await response.json();
+    const titles=[...new Set(jobs.map(j=>j.jobTitle).filter(Boolean))];
+    if(titles.length)populateRoleOptions(titles);
+  }catch(error){
+    console.warn('Could not load job_descriptions.json; using fallback role list.',error);
+  }
+}
+loadRoleOptions();
+
+async function loadPerformanceExpectations(){
+  try{
+    const response=await fetch('performance_expectations.json',{cache:'no-store'});
+    if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const roles=await response.json();
+    performanceExpectationsByRole=Object.fromEntries(roles.map(role=>[role.jobTitle,role.performanceExpectations||{}]));
+    updatePerformanceExpectations();
+    setTimeout(updatePerformanceExpectations,0);
+  }catch(error){
+    console.warn('Could not load performance_expectations.json; expectation fields will stay empty.',error);
+  }
+}
+loadPerformanceExpectations();
+
+async function callLLM(userPrompt){
+  let response;
+  try{
+    response=await fetch(LLM_RELAY_URL,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        messages:[{role:'user',content:userPrompt}],
+        max_completion_tokens:4000,
+        reasoning_effort:'low'
+      })
+    });
+  }catch(error){
+    throw new Error(`Cannot reach the local LLM relay at ${LLM_RELAY_URL}. Start relay.py first. ${error.message}`);
+  }
+  if(!response.ok){
+    let detail='';
+    try{detail=await response.text()}catch{}
+    throw new Error(`LLM relay returned HTTP ${response.status}${detail?`: ${detail.slice(0,180)}`:''}`);
+  }
+  const data=await response.json();
+  const choice=data.choices?.[0];
+  const content=choice?.message?.content?.trim()||'';
+  if(!content){
+    if(choice?.finish_reason==='length')throw new Error('The AI model used its whole token budget on internal reasoning and returned no answer. Try again with a shorter input.');
+    throw new Error('The AI model returned an empty response. Try again.');
+  }
+  return content;
+}
+
+
+function buildTextProcessingPrompt(fieldLabel,text){
+  const role=document.querySelector('[data-key="id-role"]').value.trim()||'the selected role';
+  const name=document.querySelector('[data-key="id-name"]').value.trim()||'the associate';
+  return `You are helping a manager write concise, professional career development notes for ${name}, role: ${role}.
+
+Field: ${fieldLabel}
+
+Current text:
+"""
+${text}
+"""
+
+Rewrite the text to be clearer, more specific, and suitable for an internal career development discussion. Preserve the original meaning and do not invent facts. Return only the revised text.`;
+}
+
+async function processTextField(dataKey,fieldLabel,button){
+  const field=document.querySelector(`[data-key="${dataKey}"]`);
+  const original=(field?.value||'').trim();
+  if(!field||!original){flash('Add some text before using AI');return}
+  const buttonText=button.textContent;
+  button.textContent='Processing...';
+  button.disabled=true;
+  try{
+    const result=await callLLM(buildTextProcessingPrompt(fieldLabel,original));
+    if(result){
+      field.value=result;
+      field.dispatchEvent(new Event('input',{bubbles:true}));
+      flash('AI text updated');
+    }
+  }catch(error){
+    console.error(error);
+    flash(`LLM error: ${error.message}`);
+  }finally{
+    button.textContent=buttonText;
+    button.disabled=false;
+  }
+}
+
+function addTextProcessingButton(dataKey,fieldLabel){
+  const field=document.querySelector(`[data-key="${dataKey}"]`);
+  if(!field||field.parentElement.querySelector(`[data-ai-for="${dataKey}"]`))return;
+  const button=document.createElement('button');
+  button.type='button';
+  button.className='ai-field-action';
+  button.dataset.aiFor=dataKey;
+  button.textContent='Improve text with AI';
+  button.addEventListener('click',()=>processTextField(dataKey,fieldLabel,button));
+  field.insertAdjacentElement('afterend',button);
+}
+
+function installTextProcessingButtons(){
+  [
+    ['cd-strengths','Self-driving strengths / motivation'],
+    ['cd-aspiration','Career aspiration'],
+    ['cd-skills','Skills needed'],
+    ['cd-exposure','Exposure / network'],
+    ['cd-growth','Priority growth area'],
+    ['notebook-notes','Individual remarks'],
+    ['fb-positive','Positive points'],
+    ['fb-improvement','Improvement points'],
+    ['sbi-situation','SBI situation'],
+    ['sbi-behavior','SBI behaviour'],
+    ['sbi-impact','SBI impact']
+  ].forEach(([key,label])=>addTextProcessingButton(key,label));
+}
+
+const PERF_FIELDS=[
+  {key:'efficiency',label:'Efficiency',hint:'Delivers work on time and to the expected standard.'},
+  {key:'quality',label:'Quality',hint:'Accuracy, thoroughness and craftsmanship of the output.'},
+  {key:'engagement',label:'Engagement',hint:'Energy, initiative and commitment shown.'},
+  {key:'responsibility',label:'Responsibility-Taking',hint:'Ownership of outcomes, decisions and mistakes.'},
+  {key:'cooperation',label:'Cooperation',hint:'Collaboration and teamwork with others.'}
+];
+const perfGrid=document.getElementById('perfGrid');
+PERF_FIELDS.forEach(f=>{
+  const div=document.createElement('div');div.className='perf-item';
+  div.innerHTML=`<h3>${f.label}</h3><p class="hint" style="margin:0 0 8px">${f.hint}</p>
+  <div class="rating">${[1,2,3,4,5].map(n=>`<label><input type="radio" name="perf-${f.key}" data-key="perf-${f.key}-rating" value="${n}"><span>${n}</span></label>`).join('')}</div>
+  <div class="field"><label>Expectation based on role</label><textarea data-key="perf-${f.key}-expectation" placeholder="Select a role to show the role-based expectation..." readonly></textarea></div>
+  <div class="field"><label>Observation about fulfillment</label><textarea data-key="perf-${f.key}-notes" placeholder="Observed fulfillment, examples, evidence..."></textarea></div>`;
+  perfGrid.appendChild(div);
+});
+document.querySelectorAll('.rating label').forEach(l=>{const i=l.querySelector('input');l.textContent='';l.appendChild(i);const s=document.createElement('span');s.textContent=i.value;l.appendChild(s)});
+installTextProcessingButtons();
+PERF_FIELDS.forEach(addAIAssessmentButton);
+
+function formatPerformanceExpectation(expectation){
+  if(!expectation)return '';
+  const signals=(expectation.evidenceSignals||[]).map(signal=>`- ${signal}`).join('\n');
+  return [
+    expectation.associateExpectation&&`Expectation: ${expectation.associateExpectation}`,
+    expectation.hrEvaluationFocus&&`HR evaluation focus: ${expectation.hrEvaluationFocus}`,
+    signals&&`Evidence signals:\n${signals}`
+  ].filter(Boolean).join('\n\n');
+}
+
+function findExpectationsForRole(role){
+  if(!role)return {};
+  if(performanceExpectationsByRole[role])return performanceExpectationsByRole[role];
+  const normalized=role.toLowerCase();
+  const key=Object.keys(performanceExpectationsByRole).find(k=>k.toLowerCase()===normalized);
+  return key?performanceExpectationsByRole[key]:{};
+}
+
+function updatePerformanceExpectations(){
+  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  const expectations=findExpectationsForRole(role);
+  PERF_FIELDS.forEach(field=>{
+    const el=document.querySelector(`[data-key="perf-${field.key}-expectation"]`);
+    if(!el)return;
+    const criterion=PERFORMANCE_CRITERIA_KEYS[field.key];
+    el.value=formatPerformanceExpectation(expectations[criterion]);
+  });
+}
+
+function refreshPerformanceExpectations(){
+  updatePerformanceExpectations();
+  setTimeout(updatePerformanceExpectations,0);
+}
+
+function buildAIAssessmentPrompt(fieldLabel,expectation,observation,fullDataset){
+  return `You are an AI assistant supporting engineering managers in preparing fair, consistent, 
+  evidence-based performance assessment proposals for associates for the criterion "${fieldLabel}".
+
+Role-based expectation:
+"""
+${expectation}
+"""
+
+Observed fulfillment (manager's notes):
+"""
+${observation}
+"""
+
+All associates currently loaded, for calibration reference only (do not evaluate them, only use them to keep standards consistent):
+"""
+${fullDataset}
+"""
+
+Compare the observation against the expectation. Respond with ONLY a JSON object (no markdown fences, no extra text) in this exact shape:
+{"comment": "2-4 sentences: what matches the expectation and what seems missing or unclear", "suggestedLevel": <integer 1-5, where 1=far below expectation and enhancement required, 2=good and meets expectation in an essential manner 
+3=meets expectation or slightly exceeding, 4=significantly above expectations, 5=outstanding and exemplary performance>}
+
+Use only the information explicitly provided or available in the approved reference material. Never invent facts, examples, stakeholder feedback, results, or behaviours.
+
+Every conclusion must be connected to concrete evidence from the manager’s input.
+Distinguish clearly between:
+- Fact: a verifiable result, event, deliverable, or observed behaviour
+- Manager observation: a professional judgement reported by the manager
+- Interpretation: your analysis of how the evidence relates to an expectation
+- Missing information: information required to reach a reliable conclusion
+Do not present an interpretation as a fact.
+
+Use the same interpretation standards across associates with comparable roles and levels.
+
+Do not make assumptions based on personal or sensitive characteristics, including age, gender, nationality, ethnicity, religion, disability, health, family status, sexual orientation, political views, or other protected or irrelevant characteristics.
+Do not infer motivation, attitude, commitment, competence, or personality without supporting evidence.
+
+Avoid subjective labels such as:
+- Difficult
+- Not leadership material
+- Too quiet
+- Aggressive
+- Negative
+- Not committed
+- Lacks presence
+- Poor cultural fit
+
+If such language appears in the manager input, ask for observable behaviours, concrete examples, context, frequency, and impact.
+`;
+
+}
+
+function parseAIAssessment(raw){
+  const cleaned=raw.trim().replace(/^```(json)?/i,'').replace(/```$/,'').trim();
+  const data=JSON.parse(cleaned);
+  const level=Number(data.suggestedLevel);
+  if(!data.comment||!Number.isInteger(level)||level<1||level>5)throw new Error('Unexpected AI response shape');
+  return {comment:data.comment,level};
+}
+
+function markAISuggestedLevel(fieldKey,level){
+  document.querySelectorAll(`.rating input[name="perf-${fieldKey}"]`).forEach(input=>{
+    input.closest('label').classList.toggle('ai-suggested',Number(input.value)===level);
+  });
+}
+
+function clearAIAssessments(){
+  document.querySelectorAll('.rating label.ai-suggested').forEach(l=>l.classList.remove('ai-suggested'));
+  document.querySelectorAll('.ai-assessment-result').forEach(el=>{el.style.display='none';el.textContent=''});
+}
+
+async function runAIAssessment(field,button){
+  const expectationEl=document.querySelector(`[data-key="perf-${field.key}-expectation"]`);
+  const notesEl=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
+  const expectation=(expectationEl?.value||'').trim();
+  const observation=(notesEl?.value||'').trim();
+  if(!observation){flash('Add an observation before running AI Assessment');return}
+  if(!expectation){flash('Select a role to load the expectation first');return}
+  const buttonText=button.textContent;
+  button.textContent='Assessing...';
+  button.disabled=true;
+  try{
+    const fullDataset=JSON.stringify(buildExportPayload(),null,2);
+    const raw=await callLLM(buildAIAssessmentPrompt(field.label,expectation,observation,fullDataset));
+    const {comment,level}=parseAIAssessment(raw);
+    resultEl.textContent=comment;
+    resultEl.style.display='block';
+    markAISuggestedLevel(field.key,level);
+    flash('AI assessment added');
+  }catch(error){
+    console.error(error);
+    flash(`LLM error: ${error.message}`);
+  }finally{
+    button.textContent=buttonText;
+    button.disabled=false;
+  }
+}
+
+function addAIAssessmentButton(field){
+  const notesField=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  if(!notesField||notesField.parentElement.querySelector(`[data-ai-assessment-for="${field.key}"]`))return;
+  const button=document.createElement('button');
+  button.type='button';
+  button.className='ai-field-action';
+  button.dataset.aiAssessmentFor=field.key;
+  button.textContent='AI Assessment';
+  button.addEventListener('click',()=>runAIAssessment(field,button));
+  notesField.insertAdjacentElement('afterend',button);
+  const result=document.createElement('div');
+  result.className='ai-assessment-result';
+  result.id=`perf-${field.key}-ai-result`;
+  result.style.display='none';
+  button.insertAdjacentElement('afterend',result);
+}
+
+const growthBox=document.getElementById('growthActions');
+function addGrowthAction(v={}){
+  const row=document.createElement('div');row.className='action-row';
+  row.innerHTML=`<input aria-label="Action item" placeholder="Action item" value="${esc(v.action||'')}"><input aria-label="Due date" type="date" value="${esc(v.due||'')}"><button class="icon-btn" title="Remove" onclick="this.parentElement.remove();autoSave()">×</button>`;
+  row.querySelectorAll('input').forEach(x=>x.addEventListener('input',autoSave));
+  growthBox.appendChild(row);
+}
+function esc(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+
+function collect(){
+  const d={version:2,fields:{},growthActions:[]};
+  document.querySelectorAll('[data-key]').forEach(el=>{
+    if(el.type==='radio'){if(el.checked)d.fields[el.name]=el.value}
+    else if(el.type==='checkbox'){d.fields[el.dataset.key]=el.checked}
+    else{d.fields[el.dataset.key]=el.value}
+  });
+  document.querySelectorAll('#growthActions .action-row').forEach(r=>{const x=r.querySelectorAll('input');d.growthActions.push({action:x[0].value,due:x[1].value})});
+  const previewEl=document.getElementById('sbiPreview');
+  d.sbiDraft=previewEl&&previewEl.dataset.hasDraft==='1'?previewEl.textContent:'';
+  return d;
+}
+function apply(d){
+  if(!d||!d.fields)d={fields:{},growthActions:[]};
+  document.querySelectorAll('[data-key]').forEach(el=>{
+    if(el.type==='radio'){el.checked=(d.fields[el.name]===el.value)}
+    else if(el.type==='checkbox'){el.checked=!!d.fields[el.dataset.key]}
+    else{el.value=d.fields[el.dataset.key]||''}
+  });
+  growthBox.innerHTML='';(d.growthActions&&d.growthActions.length?d.growthActions:[{}]).forEach(addGrowthAction);
+  const previewEl=document.getElementById('sbiPreview');
+  if(d.sbiDraft){previewEl.textContent=d.sbiDraft;previewEl.dataset.hasDraft='1'}
+  else{previewEl.textContent='Draft will appear here...';previewEl.dataset.hasDraft='0'}
+  updateIdentitySummary();
+  refreshPerformanceExpectations();
+  clearAIAssessments();
+}
+function generateSBI(){
+  const s=document.querySelector('[data-key="sbi-situation"]').value.trim();
+  const b=document.querySelector('[data-key="sbi-behavior"]').value.trim();
+  const i=document.querySelector('[data-key="sbi-impact"]').value.trim();
+  const draft=`Situation: ${s||'…'}\nBehaviour: ${b||'…'}\nImpact: ${i||'…'}`;
+  const previewEl=document.getElementById('sbiPreview');
+  previewEl.textContent=draft;
+  previewEl.dataset.hasDraft='1';
+  autoSave();
+}
+
+function flash(t){const s=document.getElementById('status');s.textContent=t;setTimeout(()=>s.textContent='',2200)}
+
+const ZONE_IDS=['career','perf','notebook','feedback'];
+const ZONE_COLLAPSE_PREFIX='leados_zone_collapsed_';
+function toggleZone(zoneId,forceCollapsed){
+  const zone=document.getElementById('zone-'+zoneId);
+  if(!zone)return;
+  const collapsed=typeof forceCollapsed==='boolean'?forceCollapsed:!zone.classList.contains('collapsed');
+  zone.classList.toggle('collapsed',collapsed);
+  try{localStorage.setItem(ZONE_COLLAPSE_PREFIX+zoneId,collapsed?'1':'0')}catch{}
+}
+function restoreZoneStates(){
+  ZONE_IDS.forEach(zoneId=>{
+    let collapsed=false;
+    try{collapsed=localStorage.getItem(ZONE_COLLAPSE_PREFIX+zoneId)==='1'}catch{}
+    toggleZone(zoneId,collapsed);
+  });
+}
+
+function updateIdentitySummary(){
+  const name=document.querySelector('[data-key="id-name"]').value.trim();
+  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  const team=document.querySelector('[data-key="id-team"]').value.trim();
+  document.getElementById('heroName').textContent=name||'Unnamed associate';
+  document.getElementById('summaryRole').textContent=role||'No role selected';
+  document.getElementById('summaryTeam').textContent=team||'No team';
+}
+function toggleIdentityEdit(){
+  const box=document.getElementById('identityFields');
+  const btn=document.getElementById('identityEditBtn');
+  const show=box.style.display==='none';
+  box.style.display=show?'grid':'none';
+  btn.textContent=show?'Done':'✎ Edit';
+  if(!show){
+    updateIdentitySummary();
+    refreshPerformanceExpectations();
+    saveRecord(state.activeId,currentRecordFromForm());
+    renderTabs();
+  }
+}
+['id-name','id-role','id-team'].forEach(k=>{
+  document.querySelector(`[data-key="${k}"]`).addEventListener('input',updateIdentitySummary);
+});
+['input','change'].forEach(evt=>document.querySelector('[data-key="id-role"]').addEventListener(evt,refreshPerformanceExpectations));
+
+// ---- Multi-associate (tab) management ----
+const STATE_KEY='leados_associates_state';
+const RECORD_PREFIX='leados_associate_';
+function uid(){return 'a'+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
+function loadState(){try{return JSON.parse(localStorage.getItem(STATE_KEY))||null}catch{return null}}
+function saveState(state){localStorage.setItem(STATE_KEY,JSON.stringify(state))}
+function loadRecord(id){try{return JSON.parse(localStorage.getItem(RECORD_PREFIX+id))}catch{return null}}
+function saveRecord(id,rec){localStorage.setItem(RECORD_PREFIX+id,JSON.stringify(rec))}
+function deleteRecord(id){localStorage.removeItem(RECORD_PREFIX+id)}
+
+let state=loadState();
+if(!state||!state.associates||!state.associates.length){
+  const id=uid();
+  state={associates:[{id,name:'New associate'}],activeId:id};
+  saveState(state);
+}
+
+function tabLabel(assoc){
+  const rec=loadRecord(assoc.id);
+  const name=rec&&rec.fields&&rec.fields['id-name'];
+  return (name&&name.trim())||assoc.name||'New associate';
+}
+function tabInitials(name){
+  const words=(name||'').trim().split(/\s+/).filter(Boolean);
+  if(!words.length)return '?';
+  if(words.length===1)return words[0].slice(0,2).toUpperCase();
+  return (words[0][0]+words[words.length-1][0]).toUpperCase();
+}
+function toggleTabbar(){
+  const bar=document.getElementById('sidebar');
+  const btn=document.getElementById('tabbarToggle');
+  const collapsed=bar.classList.toggle('collapsed');
+  btn.textContent=collapsed?'\u00bb':'\u00ab';
+  btn.title=collapsed?'Expand sidebar':'Collapse sidebar';
+  localStorage.setItem('leados_tabbar_collapsed',collapsed?'1':'0');
+}
+if(localStorage.getItem('leados_tabbar_collapsed')==='1')toggleTabbar();
+
+function renderTabs(){
+  const bar=document.getElementById('tabbarList');
+  bar.innerHTML='';
+  state.associates.forEach(a=>{
+    const tab=document.createElement('div');
+    tab.className='tab'+(a.id===state.activeId?' active':'');
+    const label=tabLabel(a);
+    tab.innerHTML=`<span class="tab-label">${esc(label)}</span><span class="tab-initials" title="${esc(label)}">${esc(tabInitials(label))}</span><button class="x" title="Remove associate">×</button>`;
+    tab.querySelector('.tab-label').addEventListener('click',()=>switchTo(a.id));
+    tab.querySelector('.tab-initials').addEventListener('click',()=>switchTo(a.id));
+    tab.querySelector('.x').addEventListener('click',(ev)=>{ev.stopPropagation();removeAssociate(a.id)});
+    bar.appendChild(tab);
+  });
+  const add=document.createElement('button');
+  add.className='tab-add';add.type='button';
+  add.title='Add associate';
+  add.innerHTML='<span class="tab-add-full">+ Add associate</span><span class="tab-add-short">+</span>';
+  add.addEventListener('click',addAssociate);
+  bar.appendChild(add);
+}
+function currentRecordFromForm(){return collect()}
+function showAssociateView(){
+  document.getElementById('associateView').style.display='';
+  document.getElementById('toolkitView').style.display='none';
+  document.getElementById('toolkitNavLink').classList.remove('active');
+  document.getElementById('pageTitle').textContent='Associate Career Development';
+  document.getElementById('mainToolbar').style.display='';
+}
+function showToolkitView(){
+  document.getElementById('associateView').style.display='none';
+  document.getElementById('toolkitView').style.display='';
+  document.getElementById('toolkitNavLink').classList.add('active');
+  document.getElementById('pageTitle').textContent='Manager Toolkit';
+  document.getElementById('mainToolbar').style.display='none';
+}
+function switchTo(id){
+  saveRecord(state.activeId,currentRecordFromForm());
+  state.activeId=id;
+  saveState(state);
+  apply(loadRecord(id));
+  renderTabs();
+  showAssociateView();
+}
+function addAssociate(){
+  saveRecord(state.activeId,currentRecordFromForm());
+  const id=uid();
+  state.associates.push({id,name:'New associate'});
+  state.activeId=id;
+  saveState(state);
+  apply(null);
+  renderTabs();
+  showAssociateView();
+  flash('New associate page created');
+}
+function removeAssociate(id){
+  if(state.associates.length===1){alert('At least one associate page must remain.');return}
+  if(!confirm('Remove this associate page? This cannot be undone.'))return;
+  state.associates=state.associates.filter(a=>a.id!==id);
+  deleteRecord(id);
+  if(state.activeId===id){state.activeId=state.associates[0].id}
+  saveState(state);
+  apply(loadRecord(state.activeId));
+  renderTabs();
+  flash('Associate removed');
+}
+let timer;function autoSave(){clearTimeout(timer);timer=setTimeout(()=>{saveRecord(state.activeId,currentRecordFromForm());renderTabs()},400)}
+
+// ---- External JSON file connection (File System Access API, Chromium-based browsers) ----
+const FILE_HANDLE_DB='leados-files';
+const FILE_HANDLE_STORE='handles';
+const FILE_HANDLE_KEY='current';
+const supportsFileSystemAccess=!!(window.showOpenFilePicker&&window.showSaveFilePicker);
+let currentFileHandle=null;
+let fileConnected=false;
+
+function openHandleDB(){
+  return new Promise((resolve,reject)=>{
+    const req=indexedDB.open(FILE_HANDLE_DB,1);
+    req.onupgradeneeded=()=>req.result.createObjectStore(FILE_HANDLE_STORE);
+    req.onsuccess=()=>resolve(req.result);
+    req.onerror=()=>reject(req.error);
+  });
+}
+async function storeFileHandle(handle){
+  const db=await openHandleDB();
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(FILE_HANDLE_STORE,'readwrite');
+    tx.objectStore(FILE_HANDLE_STORE).put(handle,FILE_HANDLE_KEY);
+    tx.oncomplete=()=>resolve();
+    tx.onerror=()=>reject(tx.error);
+  });
+}
+async function loadStoredFileHandle(){
+  const db=await openHandleDB();
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction(FILE_HANDLE_STORE,'readonly');
+    const req=tx.objectStore(FILE_HANDLE_STORE).get(FILE_HANDLE_KEY);
+    req.onsuccess=()=>resolve(req.result||null);
+    req.onerror=()=>reject(req.error);
+  });
+}
+
+function updateSaveButtonState(){
+  const btn=document.getElementById('saveBtn');
+  if(!btn)return;
+  btn.disabled=!fileConnected;
+  btn.title=fileConnected?`Save to ${currentFileHandle?.name||'file'}`:'Import or export a JSON file first';
+}
+async function connectFileHandle(handle,{persist=true}={}){
+  currentFileHandle=handle;
+  fileConnected=true;
+  if(persist)await storeFileHandle(handle).catch(error=>console.warn('Could not persist file handle',error));
+  updateSaveButtonState();
+}
+function disconnectFileHandle(){
+  currentFileHandle=null;
+  fileConnected=false;
+  updateSaveButtonState();
+}
+function buildExportPayload(){
+  saveRecord(state.activeId,currentRecordFromForm());
+  const all={state,records:{}};
+  state.associates.forEach(a=>all.records[a.id]=loadRecord(a.id));
+  return all;
+}
+function suggestedFileName(payload){
+  const name=(payload.records[state.activeId]?.fields?.['id-name']||'career-development').trim().replace(/[^a-z0-9]+/gi,'-').toLowerCase();
+  return `leados-career-development-${name||'all'}.json`;
+}
+async function loadStateFromFileText(text){
+  const data=JSON.parse(text);
+  if(data.state&&data.records){
+    state=data.state;
+    saveState(state);
+    Object.keys(data.records).forEach(id=>saveRecord(id,data.records[id]));
+    apply(loadRecord(state.activeId));
+  }else{
+    // legacy single-record import
+    apply(data);
+    saveRecord(state.activeId,currentRecordFromForm());
+  }
+  renderTabs();
+}
+async function tryReconnectOnLoad(){
+  if(!supportsFileSystemAccess)return;
+  try{
+    const handle=await loadStoredFileHandle();
+    if(!handle)return;
+    const permission=await handle.queryPermission({mode:'readwrite'});
+    if(permission!=='granted')return; // needs a user gesture to re-grant; user can re-Import
+    const file=await handle.getFile();
+    await loadStateFromFileText(await file.text());
+    await connectFileHandle(handle,{persist:false});
+    flash(`Reconnected to ${handle.name}`);
+  }catch(error){
+    console.warn('Could not reconnect stored file handle',error);
+  }
+}
+async function saveLocal(){
+  if(!fileConnected||!currentFileHandle){flash('No file loaded — use Import or Export first');return}
+  saveRecord(state.activeId,currentRecordFromForm());
+  saveState(state);
+  renderTabs();
+  try{
+    const payload=buildExportPayload();
+    const writable=await currentFileHandle.createWritable();
+    await writable.write(JSON.stringify(payload,null,2));
+    await writable.close();
+    flash(`Saved to ${currentFileHandle.name}`);
+  }catch(error){
+    console.error(error);
+    flash(`Could not save file: ${error.message}`);
+  }
+}
+async function exportJSON(){
+  const payload=buildExportPayload();
+  const suggestedName=suggestedFileName(payload);
+  if(supportsFileSystemAccess){
+    try{
+      const handle=await window.showSaveFilePicker({
+        suggestedName,
+        types:[{description:'JSON file',accept:{'application/json':['.json']}}]
+      });
+      const writable=await handle.createWritable();
+      await writable.write(JSON.stringify(payload,null,2));
+      await writable.close();
+      await connectFileHandle(handle);
+      flash(`Exported and connected to ${handle.name}`);
+      return;
+    }catch(error){
+      if(error.name==='AbortError')return;
+      console.warn('File System Access export failed, falling back to download.',error);
+    }
+  }
+  const a2=document.createElement('a');
+  a2.href=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));
+  a2.download=suggestedName;
+  a2.click();URL.revokeObjectURL(a2.href);
+  flash('JSON exported (this browser cannot Save back to it — use Chrome/Edge for direct saving)');
+}
+async function handleImportClick(){
+  if(supportsFileSystemAccess){
+    try{
+      const [handle]=await window.showOpenFilePicker({
+        types:[{description:'JSON file',accept:{'application/json':['.json']}}],
+        multiple:false
+      });
+      const text=await (await handle.getFile()).text();
+      await loadStateFromFileText(text);
+      const granted=(await handle.queryPermission({mode:'readwrite'})==='granted')
+        ||(await handle.requestPermission({mode:'readwrite'})==='granted');
+      if(granted){
+        await connectFileHandle(handle);
+        flash(`Imported ${handle.name}`);
+      }else{
+        disconnectFileHandle();
+        flash(`Imported ${handle.name} as read-only (write permission denied)`);
+      }
+      return;
+    }catch(error){
+      if(error.name==='AbortError')return;
+      console.warn('File System Access import failed, falling back to classic file input.',error);
+    }
+  }
+  document.getElementById('importFile').click();
+}
+function importJSON(e){
+  const f=e.target.files[0];if(!f)return;
+  const reader=new FileReader();
+  reader.onload=async ()=>{
+    try{
+      await loadStateFromFileText(reader.result);
+      disconnectFileHandle();
+      flash('Imported (read-only in this browser — use Chrome/Edge to Save back to the file)');
+    }catch{alert('This file is not a valid LeadOS career development JSON file.')}
+  };
+  reader.readAsText(f);e.target.value='';
+}
+
+document.querySelectorAll('[data-key]').forEach(el=>el.addEventListener('input',autoSave));
+document.querySelectorAll('.rating input').forEach(el=>el.addEventListener('change',autoSave));
+apply(loadRecord(state.activeId));
+renderTabs();
+refreshPerformanceExpectations();
+updateSaveButtonState();
+restoreZoneStates();
+tryReconnectOnLoad();
+</script>
+</body>
+</html>

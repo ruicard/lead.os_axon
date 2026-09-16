@@ -1,0 +1,1754 @@
+﻿[
+  {
+    "jobTitles": [
+      "SW Engineer L3 - Embedded",
+      "SW Engineer L2 - Embedded",
+      "SW Engineer L1 - Embedded",
+      "SW Engineer L3 - Testing / V&V",
+      "SW Engineer L2 - Testing / V&V",
+      "SW Engineer L1 - Testing / V&V",
+      "SW Engineer L3 - AI_Machine Learning",
+      "SW Engineer L2 - AI_Machine Learning",
+      "SW Engineer L1 - AI_Machine Learning",
+      "SW Engineer L3 - Cloud / DevOps",
+      "SW Engineer L2 - Cloud / DevOps",
+      "SW Engineer L1 - Cloud / DevOps",
+      "SW Engineer L3 - Security",
+      "SW Engineer L2 - Security",
+      "SW Engineer L1 - Security",
+      "SW Engineer L3 - Fullstack",
+      "SW Engineer L2 - Fullstack",
+      "SW Engineer L1 - Fullstack",
+      "SW Engineer L3 - Quality",
+      "SW Engineer L2 - Quality",
+      "SW Engineer L1 - Quality",
+      "SW Engineer L3 - Technical Product Owner",
+      "SW Engineer L2 - Technical Product Owner"
+    ]
+  },
+  {
+  "jobTitle": "SW Engineer L3 - Embedded",
+  "JG": "16",
+  "mission": "The mission of the Embedded Software Engineer is to transform functional concepts into efficient and robust software solutions that interact directly with hardware. This professional is responsible for designing, developing, and optimizing software for embedded systems, ensuring that performance, security, real-time, and resource utilization requirements are rigorously met. Through their work, the Embedded Software Engineer contributes significantly to the performance and reliability of our systems, ensuring the success of our products in the market.",
+  "jobDescriptionAnalysis": {
+    "impact": {
+      "level": "Operational - Some/Direct",
+      "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+      "responsibilities": {
+        "general": [
+          "Actively look for opportunities to increase the quality of their own or team deliverables",
+          "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them / preventing their future occurrence",
+          "Exercises substantial personal responsibility and autonomy",
+          "Demonstrates leadership in his team",
+          "Contributes to the software engineering culture of his and other teams",
+          "Defines and implements best practices, tools, and development processes to enhance team-wide quality and efficiency",
+          "Actively mentors other engineers on advanced topics, removes technical impediments, and raises the overall engineering standard (CIP)",
+          "Drives the strategy for key embedded technologies (e.g. including software platforms, compliance with relevant functional safety standards, robust cybersecurity measures, ...) applicable to a wide range of products",
+          "Apply advanced implementation strategies to successfully resolve difficult problems",
+          "Take full responsibility for a broad range of SW engineering tasks according to V-Model (e.g. requirement engineering, deriving a suitable architecture, V&V methods)."
+        ],
+        "expertiseSpecifics": {
+          "architecture": [
+            "Designs, defines, and owns the overall software architecture for complex embedded systems and platforms",
+            "Operates with full autonomy to resolve ambiguity and make critical trade-offs, ensuring all functional and non-functional requirements (e.g., performance, safety, security, ...) are met",
+            "Drives and shapes the long-term technical strategy for key embedded technologies (e.g. software platforms, compliance with relevant functional safety standards, robust cybersecurity measures, ...) across multiple products",
+            "The focus is on enabling component reuse and reducing the total lifecycle cost of the software",
+            "Masters the diagnosis and resolution of the complex, cross-domain failures, including hardware/software interaction issues",
+            "Solves challenging problems, such as safety/security architecture, multi-ECU timing, fault containment, and scalability across variants"
+          ]
+        }
+      }
+    },
+    "communication": {
+      "level": "Influence - External Shared",
+      "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+      "responsibilities": {
+        "general": [
+          "Properly communicate with both internal stakeholders and external customers (e.g. OEMs) to answer technical questions, resolve issues, or support acquisitions",
+          "Spread their knowledge by appropriate means (e.g. formal trainings, training on the job, reviews & sparring)",
+          "Leverages own knowledge, and that of others (including the coachee/mentee) to assist in the development of knowledge and skill related to their own area of competence",
+          "Self-responsibly align their contributions to a larger feature with colleagues from other teams (developer)",
+          "Self-responsibly align with other Architects/Technical Leads to ensure the smooth interaction of multiple components (SW architect/technical lead)",
+          "Drives alignment and key technical decisions by framing options, risks, and trade-offs for diverse audiences",
+          "Effectively negotiates interfaces and influences across teams, communicating clearly with both technical and non-technical stakeholders, both internal and external"
+        ],
+        "expertiseSpecifics": {
+          "architecture": [
+            "Is adept at adjusting communication style to effectively convey intricate concepts to any audience, from engineering teams to external customers."
+          ]
+        }
+      }
+    },
+    "innovation": {
+      "level": "Modify/Improve - Difficult",
+      "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+      "responsibilities": {
+        "general": [
+          "Select the appropriate algorithm/concept and develop it further to tackle an unresolved problem based on their refined knowledge in their respective field",
+          "Drive the implementation of new technical (developer) or architectural (SW architect/technical lead) concepts within their team",
+          "Comes up with appropriate technical trade-offs fitting to given business goals considering technical as well as non-technical aspects such as market demand or project situation (developer)",
+          "Drive the implementation of pragmatic solutions both within and beyond the scope of your team (SW architect/technical lead)",
+          "Leads the technical implementation of novel and architecturally significant concepts (e.g., multicore software, service-oriented architecture)",
+          "Operates with full autonomy to design and drive core features, shaping the overall technical direction and architecture",
+          "Masters the diagnosis and resolution of highly complex, cross-domain failures, including hardware/software interaction issues",
+          "Proactively tackles ambiguous problems, optimizing solutions within a multidimensional scope that ranges from deep technical challenges to business needs"
+        ],
+        "expertiseSpecifics": {
+          "architecture": [
+            "Defines best practices, tools, and development processes to enhance quality and efficiency; actively mentors the team on advanced technical topics."
+          ]
+        }
+      }
+    },
+    "knowledge": {
+      "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+      "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+      "requirements": [
+        "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+        "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+        "Team Leader with less than 3 employees as direct reports in area of accountability",
+        "Can contact and apply knowledge with all regions of the world."
+      ]
+    }
+  }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Embedded",
+    "JG": "15",
+    "mission": "The mission of the Embedded Software Engineer is to transform functional concepts into efficient and robust software solutions that interact directly with hardware. This professional is responsible for designing, developing, and optimizing software for embedded systems, ensuring that performance, security, real-time, and resource utilization requirements are rigorously met. Through their work, the Embedded Software Engineer contributes significantly to the performance and reliability of our systems, ensuring the success of our products in the market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "May supervise others or make decisions which impact the work assigned to individuals or phases of projects",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them",
+            "Delivers robust, cross-component features that improve system reliability, performance, and maintainability",
+            "Contributes to technical concepts, safeguards team quality by reviewing code, and actively supports less experienced engineers",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "Contribute to a wider range of SW engineering tasks according to V-Model (e.g. requirement engineering, deriving a suitable architecture, …)"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization.",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with internal stakeholders (e.g. POs, other teams) to justify own decisions, answer technical questions, resolve issues, or support acquisitions",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from other teams",
+            "Support less experienced colleagues to master technical challenges",
+            "Able to transfer own knowledge to support others working at a similar or junior level in the same skill to develop that skill",
+            "Presents technical solutions, articulating options with clear pros and cons to influence outcomes",
+            "Negotiates technical scope with other teams and effectively interacts with external stakeholders to align on technical requirements"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate algorithm/concept and develop it further to tackle a typical problem based on their solid knowledge in their respective field",
+            "Contribute to the implementation of new technical concepts within their team",
+            "Comes up with appropriate technical trade-offs fitting to given business goals",
+            "Independently creates software designs for components, considering resource constraints and timing behavior",
+            "Develops, tests, and integrates complex software components and features, taking ownership of medium-sized modules from planning and estimation through to delivery",
+            "Develops, configures and integrates complex software according to V-Model (e.g. communication stacks, operating systems, ...), to meet project/platform needs",
+            "Analyzes and resolves cross-module system-level issues (e.g. complex RTOS, interrupt, driver problems, ...) using advanced debugging tools"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Applies strong embedded skills and domain expertise to build high-quality software",
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+    {
+    "jobTitle": "SW Engineer L1 - Embedded",
+    "JG": "14",
+    "mission": "The mission of the Embedded Software Engineer is to transform functional concepts into efficient and robust software solutions that interact directly with hardware. This professional is responsible for designing, developing, and optimizing software for embedded systems, ensuring that performance, security, real-time, and resource utilization requirements are rigorously met. Through their work, the Embedded Software Engineer contributes significantly to the performance and reliability of our systems, ensuring the success of our products in the market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "Assist in a wider range of SW engineering tasks according to the V-Model (e.g. requirement engineering, deriving a suitable architecture, …)",
+            "Successfully investigate the root cause of observed problems (typically within or close to their own scope) and contribute to fixing them"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Properly communicate within their team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from own or other teams",
+            "Clearly communicates project status, risks, and next steps",
+            "Collaborates effectively within the team, and escalates dependencies to ensure alignment and avoid delays"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Contribute to selection of algorithms/concepts to tackle a given problem (e.g. by conducting studies, gathering data, ...)",
+            "Contribute to the implementation of new technical concepts within their team",
+            "Implements and debugs simple software modules using standard software development and debugging tools. Performs basic configuration of hardware peripherals and software components under the guidance of experienced team members",
+            "Develops, tests, and integrates software components according to the V-Model. This includes writing unit tests, creating documentation, performing hardware tests, and actively participating in peer reviews while adhering to established coding standards",
+            "Executes well-defined, low-to-medium complexity tasks, often using existing patterns. Executes small work packages with mentorship, seeks help early when needed, and has key decisions reviewed by more experienced engineers",
+            "Applies existing knowledge in embedded domain (i.e. basic understanding of concepts like memory layout, interrupts, and peripherals)",
+            "Possesses practical knowledge of debugging tools"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employee with specialized training / qualification (high school diploma and an apprenticeship, or equivalent professional training and work experience)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Testing / V&V",
+    "JG": "16",
+    "mission": "The mission of the Software Verification and Validation Engineer is to ensure the integrity, functionality, and compliance of our software products by validating their performance against quality requirements and standards. Through the design and execution of rigorous test plans, analysis of results, and proactive identification of deviations, this professional guarantees the quality, robustness, and reliability of the software. They contribute crucially to reducing post-launch risks, maintaining brand credibility, and delivering reliable, high-performance digital products to market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some/Direct",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Analyzes test results to not only identify root causes but also to contribute to preventing future occurrences of similar issues",
+            "Drives systematic improvements to software quality processes within the testing domain",
+            "Contributes to high-level decisions by analyzing and reporting on test activities, results, issues, and risks",
+            "Supports less experienced colleagues to master technical challenges by e.g. knowledge sharing and code review",
+            "Systematically improves SW quality related processes in the organization, in the SW testing area, by providing technologies and process improvement proposals",
+            "Actively shares knowledge within the organization",
+            "Operates with full autonomy on complex features, setting the scope, breaking down work, and managing all related tasks",
+            "Focuses on preventing future issues, which reduces long-term costs and improves customer satisfaction",
+            "Works without supervision, typically as part of a full-stack team or a specialized V&V team",
+            "Drives the selection and implementation of appropriate technical SW test decisions"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Supports less experienced colleagues in overcoming technical challenges through knowledge sharing, coaching, and code reviews",
+            "Unblocks other team members and proactively resolves dependencies before they become issues",
+            "Actively and systematically shares knowledge across the team and the wider organization",
+            "Communicates effectively and efficiently with a diverse audience, including stakeholders, customers, and multiple internal teams"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify/Improve - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Influences software requirements and design during reviews and uses this insight to create comprehensive test plans and conditions",
+            "Drives the selection and implementation of appropriate test technologies and strategies for the team",
+            "Leads test automation efforts by building coverage using new or existing environments and applying advanced automation strategies",
+            "Proposes and implements new technologies and process improvements to enhance the organization's software quality practices",
+            "Directly influences the products design and specifications to improve testability, reliability and overall quality",
+            "Influences changes on SW requirements, design and specifications during reviews, and uses this information to contribute to test plans and test conditions",
+            "Drives the implementation of new technical test concepts and test strategies within the team",
+            "Drives test automation tasks and builds test coverage through existing or new test environment, by applying advanced test strategies",
+            "Analyses and reports on test activities, results, issues and risks and contributes to root cause identification and future occurrence prevention"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Experienced profile with broad test engineering know-how",
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Team Leader with less than 3 employees as direct reports in area of accountability",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Testing / V&V",
+    "JG": "15",
+    "mission": "The mission of the Software Verification and Validation Engineer is to ensure the integrity, functionality, and compliance of our software products by validating their performance against quality requirements and standards. Through the design and execution of rigorous test plans, analysis of results, and proactive identification of deviations, this professional guarantees the quality, robustness, and reliability of the software. They contribute crucially to reducing post-launch risks, maintaining brand credibility, and delivering reliable, high-performance digital products to market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Designs, implements, and owns medium-sized features or modules, including planning, estimating, and managing dependencies",
+            "Actively contributes to ensuring the quality of the deliverables of the team",
+            "Aligns with team members (developers and other testers) to deliver feature increments",
+            "Contributes to the implementation of new technical concepts within the team, possibly participates in guilds or expert networks in order to develop and understand the role of SW tester in the organization",
+            "Works without direct supervision to execute both manual and automated tests according to the overall test plan",
+            "Analyzes test results in detail and reports on activities, issues and potential risks to the project",
+            "Focuses on delivering feature increments, directly contributing to the product evolution and value proposition"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - External Shared",
+        "description": "Explain facts, practices, policies, etc. to external parties",
+        "responsibilities": {
+          "general": [
+            "Aligns effectively with developers and other testers to ensure the smooth delivery of feature increments",
+            "Communicates efficiently with a wide range of people, including stakeholders, customers, and the entire project team",
+            "Independently resolves most issues (\"self-unblocks\"), seeking support from senior staff only when necessary",
+            "May participate in professional teams or expert networks to develop their skills and represent the SW tester role within the organization",
+            "Communicates efficiently to the stakeholders, customers and complete team"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Contributes to the implementation of new technical concepts and practices within the team",
+            "Participates in requirements analysis and defines test conditions to ensure full coverage",
+            "Identifies and reports on issues and risks, helping the team and management make informed decisions",
+            "Designs, implements and owns medium features/modules; plans/estimates and manages dependencies. Self-unblocks with support from lead/senior",
+            "Tests features by using basic and advanced test methods and test design techniques, including supporting in complex testing tasks",
+            "Designs test cases, creates test scripts and test data, and automates repeatable tasks working to the requirements or specifications provided",
+            "Defines test conditions for given requirements and participates in requirement analysis",
+            "Executes and records manual and automated testing in accordance with test plans",
+            "Analyses and reports on test activities, results, issues and risks"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Required geographical breadth in which the knowledge is All regions"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - Testing / V&V",
+    "JG": "14",
+    "mission": "The mission of the Software Verification and Validation Engineer is to ensure the integrity, functionality, and compliance of our software products by validating their performance against quality requirements and standards. Through the design and execution of rigorous test plans, analysis of results, and proactive identification of deviations, this professional guarantees the quality, robustness, and reliability of the software. They contribute crucially to reducing post-launch risks, maintaining brand credibility, and delivering reliable, high-performance digital products to market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Records test results in the management system, analyzes them, and contributes to identifying the root cause of problems",
+            "Manages small, specific work packages under the guidance of a mentor",
+            "Assists in wider V&V tasks, such as reviewing software requirements and helping to create suitable test concepts",
+            "May assist in a wider range of SW V&V engineering tasks such as requirement reviews or deriving suitable test concepts",
+            "Collaborates with team members to deliver artifacts",
+            "Aligns with V&V manager and/or with SW V&V engineers of other teams to understand own contribution to a larger testing scope",
+            "Proactively seeks help from mentors and senior colleagues to overcome challenges and ensure decisions are sound"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Actively collaborates with other team members to deliver project artifacts and coordinate common tasks",
+            "Clearly communicates within the team and with management to justify decisions, answer technical questions, and resolve issues",
+            "Aligns with managers and engineers from other teams to understand how their work contributes to the overall project scope",
+            "Properly communicates within the team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Executes well-defined, often manual, test scripts to verify product features",
+            "Executes well defined tasks; seeks help early; follows standards",
+            "Own small packages with mentor; decisions reviewed by mid level or senior",
+            "Tests features for product/services using basic test methods",
+            "Executes manual scripts under supervision",
+            "Record results in test management system",
+            "Analyses the test results and contributes to root cause identification and problem solving"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employee with specialized training / qualification (high school diploma and an apprenticeship, or equivalent professional training and work experience)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - AI_Machine Learning",
+    "JG": "16",
+    "mission": "The mission of the AI/Machine Learning Engineer is to transform data into intelligence, developing and implementing innovative artificial intelligence solutions that add significant value to our products. This professional is responsible for selecting, developing, optimizing, and integrating ML/AI algorithms and models, from data exploration to their operationalization in production. Through their knowledge, the AI/Machine Learning Engineer drives the ability of our systems to learn, adapt, and make intelligent decisions, ensuring cutting-edge solutions and a competitive advantage in the market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some/Direct",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively look for opportunities to increase the quality of their own or team mates' deliverables",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them / preventing their future occurrence",
+            "Exercises substantial personal responsibility and autonomy",
+            "Demonstrates leadership in his team",
+            "Contributes to the software engineering culture of his and other teams",
+            "Apply advanced implementation strategies to successfully resolve difficult problems",
+            "Take responsibility for a broad range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "machineLearning": [
+              "Develops and integrates complex ML models tailored to specific use cases, including advanced techniques (e.g., transformers)",
+              "Optimizes model training and hyperparameters; applies transfer learning and reinforcement learning where applicable",
+              "Independently diagnoses, mitigates, and resolves advanced issues in ML models",
+              "Evaluates and improves model robustness, fairness, and bias",
+              "Designs tools and methods for detailed visualization and interpretation of model performance",
+              "Communicates ML results and findings to stakeholders; provides guidance on ethical, bias, and privacy implications of ML models"
+            ],
+            "dataScience": [
+              "Investigates the described problem and dataset to assess the usefulness of data science and analytics solutions",
+              "Applies a range of data science techniques and uses specialized programming languages",
+              "Understands and applies rules and guidelines specific to the industry and anticipates risks and other implications of modeling",
+              "Selects, acquires and integrates data for analysis. Develops data hypotheses and methods and evaluates analytics models. Advises on the effectiveness of specific techniques based on project findings and comprehensive research; contributes to the development, evaluation, monitoring and deployment of data science solutions"
+            ],
+            "dataEngineering": [
+              "Designs, implements, and maintains complex data engineering solutions to acquire and prepare data",
+              "Creates and maintains data pipelines to connect data within and between data stores, applications and organizations",
+              "Carries out complex data quality checking and remediation"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with both internal stakeholders and external customers (e.g. OEMs) to answer technical questions, resolve issues, or support acquisitions",
+            "Spread their knowledge by appropriate means (e.g. formal trainings, training on the job, reviews & sparring)",
+            "Leverages own knowledge, and that of others (including the coachee/mentee) to assist in the development of knowledge and skill related to their own area of competence",
+            "Self-responsibly align their contributions to a larger feature with colleagues from other teams (developer)",
+            "Self-responsibly align with other Architects/Technical Leads to ensure the smooth interaction of multiple components (SW architect/technical lead)"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify/Improve - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate algorithm/concept and develop it further to tackle an unresolved problem based on their refined knowledge in their respective field",
+            "Drive the implementation of new technical (developer) or architectural (SW architect/technical lead) concepts within their team",
+            "Comes up with appropriate technical trade-offs considering technical as well as non-technical aspects such as market demand or project situation",
+            "Drive the implementation of pragmatic solutions both within and beyond the scope of your team"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Team Leader with less than 3 employees as direct reports in area of accountability",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - AI_Machine Learning",
+    "JG": "15",
+    "mission": "The mission of the AI/Machine Learning Engineer is to transform data into intelligence, developing and implementing innovative artificial intelligence solutions that add significant value to our products. This professional is responsible for selecting, developing, optimizing, and integrating ML/AI algorithms and models, from data exploration to their operationalization in production. Through their knowledge, the AI/Machine Learning Engineer drives the ability of our systems to learn, adapt, and make intelligent decisions, ensuring cutting-edge solutions and a competitive advantage in the market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them",
+            "May supervise others or make decisions which impact the work assigned to individuals or phases of projects",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "May contribute to a wider range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "machineLearning": [
+              "Applies standard ML approaches and algorithms based on a detailed understanding of requirements",
+              "Implements and tunes classical ML models (e.g., SVM, logistic regression) and deep learning models (e.g., CNNs, LSTMs)",
+              "Designs and executes end-to-end ML pipelines, from data collection to model evaluation",
+              "Evaluates model performance using appropriate metrics; identifies and mitigates basic issues (e.g., overfitting)",
+              "Visualizes and interprets model predictions and insights; understands and applies the needed considerations in model development and deployment"
+            ],
+            "dataScience": [
+              "Investigates the described problem and dataset to assess the usefulness of data science and analytics solutions",
+              "Applies a range of data science techniques and uses specialized programming languages",
+              "Understands and applies rules and guidelines specific to the industry, and anticipates risks and other implications of modeling",
+              "Selects, acquires and integrates data for analysis; develops data hypotheses and methods and evaluates analytics models",
+              "Advises on the effectiveness of specific techniques based on project findings and comprehensive research",
+              "Contributes to the development, evaluation, monitoring and deployment of data science solutions"
+            ],
+            "dataEngineering": [
+              "Implements, and maintains complex data engineering solutions to acquire and prepare data",
+              "Maintains data pipelines to connect data within and between data stores, applications and organizations",
+              "Carries out complex data quality checking and remediation"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization.",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with internal stakeholders (e.g. POs, other teams) to justify own decisions, answer technical questions, resolve issues, or support acquisitions",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from other teams",
+            "Support less experienced colleagues to master technical challenges",
+            "Able to transfer own knowledge to support others working at a similar or junior level in the same skill to develop that skill"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate algorithm/concept and develop it further to tackle a typical problem based on their solid knowledge in their respective field",
+            "Contribute to the implementation of new technical concepts within their team",
+            "Comes up with appropriate technical trade-offs fitting to given business goals"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - AI_Machine Learning",
+    "JG": "14",
+    "mission": "The mission of the AI/Machine Learning Engineer is to transform data into intelligence, developing and implementing innovative artificial intelligence solutions that add significant value to our products. This professional is responsible for selecting, developing, optimizing, and integrating ML/AI algorithms and models, from data exploration to their operationalization in production. Through their knowledge, the AI/Machine Learning Engineer drives the ability of our systems to learn, adapt, and make intelligent decisions, ensuring cutting-edge solutions and a competitive advantage in the market.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (typically within or close to their own scope) and contribute to fixing them",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "May assist in a wider range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "machineLearning": [
+              "Understands basic ML concepts and common algorithms (e.g., decision-trees, k-NN)",
+              "Can implement simple ML models under guidance",
+              "Uses pre-built libraries and frameworks to train and evaluate basic models",
+              "Follows best practices for data preprocessing and feature extraction",
+              "Diagnoses basic issues in model performance with guidance",
+              "Evaluates the outcomes and performance of machine learning systems"
+            ],
+            "dataScience": [
+              "Applies existing data science techniques to new problems and datasets using specialized programming techniques",
+              "Selects from existing data sources and prepares data to be used by data science models",
+              "Evaluates the outcomes and performance of data science models. Identifies and implements opportunities to train and improve models and the data they use",
+              "Publishes and reports on model outputs to meet customer needs and conforming to agreed standards"
+            ],
+            "dataEngineering": [
+              "Assist in developing and implementing data pipelines and data stores",
+              "Performs administrative tasks to provide accessibility, retrievability, security and protection of data"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Properly communicate within their team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from own or other teams"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Contribute to selection of algorithms/concepts to tackle a given problem (e.g. by conducting studies, gathering data, ...)",
+            "Contribute to the implementation of new technical concepts within their team"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employee with specialized training / qualification (high school diploma and an apprenticeship, or equivalent professional training and work experience)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Cloud / DevOps",
+    "JG": "16",
+    "mission": "The mission of the Cloud/DevOps Engineer is to design, build, and maintain robust, scalable, and automated software infrastructures and pipelines that support the complete development and operation lifecycle of our digital products. This professional (who may specialize in specific sub-domains, e.g., Infrastructure, ML pipelines, Data Toolchain) is responsible for optimizing continuous integration (CI), continuous delivery (CD), service deployment, or toolchain creation, ensuring high availability, security, and performance of our solutions in cloud, on-premise, or hybrid environments. Through their knowledge of automation and monitoring, the Cloud/DevOps Engineer accelerates development and innovation, improves software quality and reliability, and contributes to a culture of operational excellence.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some/Direct",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively look for opportunities to increase the quality of their own or team mates' deliverables",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them / preventing their future occurrence",
+            "Exercises substantial personal responsibility and autonomy",
+            "Demonstrates leadership in his team",
+            "Contributes to the software engineering culture of his and other teams",
+            "Apply advanced implementation strategies to successfully resolve difficult problems",
+            "Take responsibility for a broad range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "infrastructure": [
+              "Defines infrastructure standards and governance, including IaC module libraries, naming, tagging, and policy enforcement",
+              "Leads technical decisions related to legacy modernization and migration, cloud vs on-premise trade-offs, and cost optimization vs performance and reliability",
+              "Leads major infrastructure incidents and post-incident reviews",
+              "Acts as a technical authority and reference within the organization and Centers of Competence"
+            ],
+            "containersAndPlatformTechnologies": [
+              "Defines platform standards for scalability, security, and reliability",
+              "Leads platform-related architectural decisions and cross-team alignment"
+            ],
+            "monitoringObservabilityAndOperations": [
+              "Leads proactive performance tuning and capacity planning based on observability data and trend analysis",
+              "Drives a culture of reliability and operational excellence (SRE principles), defining SLOs/SLIs and implementing error budgets"
+            ],
+            "cxAndAutomation": [
+              "Implements advanced delivery strategies, including GitOps, Blue/Green deployments, and Canary releases",
+              "Actively contributes to CX Centers of Competence and best practices"
+            ],
+            "dataEngineeringAndDataLifecycle": [
+              "Defines standards for data quality, schema evolution, availability, and lifecycle management",
+              "Leads architectural discussions related to data scalability, reliability, and cost",
+              "Enables multiple teams and use cases through reusable data platform capabilities"
+            ],
+            "mlOpsPracticesAndMlLifecycle": [
+              "Defines governance practices, including model approval workflows, auditability, and traceability",
+              "Leads architectural decisions related to scalability, monitoring, and compliance of ML systems",
+              "Acts as a technical leader for MLOps practices/ML lifecycle across projects and domains",
+              "Defines and governs clear interfaces between data pipelines and ML pipelines, ensuring consistency, reliability, and traceability",
+              "Drives alignment between data lifecycle design and ML lifecycle needs, ensuring data quality, availability, and lineage requirements are met for ML systems"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with both internal stakeholders and external customers (e.g. OEMs) to answer technical questions, resolve issues, or support acquisitions",
+            "Spread their knowledge by appropriate means (e.g. formal trainings, training on the job, reviews & sparring)",
+            "Leverages own knowledge, and that of others (including the coachee/mentee) to assist in the development of knowledge and skill related to their own area of competence",
+            "Self-responsibly align their contributions to a larger feature with colleagues from other teams (developer)",
+            "Self-responsibly align with other Architects/Technical Leads to ensure the smooth interaction of multiple components (SW architect/technical lead)"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify/Improve - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate tool/concept and develop it further to tackle an unresolved problem based on their refined knowledge in their respective field",
+            "Drive the implementation of new technical (developer) or architectural (SW architect/technical lead) concepts within their team",
+            "Comes up with appropriate technical trade-offs considering technical as well as non-technical aspects such as market demand or project situation (developer)",
+            "Drive the implementation of pragmatic solutions both within and beyond the scope of your team (SW architect/technical lead)"
+          ],
+          "expertiseSpecifics": {
+            "infrastructure": [
+              "Designs and architects complex infrastructure solutions across multi-environment (Dev / Test / Prod), cloud, on-premise, and hybrid contexts that are scalable, resilient, and secure by design"
+            ],
+            "containersAndPlatformTechnologies": [
+              "Designs and evolves container-based platform architectures"
+            ],
+            "monitoringObservabilityAndOperations": [
+              "Designs and implements a holistic observability strategy, correlating metrics, logs, and traces to provide deep system insight"
+            ],
+            "cxAndAutomation": [
+              "Designs and architects comprehensive CX strategies that serve multiple teams and technologies, focusing on speed, reliability, and developer experience",
+              "Designs and architects CX solutions considering cloud and on-premise execution, scalable build/test workers, security and compliance (Automotive constraints), and cost efficiency",
+              "Develops and maintains internal tooling and CX platforms",
+              "Drives innovation to improve developer feedback loops (speed, quality, cost/benefit)"
+            ],
+            "dataEngineeringAndDataLifecycle": [
+              "Designs data ingestion and processing architectures"
+            ],
+            "mlOpsPracticesAndMlLifecycle": [
+              "Designs and standardizes the full ML lifecycle: data ingestion, feature engineering, training, validation, deployment, and monitoring"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Team Leader with less than 3 employees as direct reports in area of accountability",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Cloud / DevOps",
+    "JG": "15",
+    "mission": "The mission of the Cloud/DevOps Engineer is to design, build, and maintain robust, scalable, and automated software infrastructures and pipelines that support the complete development and operation lifecycle of our digital products. This professional (who may specialize in specific sub-domains, e.g., Infrastructure, ML pipelines, Data Toolchain) is responsible for optimizing continuous integration (CI), continuous delivery (CD), service deployment, or toolchain creation, ensuring high availability, security, and performance of our solutions in cloud, on-premise, or hybrid environments. Through their knowledge of automation and monitoring, the Cloud/DevOps Engineer accelerates development and innovation, improves software quality and reliability, and contributes to a culture of operational excellence.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them",
+            "May supervise others or make decisions which impact the work assigned to individuals or phases of projects",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "May contribute to a wider range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "infrastructure": [
+              "Provisions and manages infrastructure across public cloud (Azure / AWS), on-premise virtualized environments, and hybrid setups",
+              "Uses Infrastructure as Code (IaC) tools (e.g. Terraform, Ansible) to create reusable and modular configurations and manage state, variables, and secrets securely",
+              "Diagnoses and resolves common infrastructure issues, including networking misconfigurations, permission and access problems, and performance bottlenecks",
+              "Contributes to infrastructure requirement definition for capacity, availability, and security"
+            ],
+            "containersAndPlatformTechnologies": [
+              "Builds, deploys, and operates containerized workloads",
+              "Works with orchestration platforms to manage application and service lifecycles",
+              "Troubleshoots common platform-related issues affecting applications and pipelines"
+            ],
+            "monitoringObservabilityAndOperations": [
+              "Configures and manages monitoring and logging solutions (e.g., Prometheus, Grafana, ELK stack, Datadog)",
+              "Creates meaningful dashboards and sets up effective alerting rules to detect and notify on system anomalies",
+              "Investigates and resolves production incidents, performs root cause analysis (RCA), and documents findings"
+            ],
+            "cxAndAutomation": [
+              "Designs, implements, and maintains end-to-end CX pipelines for build, test, package, and deploy activities",
+              "Automates operational and development tasks using shell scripting and Python",
+              "Integrates automated testing, quality gates, and security scanning (SAST / DAST)",
+              "Analyzes pipeline failures, bottlenecks, and interruptions",
+              "Supports product teams in pipeline optimization and Continuous Quality improvement"
+            ],
+            "dataEngineeringAndDataLifecycle": [
+              "Designs, implements, and maintains data pipelines for structured and unstructured data",
+              "Integrates data from cloud, on-premise, and edge sources",
+              "Applies data validation and quality controls",
+              "Ensures data readiness and suitability for downstream analytics and ML workflows"
+            ],
+            "mlOpsPracticesAndMlLifecycle": [
+              "Implements and maintains ML workflows, including experiment tracking, training pipelines, and model evaluation and validation",
+              "Integrates model lifecycle automation with CI/CD and platform services",
+              "Ensures reproducibility, traceability, and operational stability of ML solutions",
+              "Integrates ML pipelines with existing data pipelines and feature-ready datasets, ensuring data suitability for training and inference",
+              "Applies data sanity checks relevant to ML use cases and understands data dependencies impacting model performance and availability"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization.",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with internal stakeholders (e.g. POs, other teams) to justify own decisions, answer technical questions, resolve issues, or support acquisitions",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from other teams",
+            "Support less experienced colleagues to master technical challenges",
+            "Able to transfer own knowledge to support others working at a similar or junior level in the same skill to develop that skill"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate tool/concept and develop it further to tackle a typical problem based on their solid knowledge in their respective field",
+            "Contribute to the implementation of new technical concepts within their team",
+            "Comes up with appropriate technical trade-offs fitting to given business goals"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ],
+        "expertiseSpecifics": {
+          "infrastructure": [
+            "Understands limitations and risks of legacy infrastructure and integrates it into modern workflows"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - Cloud / DevOps",
+    "JG": "14",
+    "mission": "The mission of the Cloud/DevOps Engineer is to design, build, and maintain robust, scalable, and automated software infrastructures and pipelines that support the complete development and operation lifecycle of our digital products. This professional (who may specialize in specific sub-domains, e.g., Infrastructure, ML pipelines, Data Toolchain) is responsible for optimizing continuous integration (CI), continuous delivery (CD), service deployment, or toolchain creation, ensuring high availability, security, and performance of our solutions in cloud, on-premise, or hybrid environments. Through their knowledge of automation and monitoring, the Cloud/DevOps Engineer accelerates development and innovation, improves software quality and reliability, and contributes to a culture of operational excellence.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (typically within or close to their own scope) and contribute to fixing them",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "May assist in a wider range of engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "infrastructure": [
+              "Follows defined procedures and runbooks for provisioning, deployment, and basic operations",
+              "Performs routine operational tasks with supervision"
+            ],
+            "containersAndPlatformTechnologies": [
+              "Uses container tools to build and run workloads in development and test environments",
+              "Interacts with existing platform environments following established guidelines"
+            ],
+            "monitoringObservabilityAndOperations": [
+              "Diagnoses common issues (e.g., service down, high CPU) with guidance and using standard tools"
+            ],
+            "cxAndAutomation": [
+              "Uses existing automation scripts and tools"
+            ],
+            "dataEngineeringAndDataLifecycle": [
+              "Works with existing data pipelines and datasets under guidance"
+            ],
+            "mlOpsPracticesAndMlLifecycle": [
+              "Supports ML workflows by integrating models, data, and infrastructure components",
+              "Uses existing tools for experiment tracking, training, and evaluation",
+              "Uses datasets provided by Data teams and can identify basic data-related issues affecting ML results"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Properly communicate within their team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from own or other teams"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Contribute to selection of tools/concepts to tackle a given problem (e.g. by conducting studies, gathering requirements, ...)",
+            "Contribute to the implementation of new technical concepts within their team"
+          ],
+          "expertiseSpecifics": {
+            "cxAndAutomation": [
+              "Makes small changes to existing pipelines, such as adding simple steps or adjusting scripts"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employee with specialized training / qualification (high school diploma and an apprenticeship, or equivalent professional training and work experience)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ],
+        "expertiseSpecifics": {
+          "infrastructure": [
+            "Understands fundamental infrastructure concepts: compute, storage, networking, and differences between cloud, on-premise, and hybrid environments",
+            "Has basic knowledge of public cloud platforms (e.g., Azure, AWS): virtual machines, storage, IAM, basic networking",
+            "Can operate existing on-premise environments, including Linux servers, virtualized infrastructure, and legacy systems under guidance"
+          ],
+          "containersAndPlatformTechnologies": [
+            "Understands containerization fundamentals: containers vs virtual machines, images and registries"
+          ],
+          "monitoringObservabilityAndOperations": [
+            "Understands the concepts of logging, monitoring, and alerting. Can use dashboards to view system health",
+            "Can follow a runbook to investigate a basic alert"
+          ],
+          "cxAndAutomation": [
+            "Understands CX principles: continuous integration, automated testing, automated delivery and deployment",
+            "Has basic familiarity with CX tools (e.g., Jenkins, GitLab CI, GitHub Actions)",
+            "Understands basic branching and versioning strategies"
+          ],
+          "dataEngineeringAndDataLifecycle": [
+            "Understands core data lifecycle concepts, including ingestion, transformation, storage, and consumption",
+            "Identifies basic data quality issues and understands their downstream impact"
+          ],
+          "mlOpsPracticesAndMlLifecycle": [
+            "Understands the end-to-end ML lifecycle: data ingestion, feature preparation, model training, evaluation, deployment, and monitoring",
+            "Has basic knowledge of ML fundamentals: supervised vs unsupervised learning, training vs inference",
+            "Understands how data freshness, schema changes, and basic data quality issues affect model training and inference"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Security",
+    "JG": "16",
+    "mission": "The mission of the Software Security Engineer is to protect our software systems and data against cyber threats and unauthorized access, ensuring the integrity, confidentiality, and availability of our digital solutions. Through proactive vulnerability analysis, secure software design, implementation of security controls, and incident response, this professional mitigates risks and strengthens the security posture of our products throughout their entire lifecycle. They contribute crucially to user trust, protecting brand reputation, and complying with stringent cybersecurity standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Direct",
+        "description": "Set objectives and deliver results that have direct impact on the achievement of results within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively look for opportunities to increase the quality and security posture of their own or teammates' deliverables",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them / preventing their future occurrence",
+            "Exercises substantial personal responsibility and autonomy",
+            "Demonstrates leadership in his team",
+            "Contributes to the security culture of his and other teams",
+            "Take responsibility for a broad range of security engineering tasks such as secure design review or threat modeling"
+          ],
+          "expertiseSpecifics": {
+            "vulnerabilityManagement": [
+              "Obtains and acts on vulnerability information and conducts security risk assessments, business impact analysis and accreditation on complex information systems",
+              "Provides expert advice and guidance to support the adoption of agreed approaches",
+              "Mentors developers through security champion programs and leads threat modeling exercises for new features and architectures"
+            ],
+            "penetrationTestingAndOffensiveSecurity": [
+              "Manages all penetration testing activities within the team. Assesses and advises on the practicality of testing process",
+              "Plans and leads complex, multi-stage penetration testing engagements, including red-teaming and social engineering exercises",
+              "Communicates high-impact findings to senior leadership and works with engineering teams to architect long-term, systemic fixes"
+            ],
+            "incidentResponseAndDigitalForensics": [
+              "Leads and coordinates the technical response to major security incidents, from initial detection through post-mortem analysis",
+              "Designs and refines the organization's incident response plan and playbooks. Organizes and leads incident response tabletop exercises"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Influence/Negotiate - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with both internal stakeholders and external parties (e.g., developers, SW architects, auditors, bug bounty researchers) to answer technical questions, resolve issues, or support security assessments",
+            "Spread their knowledge by appropriate means (e.g. formal trainings, security champions programs, reviews & sparring)",
+            "Leverages own knowledge, and that of others (including the coachee/mentee) to assist in the development of knowledge and skill related to their own area of competence",
+            "Self-responsibly align their contributions to a larger security initiative with colleagues from other teams",
+            "Self-responsibly align with other Architects/Technical Leads to ensure the smooth interaction of multiple components"
+          ],
+          "expertiseSpecifics": {
+            "incidentResponseAndDigitalForensics": [
+              "Interfaces with legal, compliance, and communications teams during a crisis. Implements preventative measures to stop future occurrences"
+            ]
+          }
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate security tool/concept and develop it further to tackle an unresolved problem based on their refined knowledge in their respective field",
+            "Drive the implementation of new technical (e.g., security automation) or architectural (e.g., zero-trust) concepts within their team",
+            "Come up with appropriate technical trade-offs considering technical as well as non-technical aspects such as market demand or project situation (developer)",
+            "Drive the implementation of pragmatic solutions both within and beyond the scope of the team (SW architect/technical lead)",
+            "Apply advanced implementation strategies to successfully resolve difficult problems"
+          ],
+          "expertiseSpecifics": {
+            "vulnerabilityManagement": [
+              "Evaluates, selects and reviews vulnerability assessment tools and techniques"
+            ],
+            "penetrationTestingAndOffensiveSecurity": [
+              "Establishes capability for continual improvement and invention in penetration testing and leads the implementation of new approaches. Stays current with novel attack techniques"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Security",
+    "JG": "15",
+    "mission": "The mission of the Software Security Engineer is to protect our software systems and data against cyber threats and unauthorized access, ensuring the integrity, confidentiality, and availability of our digital solutions. Through proactive vulnerability analysis, secure software design, implementation of security controls, and incident response, this professional mitigates risks and strengthens the security posture of our products throughout their entire lifecycle. They contribute crucially to user trust, protecting brand reputation, and complying with stringent cybersecurity standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them",
+            "May supervise others or make decisions which impact the work assigned to individuals or phases of projects",
+            "Support less experienced colleagues to master technical challenges",
+            "May contribute to a wider range of SW engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {
+            "vulnerabilityManagement": [
+              "Collates and analyses catalogues of information and technology assets for vulnerability assessment",
+              "Analyzes scan results to validate vulnerabilities, eliminate false positives, and provides clear remediation guidance to development teams",
+              "Performs vulnerability assessments and business impact analysis for medium complexity information systems",
+              "Contributes to selection and deployment of vulnerability assessment tools and techniques"
+            ],
+            "penetrationTestingAndOffensiveSecurity": [
+              "Conducts penetration tests on targets, APIs, interfaces or infrastructure, identifying and documenting security flaws. Selects appropriate testing approaches using in-depth technical analysis of risks and typical vulnerabilities",
+              "Produces test scripts, materials and test packs and tests new and existing networks, systems or applications. Provides advice on penetration testing to support others",
+              "Writes detailed, professional penetration test reports with actionable recommendations and presents findings to technical teams"
+            ],
+            "incidentResponseAndDigitalForensics": [
+              "Acts as a first responder for security incidents, executing containment procedures and collecting initial evidence according to a plan",
+              "Conducts forensic analysis on systems and logs to determine the scope and root cause of an incident",
+              "Documents incident timelines and actions taken. Contributes to the post-incident review and root cause analysis (RCA)"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization.",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with internal stakeholders (e.g. POs, other teams) to justify own decisions, answer technical questions, resolve issues, or support acquisitions",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from other teams",
+            "Support less experienced colleagues to master technical challenges",
+            "Able to transfer own knowledge to support others working at a similar or junior level in the same skill to develop that skill"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate security tool/concept and develop it further to tackle a typical problem based on their solid knowledge in their respective field",
+            "Contribute to the implementation of new technical security concepts within their team",
+            "Come up with appropriate technical trade-offs fitting to given business goals",
+            "Apply established implementation strategies to successfully resolve typical problems"
+          ],
+          "expertiseSpecifics": {
+            "penetrationTestingAndOffensiveSecurity": [
+              "Develops custom tooling and scripts to automate exploit chains and bypass security controls"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - Security",
+    "JG": "14",
+    "mission": "The mission of the Software Security Engineer is to protect our software systems and data against cyber threats and unauthorized access, ensuring the integrity, confidentiality, and availability of our digital solutions. Through proactive vulnerability analysis, secure software design, implementation of security controls, and incident response, this professional mitigates risks and strengthens the security posture of our products throughout their entire lifecycle. They contribute crucially to user trust, protecting brand reputation, and complying with stringent cybersecurity standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team",
+            "Successfully investigate the root cause of observed problems (typically within or close to their own scope) and contribute to fixing them"
+          ],
+          "expertiseSpecifics": {
+            "vulnerabilityManagement": [
+              "Contributes to documenting the scope and evaluating the results of vulnerability assessments"
+            ],
+            "penetrationTestingAndOffensiveSecurity": [
+              "Assists with penetration testing tasks under routine supervision",
+              "Supports the execution of standard penetration tests on systems, networks and applications",
+              "Helps document and report on test results, findings and potential security risks"
+            ],
+            "incidentResponseAndDigitalForensics": [
+              "Assists in gathering data for an investigation under direct supervision"
+            ]
+          }
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Properly communicate within their team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from own or other teams",
+            "Escalates issues where appropriate"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Contribute to selection of security tools/concepts to tackle a given problem (e.g. by conducting studies, gathering requirements, ...)",
+            "Contribute to the implementation of new technical security concepts within their team",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "May assist in a wider range of engineering tasks such as requirement engineering or deriving a suitable architecture"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employee with specialized training / qualification (high school diploma and an apprenticeship, or equivalent professional training and work experience)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ],
+        "expertiseSpecifics": {
+          "vulnerabilityManagement": [
+            "Understands common vulnerability classes (e.g., OWASP Top 10) and the purpose of security scanning tools (SAST, DAST, SCA)",
+            "Can run pre-configured security scans and interpret basic findings with guidance"
+          ],
+          "incidentResponseAndDigitalForensics": [
+            "Understands the phases of incident response (e.g., detection, containment, eradication). Can follow a runbook for a known event",
+            "Can identify a potential security event from logs or alerts and escalate it appropriately"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Fullstack",
+    "JG": "16",
+    "mission": "The mission of a Fullstack Software Engineer is to design, develop, and maintain complete software solutions, encompassing both the backend business logic and the frontend user experience. This professional is responsible for translating complex requirements into scalable architectures and efficient implementations, ensuring the correct integration of all application components. Through their versatility and knowledge of diverse technologies, the Fullstack Engineer delivers high-quality, functional, and intuitive digital products, driving innovation and value for the client.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some/Direct",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively look for opportunities to increase the quality of their own or team deliverables through architectural improvements, advanced testing strategies, and proactive CI/CD enhancements",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) and contribute to fixing them / preventing their future occurrence across the entire technology stack",
+            "Exercises substantial personal responsibility and autonomy",
+            "Demonstrates leadership in his team",
+            "Contributes to the security culture of his and other teams",
+            "Spread their knowledge by appropriate means (e.g. formal trainings, security champions programs, reviews & sparring)",
+            "Leverages own knowledge, and that of others (including the coachee/mentee) to assist in the development of knowledge and skill related to their own area of competence"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with both internal stakeholders and external parties (e.g., developers, SW architects, auditors, bug bounty researchers) to answer technical questions, resolve issues, or support security assessments",
+            "Self-responsibly align their contributions to a larger security initiative with colleagues from other teams",
+            "Self-responsibly align with other Architects/Technical Leads to ensure the smooth interaction of multiple components"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify/Improve - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate algorithm/concept and develop it further to tackle an unresolved problem based on their refined knowledge in their respective fullstack field, driving innovative solutions for complex tooling challenges",
+            "Drive the implementation of new technical (developer) or architectural (SW architect/technical lead) concepts within their team, shaping the future of our internal tooling platform",
+            "Comes up with appropriate technical trade-offs considering technical as well as non-technical aspects such as market demand or project situation (developer)",
+            "Drive the implementation of pragmatic solutions both within and beyond the scope of your team (SW architect/technical lead)",
+            "Apply advanced implementation strategies to successfully resolve difficult problems across the fullstack, often involving complex integrations, distributed systems, or high-performance requirements",
+            "Take full responsibility for a broad range of SW engineering tasks according to the V-Model, including defining high-level requirements for new tooling, deriving a suitable architecture for entire platforms, and establishing robust V&V methods for fullstack solutions"
+          ],
+          "expertiseSpecifics": {
+            "backendDevelopment": [
+              "Architects, designs, and leads the development of highly scalable, resilient, and performant backend systems, often involving distributed architectures, message queues, and advanced data modeling. Drives the selection and adoption of new backend technologies and best practices",
+              "Defines and enforces API architectural standards across multiple services, ensuring consistency, security, and extensibility. Leads the evolution of API strategies (e.g., API Gateway implementation, event-driven architectures)",
+              "Designs and optimizes complex CI/CD pipelines for automated deployment, blue/green deployments, and canary releases. Deep expertise in cloud infrastructure (e.g., Kubernetes, serverless architectures, infrastructure as code) and monitoring/observability strategies for production systems"
+            ],
+            "frontendDevelopment": [
+              "Architects and leads the development of large-scale, high-performance, and maintainable frontend applications, often involving design systems, micro-frontends, or complex data visualizations. Drives the technical vision and standards for frontend development across the organization",
+              "Acts as a subject matter expert in UX/UI, influencing product design and ensuring a consistent and innovative user experience across all applications",
+              "Designs, implements, and optimizes advanced frontend build systems and development workflows. Evaluates and introduces new tools and technologies to enhance developer productivity and application performance (e.g., WebAssembly, new rendering techniques). Establishes best practices for performance monitoring and optimization in production"
+            ],
+            "aiAutomation": [
+              "Architects and leads the strategy for incorporating advanced AI/ML capabilities, especially GenAI, into the core tooling platform. Drives the adoption of new AI technologies, establishes best practices for AI integration, and influences the overall product vision for AI-powered features",
+              "Defines and implements robust data governance and DevOps strategies for AI automation tooling, including versioning, lineage tracking, and ethical AI development",
+              "Acts as an expert in advanced prompt engineering techniques, leading the development of reusable prompt libraries, meta-prompting strategies, and techniques for self-correction in GenAI-powered tooling. Drives research and experimentation into novel prompting approaches",
+              "Designs and implements comprehensive evaluation frameworks for complex AI automation tooling, including human-in-the-loop validation, adversarial testing, and continuous monitoring for drift. Establishes metrics and processes for ensuring safety, fairness, and reliability of AI outputs at scale"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Team Leader with less than 3 employees as direct reports in area of accountability",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Fullstack",
+    "JG": "15",
+    "mission": "The mission of a Fullstack Software Engineer is to design, develop, and maintain complete software solutions, encompassing both the backend business logic and the frontend user experience. This professional is responsible for translating complex requirements into scalable architectures and efficient implementations, ensuring the correct integration of all application components. Through their versatility and knowledge of diverse technologies, the Fullstack Engineer delivers high-quality, functional, and intuitive digital products, driving innovation and value for the client.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team through comprehensive testing strategies, robust API design, and effective CI/CD pipeline improvements",
+            "Successfully investigate the root cause of observed problems (also beyond the scope of their responsibility) across the fullstack and contribute to fixing them",
+            "May supervise others or make decisions which impact the work assigned to individuals or phases of projects",
+            "Support less experienced colleagues to master technical challenges",
+            "Able to transfer own knowledge to support others working at a similar or junior level in the same skill to develop that skill"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization.",
+        "responsibilities": {
+          "general": [
+            "Properly communicate with internal stakeholders (e.g. POs, other teams) to justify own decisions, answer technical questions, resolve issues, or support acquisitions",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from other teams"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Modify - Difficult",
+        "description": "Identify problems and update or modify working methods in own role without the benefit of defined procedures",
+        "responsibilities": {
+          "general": [
+            "Select the appropriate algorithm/concept and develop it further to tackle a typical problem based on their solid knowledge in their respective fullstack field (e.g., optimizing API performance, designing a scalable frontend architecture, selecting appropriate database solutions)",
+            "Contribute to the implementation of new technical concepts within their team, driving best practices in fullstack development",
+            "Comes up with appropriate technical trade-offs fitting to given business goals",
+            "Apply established implementation strategies to successfully resolve typical problems",
+            "Contribute to a wider range of SW engineering tasks according to the V-Model, including detailed requirement engineering for tooling features, deriving a suitable architecture for new services, and actively participating in verification & validation"
+          ],
+          "expertiseSpecifics": {
+            "backendDevelopment": [
+              "Designs and develops complex backend services, including microservices, integrating with multiple data sources and third-party APIs. Implements robust business logic, error handling, and performance optimizations. Proficient in one or more backend languages/frameworks",
+              "Independently designs and implements well-documented, scalable, and secure RESTful or GraphQL APIs. Understands API versioning, authentication (e.g., OAuth, JWT), and authorization",
+              "Manages the deployment of backend services to production environments using established CI/CD pipelines. Familiar with containerization (e.g., Docker) and basic cloud services (e.g., AWS EC2, Lambda, Azure App Service)"
+            ],
+            "frontendDevelopment": [
+              "Independently develops complex, interactive, and performant user interfaces using a modern frontend framework/library (e.g., React, Angular, Vue.js). Implements state management, routing, and integrates with backend APIs. Writes maintainable and modular frontend code",
+              "Applies strong UX/UI principles to develop intuitive and accessible user interfaces. Collaborates with designers to ensure technical feasibility and optimal user experience",
+              "Configures and optimizes frontend build processes, including bundling, minification, and code splitting. Implements testing frameworks (e.g., Jest, React Testing Library) for unit and integration tests"
+            ],
+            "aiAutomation": [
+              "Designs and implements tooling features that leverage AI/ML for automation, code generation, data analysis, or intelligent assistance. Can select appropriate GenAI models or libraries based on use case and integrate them effectively",
+              "Develops pipelines for data collection, preprocessing, and management specifically for AI model consumption within tooling. Addresses data quality, privacy, and ethical considerations for AI inputs and outputs",
+              "Independently designs and optimizes complex prompt strategies, including chain-of-thought prompting, few-shot learning, and system message configurations, to achieve high-quality and consistent GenAI outputs for tooling",
+              "Implements automated testing and evaluation metrics for AI-driven tooling features. Can analyze model performance, identify biases, and propose improvements for model integration or prompt strategies"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - Fullstack",
+    "JG": "14",
+    "mission": "The mission of a Fullstack Software Engineer is to design, develop, and maintain complete software solutions, encompassing both the backend business logic and the frontend user experience. This professional is responsible for translating complex requirements into scalable architectures and efficient implementations, ensuring the correct integration of all application components. Through their versatility and knowledge of diverse technologies, the Fullstack Engineer delivers high-quality, functional, and intuitive digital products, driving innovation and value for the client.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Actively contribute to ensuring the quality of the deliverables of the team through testing and code reviews",
+            "Successfully investigate the root cause of observed problems (typically within or close to their own scope) related to tooling functionality, APIs, or deployment issues, and contribute to fixing them",
+            "Assist in a wider range of SW engineering tasks, such as gathering requirements for new tooling features, contributing to architectural discussions, and participating in verification and validation activities"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Properly communicate within their team (including team management such as PO) to justify own decisions, answer technical questions, resolve issues, and allow coordination of common tasks",
+            "Collaborate with team members to deliver feature increments",
+            "Align their contributions to a larger feature with colleagues from own or other teams"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Contribute to selection of algorithms/concepts to tackle a given problem (e.g. by conducting studies, gathering data) related to tooling development (frontend, backend, API design)",
+            "Contribute to the implementation of new technical concepts within their team",
+            "Apply established implementation strategies to successfully resolve typical problems within frontend, backend, or API development"
+          ],
+          "expertiseSpecifics": {
+            "backendDevelopment": [
+              "Implements basic CRUD (Create, Read, Update, Delete) operations and simple business logic for APIs. Can connect to and query existing databases (e.g., SQL, NoSQL). Familiar with core concepts of a chosen backend language/framework (e.g., Python/Django, Node.js/Express, Java/Spring Boot)",
+              "Understands the basic principles of RESTful APIs. Can implement defined API endpoints under guidance, including request/response structures",
+              "Can assist in deploying backend services to development or staging environments, following established procedures"
+            ],
+            "frontendDevelopment": [
+              "Implements user interfaces from designs using HTML, CSS, and basic JavaScript. Can work with components of an existing frontend framework/library (e.g., React, Angular, Vue.js). Understands responsive design principles",
+              "Possesses a basic understanding of user experience principles and can translate visual designs into functional web pages",
+              "Can use basic frontend build tools (e.g., npm, webpack) to run development servers and build projects"
+            ],
+            "aiAutomation": [
+              "Understands basic concepts of AI/ML models and their applications. Can integrate existing AI/ML APIs (e.g., OpenAI, Hugging Face) into tooling under guidance to perform simple tasks like text generation or summarization",
+              "Can assist in preparing and formatting data for input into AI models used by tooling. Understands basic data privacy and security considerations related to AI inputs",
+              "Can formulate clear and concise prompts for existing GenAI models to achieve specific, well-defined outcomes within tooling features. Understands basic prompt tuning for desired outputs",
+              "Performs basic testing and verification of AI model outputs within tooling features to ensure they meet initial requirements. Can identify obvious failures or inaccuracies in generated content"
+            ]
+          }
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Global",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employees with specialized training/qualification",
+          "Individual contributor without disciplinary leadership and technical guidance",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Quality",
+    "JG": "16",
+    "mission": "The mission of the Software Quality Engineer is to promote and ensure the excellence and robustness of our software products by implementing and monitoring quality processes and metrics throughout the entire development lifecycle. This professional is responsible for defining quality strategies, identifying potential flaws, and working proactively with development teams to optimize development, testing, and deployment standards. Through their knowledge, the Software Quality Engineer minimizes risks, increases reliability, and ensures that the software meets or exceeds customer expectations and industry standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Direct",
+        "description": "Set objectives and deliver results that have direct impact on the achievement of results within the job area",
+        "responsibilities": {
+          "general": [
+            "Support the Project Manager in creating a viable and realistic project-level quality plan",
+            "Collaborate with the project team to define a clear strategy to achieve product quality",
+            "Conduct independent and objective evaluations of the product's maturity in terms of both features (content) and development processes",
+            "Act as a key stakeholder in the release process for all deliverables (e.g., software releases, samples, final product)",
+            "Assess the maturity and quality of samples to ensure they are fit for their intended use (e.g., function, safety)",
+            "Act as a key stakeholder in the release process for all deliverables (e.g., software releases, samples, final product)",
+            "Exercise the authority to veto a product release or delivery if quality standards are not met",
+            "Organize, lead, or participate in technical reviews and conduct spot checks to verify quality"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Make the current quality status transparent to the team and stakeholders",
+            "Support the team in applying best-practice engineering methods and principles",
+            "Monitor the team's adherence to the official Product Development Code",
+            "Act as an integrated member of the project team, providing orientation and direction on all quality-related topics",
+            "Identify and communicate potential barriers and risks to achieving quality objectives",
+            "Support the Project Manager in customer communications regarding product quality",
+            "Explain quality risks to the customer, especially when late changes are requested, to maintain transparency and manage expectations"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check/ Modify - Defined/ Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Check the plausibility of all mandated and derived requirements, especially those related to Safety, Privacy, and Security",
+            "Ensure that compliance requirements are fully implemented in the product's development",
+            "Examine cause-effect relationships to ensure a deep understanding of the system",
+            "Assess the maturity and quality of samples to ensure they are fit for their intended use (e.g., function, safety)",
+            "Conduct independent and objective evaluations of the product's maturity in terms of both features (content) and development processes",
+            "Act as an integrated member of the project team, providing orientation and direction on all quality-related topics",
+            "Define and track corrective measures to close any identified gaps in quality"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Leader | Regional",
+        "description": "Lead a team through application of broad knowledge of one job area or basic knowledge of several related job areas",
+        "requirements": [
+          "Specialist employees with professional training and several years of professional experience",
+          "University Degree, minimal work Experience 3,5 years or advanced degree",
+          "Coordinate a team through application of broad knowledge of one job area or basic knowledge of several related job areas",
+          "Working in country or neighboring countries with similar cultures (e.g Singapore and Malaysia, Germany and Austria)"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Quality",
+    "JG": "15",
+    "mission": "The mission of the Software Quality Engineer is to promote and ensure the excellence and robustness of our software products by implementing and monitoring quality processes and metrics throughout the entire development lifecycle. This professional is responsible for defining quality strategies, identifying potential flaws, and working proactively with development teams to optimize development, testing, and deployment standards. Through their knowledge, the Software Quality Engineer minimizes risks, increases reliability, and ensures that the software meets or exceeds customer expectations and industry standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Support the Project Manager in creating a viable and realistic project-level quality plan",
+            "Collaborate with the project team to define a clear strategy to achieve product quality",
+            "Conduct independent and objective evaluations of the product's maturity in terms of both features (content) and development processes",
+            "Act as a key stakeholder in the release process for all deliverables (e.g., software releases, samples, final product)",
+            "Assess the maturity and quality of samples to ensure they are fit for their intended use (e.g., function, safety)",
+            "Act as a key stakeholder in the release process for all deliverables (e.g., software releases, samples, final product)",
+            "Exercise the authority to veto a product release or delivery if quality standards are not met",
+            "Organize, lead, or participate in technical reviews and conduct spot checks to verify quality"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Influence - Internal Shared",
+        "description": "Convince others within the organization where strong interest exist to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Make the current quality status transparent to the team and stakeholders",
+            "Support the team in applying best-practice engineering methods and principles",
+            "Monitor the team's adherence to the official Product Development Code",
+            "Act as an integrated member of the project team, providing orientation and direction on all quality-related topics",
+            "Identify and communicate potential barriers and risks to achieving quality objectives",
+            "Support the Project Manager in customer communications regarding product quality"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/ Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Check the plausibility of all mandated and derived requirements, especially those related to Safety, Privacy, and Security",
+            "Ensure that compliance requirements are fully implemented in the product's development",
+            "Examine cause-effect relationships to ensure a deep understanding of the system",
+            "Assess the maturity and quality of samples to ensure they are fit for their intended use (e.g., function, safety)",
+            "Conduct independent and objective evaluations of the product's maturity in terms of both features (content) and development processes",
+            "Act as an integrated member of the project team, providing orientation and direction on all quality-related topics",
+            "Define and track corrective measures to close any identified gaps in quality"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Regional",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employees with professional training and several years of professional experience",
+          "University Degree, minimal work Experience 3,5 years or advanced degree",
+          "Individual contributor, no direct responsibility for leading others",
+          "Working in country or neighboring countries with similar cultures (e.g Singapore and Malaysia, Germany and Austria)"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L1 - Quality",
+    "JG": "14",
+    "mission": "The mission of the Software Quality Engineer is to promote and ensure the excellence and robustness of our software products by implementing and monitoring quality processes and metrics throughout the entire development lifecycle. This professional is responsible for defining quality strategies, identifying potential flaws, and working proactively with development teams to optimize development, testing, and deployment standards. Through their knowledge, the Software Quality Engineer minimizes risks, increases reliability, and ensures that the software meets or exceeds customer expectations and industry standards.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Limited/Some",
+        "description": "Deliver own output by following defined procedures/ processes under close supervision and guidance",
+        "responsibilities": {
+          "general": [
+            "Support the Project Manager in creating a viable and realistic project-level quality plan",
+            "Collaborate with the project team to define a clear strategy to achieve product quality",
+            "Conduct independent and objective evaluations of the product's maturity in terms of both features (content) and development processes"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange/ Influence - Internal Shared",
+        "description": "Explain facts, practices, policies etc. to others within the organization",
+        "responsibilities": {
+          "general": [
+            "Make the current quality status transparent to the team and internal stakeholders",
+            "Support the team in applying best-practice engineering methods and principles",
+            "Monitor the team's adherence to the official Product Development Code"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Defined/ Difficult",
+        "description": "Check problems in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Ensure that compliance requirements are fully implemented in the product's development",
+            "Examine cause-effect relationships to ensure a deep understanding of the system",
+            "Assess the maturity and quality of samples to ensure they are fit for their intended use (e.g., function, safety)"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Basic Job Knowledge - Team Member | Regional",
+        "description": "Apply basic knowledge of practices and procedures for one's own position",
+        "requirements": [
+          "Skilled employees with specialized training/qualification",
+          "Individual contributor, no direct responsibility for leading others",
+          "Working in country or neighboring countries with similar cultures (e.g Singapore and Malaysia, Germany and Austria)"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L3 - Technical Product Owner",
+    "JG": "16",
+    "mission": "The mission of the Software Technical Product Owner is to act as the strategic bridge between business needs, product vision, and the software development team, ensuring that the delivered technical solutions maximize customer value and align with organizational objectives. This professional is responsible for defining, communicating, and prioritizing the product backlog based on a deep technical and market understanding, translating complex requirements into clear user stories and technical specifications. Through their leadership and collaboration, the Technical Product Owner drives the effectiveness of the software development process, ensures its technical feasibility and scalability, and guarantees the continuous delivery of high-quality products.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Direct",
+        "description": "Set objectives and deliver results that have direct impact on the achievement of results within the job area",
+        "responsibilities": {
+          "general": [
+            "Develops and communicates major product characteristics",
+            "Maintains and updates the team backlog according to the priority of Product backlog",
+            "Contributes in program backlog refinement",
+            "Creates stories according to the product backlog and product requirements",
+            "Responsible for the artefact of acceptance criteria and ensures customer perceived quality",
+            "Defines and tracks key product metrics and KPIs to measure success and identify areas for improvement",
+            "Defines and influences resource allocation and planning across multiple teams or product areas, considering long-term strategic objectives",
+            "Provides comprehensive feedback on performance and supports the Engineering Managers with career development for Product Owners and other team members, including succession planning",
+            "Is accountable for the overall success and profitability of the product or product portfolio"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Influence - External Shared",
+        "description": "Convince external parties that have a desire to reach agreement to accept new concepts, practices and approaches",
+        "responsibilities": {
+          "general": [
+            "Close cooperation and synchronization with other project stakeholders (SW Architects, Product Area managers, BU Board members, Facilitators/Agile Masters, Engineering Managers, Products Owners, Product managers)",
+            "Manage external stakeholders relevant for the project (e.g customers, program managers)",
+            "Drives the team's understanding of the End User /Customer (e.g. clarifies the backlog items from End User's perspective)",
+            "Establishes and champions communication strategies that ensure transparency and alignment across all levels of the organization regarding product development",
+            "Mentors and coaches other Product Owners, fostering a culture of continuous improvement and best practices",
+            "Represents the product organization in cross-functional leadership meetings",
+            "Clearly articulates the business value and ROI of product initiatives to senior leadership and external stakeholders"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Complex",
+        "description": "Set objectives and deliver results that have direct impact on the achievement of results within the job area",
+        "responsibilities": {
+          "general": [
+            "Reviews and contributes to the Product Field vision, roadmap and content presentation",
+            "Alignment on product strategy for a significant product area or multiple products, aligning it with business objectives and market needs",
+            "Acts as a key influencer in shaping the overall product portfolio",
+            "Drives and sponsors initiatives to strengthen skill excellence across the organization, leading communities of practice and advocating for new tools and methodologies",
+            "Identifies and champions opportunities for incremental value delivery"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member/Team Leader | Global",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Team Leader with less than 3 employees as direct reports in area of accountability",
+          "Can contact and apply knowledge with all regions of the world"
+        ]
+      }
+    }
+  },
+  {
+    "jobTitle": "SW Engineer L2 - Technical Product Owner",
+    "JG": "15",
+    "mission": "The mission of the Software Technical Product Owner is to act as the strategic bridge between business needs, product vision, and the software development team, ensuring that the delivered technical solutions maximize customer value and align with organizational objectives. This professional is responsible for defining, communicating, and prioritizing the product backlog based on a deep technical and market understanding, translating complex requirements into clear user stories and technical specifications. Through their leadership and collaboration, the Technical Product Owner drives the effectiveness of the software development process, ensures its technical feasibility and scalability, and guarantees the continuous delivery of high-quality products.",
+    "jobDescriptionAnalysis": {
+      "impact": {
+        "level": "Operational - Some",
+        "description": "Set and achieve day-to-day objectives that have some impact on others within the job area",
+        "responsibilities": {
+          "general": [
+            "Develops and communicates major product characteristics",
+            "Maintains and updates the team backlog according to the priority of Product backlog",
+            "Creates stories according to the product backlog and product requirements",
+            "Responsible for the artefact of acceptance criteria and ensures customer perceived quality",
+            "Resource Planning (short, mid and long term) for the assigned team, identifying skill gaps and proposing solutions",
+            "Feedback on performance and personal development for assigned associates, providing clear goals and opportunities for growth",
+            "Conducts regular 1:1s and performance reviews",
+            "Proactively identifies and resolves impediments for the team, escalating when necessary",
+            "Monitors key metrics related to product usage, performance, and customer satisfaction",
+            "Ensures that the team's work aligns with the overall business strategy and objectives",
+            "Understands the business impact of team deliverables and prioritizes work based on value"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "communication": {
+        "level": "Adapt and Exchange - External Shared",
+        "description": "Explain facts, practices, policies, etc. to external parties",
+        "responsibilities": {
+          "general": [
+            "Close cooperation and synchronization with other project stakeholders (SW Architects, Facilitators/Agile Masters, Engineering Managers, Products Owners, Product managers)",
+            "Drives the team's understanding of the End User /Customer (e.g. clarifies the backlog items from End User's perspective)",
+            "Participates/promoted in team demos and retrospectives",
+            "Facilitates effective communication and collaboration within the development team and with other internal stakeholders",
+            "Champions Agile principles and practices within the team"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "innovation": {
+        "level": "Check - Difficult/Complex",
+        "description": "Check and correct problems that are not immediately evident in existing systems or processes",
+        "responsibilities": {
+          "general": [
+            "Supports creation of the Product Field vision, roadmap and content presentation",
+            "Deploys product strategy, ensuring the team's work contributes directly to overall product goals",
+            "Facilitates discussions and decision-making within the team regarding product direction",
+            "Support and enabling of activities to strengthen skill excellence (e.g. spearing capacity in Solution & Product Fields) by organizing workshops, sharing best practices, and encouraging continuous learning"
+          ],
+          "expertiseSpecifics": {}
+        }
+      },
+      "knowledge": {
+        "level": "Broad Job Knowledge - Team Member | Regional",
+        "description": "Apply broad knowledge of one professional discipline or advanced knowledge of specific technical/operational practices",
+        "requirements": [
+          "Specialist employee with professional training and several years of professional experience (if necessary experience including additional training)",
+          "University degree, but minimal work experience (3.5 some years of work experience or advanced degree)",
+          "Individual contributor without disciplinary Leadership and technical guidance",
+          "Required geographical breath in which the knowledge is Continental region (e.g. Europe, Asia, MEA, LATAM)"
+        ]
+      }
+    }
+  }
+]
