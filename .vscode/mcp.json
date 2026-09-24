@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "axon": {
+      "url": "https://platform.bosch-context.com/api/v1/rt/ws/f5uy6rv6l50polntb8gnkk2z/mcp",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer ${AXON_WORKSPACE_TOKEN}"
+      }
+    }
+  }
+}

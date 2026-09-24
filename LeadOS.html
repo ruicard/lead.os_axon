@@ -97,8 +97,8 @@
 .card h2{margin:0 0 4px;font-size:16px}.hint{margin:0 0 12px;color:var(--muted);font-size:12.5px}
 .strengths{--accent:var(--green);--tint:var(--green2);grid-column:span 6}
 .aspiration{--accent:var(--blue);--tint:var(--blue2);grid-column:span 6}
-.skills{--accent:var(--violet);--tint:var(--violet2);grid-column:span 6}
-.exposure{--accent:var(--amber);--tint:var(--amber2);grid-column:span 6}
+.skills-exposure{--accent:var(--violet);--tint:var(--violet2);grid-column:span 12}
+.skills-exposure-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .growth{--accent:var(--red);--tint:#fdeceb;grid-column:span 12}
 .perf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
 .perf-item{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
@@ -144,7 +144,7 @@
 .learning-icon{flex-shrink:0;color:var(--amber);font-weight:800}
 .toolkit-add-btn{border:1px dashed var(--blue);color:var(--blue);background:transparent;border-radius:8px;padding:6px 10px;cursor:pointer;font-weight:700;font-size:12px;width:100%;margin-top:8px}
 @media(max-width:900px){.toolkit-grid{grid-template-columns:1fr}}
-@media(max-width:820px){.identity{grid-template-columns:1fr}.grid{display:block}.card{margin-bottom:14px}.perf-grid{grid-template-columns:1fr}.perf-item:nth-child(5){grid-column:auto}.sbi-grid{grid-template-columns:1fr}.action-row{grid-template-columns:1fr auto}.action-row input:first-child{grid-column:1/-1}.canvas{padding:18px}.app-shell{flex-direction:column}.sidebar{position:static;width:100%;height:auto;flex-direction:row;flex-wrap:wrap;box-shadow:none}.sidebar-top{width:100%}.sidebar-section-label{width:100%}.tabbar-list{flex-direction:row;flex-wrap:wrap;width:100%}.sidebar-divider{width:100%}.canvas-wrap{padding:16px}.zone-sub{display:none}}
+@media(max-width:820px){.identity{grid-template-columns:1fr}.grid{display:block}.card{margin-bottom:14px}.skills-exposure-grid{grid-template-columns:1fr}.perf-grid{grid-template-columns:1fr}.perf-item:nth-child(5){grid-column:auto}.sbi-grid{grid-template-columns:1fr}.action-row{grid-template-columns:1fr auto}.action-row input:first-child{grid-column:1/-1}.canvas{padding:18px}.app-shell{flex-direction:column}.sidebar{position:static;width:100%;height:auto;flex-direction:row;flex-wrap:wrap;box-shadow:none}.sidebar-top{width:100%}.sidebar-section-label{width:100%}.tabbar-list{flex-direction:row;flex-wrap:wrap;width:100%}.sidebar-divider{width:100%}.canvas-wrap{padding:16px}.zone-sub{display:none}}
 @media print{@page{size:A3 landscape;margin:8mm}body{background:white;font-size:11px}.topbar,.sidebar,.accent-stripe{display:none}.canvas-wrap{padding:0}.canvas{width:100%;margin:0;padding:10px;box-shadow:none;border-radius:0}.hero h1{font-size:24px}.identity{margin:8px 0;gap:8px}.grid{gap:8px}.card{padding:10px;border-radius:9px}.card h2{font-size:13px}.hint{font-size:10px;margin-bottom:6px}textarea{min-height:55px}.field input,.field textarea,.field select{padding:6px}.action-row input{padding:5px}.add,.icon-btn{display:none}.footer-note{margin-top:8px}.canvas{-webkit-print-color-adjust:exact;print-color-adjust:exact}.zone{box-shadow:none;border-radius:6px;margin:12px 0}.zone-header{padding:8px 10px}.zone-body{display:block !important;padding:10px}.zone-chevron{display:none}}
 </style>
 </head>
@@ -212,8 +212,13 @@
   <section class="grid">
   <div class="card strengths"><h2>Self-Driving Strengths / Motivation</h2><p class="hint">What energizes this person and where do they naturally excel?</p><div class="field"><textarea data-key="cd-strengths" placeholder="Intrinsic strengths, motivators, distinctive contribution..."></textarea></div></div>
   <div class="card aspiration"><h2>Career Aspiration (3yrs)</h2><p class="hint">Where would they like to be in 3 years?</p><div class="field"><textarea data-key="cd-aspiration" placeholder="Desired role, impact, direction..."></textarea></div></div>
-  <div class="card skills"><h2>Skills Needed</h2><p class="hint">Which skills or capabilities are required to get there?</p><div class="field"><textarea data-key="cd-skills" placeholder="Technical, leadership, soft skills..."></textarea></div></div>
-  <div class="card exposure"><h2>Exposure / Network</h2><p class="hint">Mentors, stakeholders, communities that can support growth.</p><div class="field"><textarea data-key="cd-exposure" placeholder="Who can this person learn from or connect with?"></textarea></div></div>
+  <div class="card skills-exposure"><h2>Skills Needed & Exposure / Network</h2><p class="hint">Which skills or capabilities are required, and who can support that growth?</p>
+    <div class="skills-exposure-grid">
+      <div class="field"><label>Skills Needed</label><textarea data-key="cd-skills" placeholder="Technical, leadership, soft skills..."></textarea></div>
+      <div class="field"><label>Exposure / Network</label><textarea data-key="cd-exposure" placeholder="Who can this person learn from or connect with?"></textarea></div>
+    </div>
+    <button class="ai-field-action" type="button" id="skillsAdviceBtn" onclick="getSkillsAdvice(this)">Get AI Advise</button><div class="ai-assessment-result" id="skillsAdviceResult" style="display:none"></div>
+  </div>
   <div class="card growth">
     <h2>Priority Growth Area (next 12 months)</h2>
     <p class="hint">Define the one capability to focus on, then break it into owned, dated action items.</p>
@@ -387,17 +392,13 @@ async function loadPerformanceExpectations(){
 }
 loadPerformanceExpectations();
 
-async function callLLM(userPrompt){
+async function callRelay(body){
   let response;
   try{
     response=await fetch(LLM_RELAY_URL,{
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({
-        messages:[{role:'user',content:userPrompt}],
-        max_completion_tokens:4000,
-        reasoning_effort:'low'
-      })
+      body:JSON.stringify(body)
     });
   }catch(error){
     throw new Error(`Cannot reach the local LLM relay at ${LLM_RELAY_URL}. Start relay.py first. ${error.message}`);
@@ -417,36 +418,33 @@ async function callLLM(userPrompt){
   return content;
 }
 
-
-function buildTextProcessingPrompt(fieldLabel,text){
-  const role=document.querySelector('[data-key="id-role"]').value.trim()||'the selected role';
-  const name=document.querySelector('[data-key="id-name"]').value.trim()||'the associate';
-  return `You are helping a manager write concise, professional career development notes for ${name}, role: ${role}.
-
-Field: ${fieldLabel}
-
-Current text:
-"""
-${text}
-"""
-
-Rewrite the text to be clearer, more specific, and suitable for an internal career development discussion. Preserve the original meaning and do not invent facts. Return only the revised text.`;
+async function callAssessment(role,notes){
+  return callRelay({role,notes});
 }
 
-async function processTextField(dataKey,fieldLabel,button){
-  const field=document.querySelector(`[data-key="${dataKey}"]`);
-  const original=(field?.value||'').trim();
-  if(!field||!original){flash('Add some text before using AI');return}
+function buildCareerAdviceNotes(aspiration,strengths){
+  return `Career management request: provide career development advice, not a performance evaluation.\n\nSelf-driving strengths / motivation:\n${strengths||'Not specified yet.'}\n\nCurrent vision and 3-year aspiration:\n${aspiration||'Not specified yet.'}`;
+}
+
+async function getSkillsAdvice(button){
+  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  if(!role){flash('Select the associate\'s role before requesting AI advice');return}
+  const aspiration=document.querySelector('[data-key="cd-aspiration"]').value.trim();
+  const strengths=document.querySelector('[data-key="cd-strengths"]').value.trim();
+  const resultEl=document.getElementById('skillsAdviceResult');
   const buttonText=button.textContent;
-  button.textContent='Processing...';
+  button.textContent='Thinking...';
   button.disabled=true;
   try{
-    const result=await callLLM(buildTextProcessingPrompt(fieldLabel,original));
-    if(result){
-      field.value=result;
-      field.dispatchEvent(new Event('input',{bubbles:true}));
-      flash('AI text updated');
+    const raw=await callAssessment(role,buildCareerAdviceNotes(aspiration,strengths));
+    try{
+      const {comment,improvementPoints}=parseAIAssessment(raw);
+      resultEl.textContent=formatAIAssessmentResult(comment,improvementPoints);
+    }catch(parseError){
+      console.warn('Could not parse structured AI response, showing raw text.',parseError);
+      resultEl.textContent=raw;
     }
+    resultEl.style.display='block';
   }catch(error){
     console.error(error);
     flash(`LLM error: ${error.message}`);
@@ -454,34 +452,6 @@ async function processTextField(dataKey,fieldLabel,button){
     button.textContent=buttonText;
     button.disabled=false;
   }
-}
-
-function addTextProcessingButton(dataKey,fieldLabel){
-  const field=document.querySelector(`[data-key="${dataKey}"]`);
-  if(!field||field.parentElement.querySelector(`[data-ai-for="${dataKey}"]`))return;
-  const button=document.createElement('button');
-  button.type='button';
-  button.className='ai-field-action';
-  button.dataset.aiFor=dataKey;
-  button.textContent='Improve text with AI';
-  button.addEventListener('click',()=>processTextField(dataKey,fieldLabel,button));
-  field.insertAdjacentElement('afterend',button);
-}
-
-function installTextProcessingButtons(){
-  [
-    ['cd-strengths','Self-driving strengths / motivation'],
-    ['cd-aspiration','Career aspiration'],
-    ['cd-skills','Skills needed'],
-    ['cd-exposure','Exposure / network'],
-    ['cd-growth','Priority growth area'],
-    ['notebook-notes','Individual remarks'],
-    ['fb-positive','Positive points'],
-    ['fb-improvement','Improvement points'],
-    ['sbi-situation','SBI situation'],
-    ['sbi-behavior','SBI behaviour'],
-    ['sbi-impact','SBI impact']
-  ].forEach(([key,label])=>addTextProcessingButton(key,label));
 }
 
 const PERF_FIELDS=[
@@ -501,7 +471,6 @@ PERF_FIELDS.forEach(f=>{
   perfGrid.appendChild(div);
 });
 document.querySelectorAll('.rating label').forEach(l=>{const i=l.querySelector('input');l.textContent='';l.appendChild(i);const s=document.createElement('span');s.textContent=i.value;l.appendChild(s)});
-installTextProcessingButtons();
 PERF_FIELDS.forEach(addAIAssessmentButton);
 
 function formatPerformanceExpectation(expectation){
@@ -538,65 +507,22 @@ function refreshPerformanceExpectations(){
   setTimeout(updatePerformanceExpectations,0);
 }
 
-function buildAIAssessmentPrompt(fieldLabel,expectation,observation,fullDataset){
-  return `You are an AI assistant supporting engineering managers in preparing fair, consistent, 
-  evidence-based performance assessment proposals for associates for the criterion "${fieldLabel}".
-
-Role-based expectation:
-"""
-${expectation}
-"""
-
-Observed fulfillment (manager's notes):
-"""
-${observation}
-"""
-
-All associates currently loaded, for calibration reference only (do not evaluate them, only use them to keep standards consistent):
-"""
-${fullDataset}
-"""
-
-Compare the observation against the expectation. Respond with ONLY a JSON object (no markdown fences, no extra text) in this exact shape:
-{"comment": "2-4 sentences: what matches the expectation and what seems missing or unclear", "suggestedLevel": <integer 1-5, where 1=far below expectation and enhancement required, 2=good and meets expectation in an essential manner 
-3=meets expectation or slightly exceeding, 4=significantly above expectations, 5=outstanding and exemplary performance>}
-
-Use only the information explicitly provided or available in the approved reference material. Never invent facts, examples, stakeholder feedback, results, or behaviours.
-
-Every conclusion must be connected to concrete evidence from the manager’s input.
-Distinguish clearly between:
-- Fact: a verifiable result, event, deliverable, or observed behaviour
-- Manager observation: a professional judgement reported by the manager
-- Interpretation: your analysis of how the evidence relates to an expectation
-- Missing information: information required to reach a reliable conclusion
-Do not present an interpretation as a fact.
-
-Use the same interpretation standards across associates with comparable roles and levels.
-
-Do not make assumptions based on personal or sensitive characteristics, including age, gender, nationality, ethnicity, religion, disability, health, family status, sexual orientation, political views, or other protected or irrelevant characteristics.
-Do not infer motivation, attitude, commitment, competence, or personality without supporting evidence.
-
-Avoid subjective labels such as:
-- Difficult
-- Not leadership material
-- Too quiet
-- Aggressive
-- Negative
-- Not committed
-- Lacks presence
-- Poor cultural fit
-
-If such language appears in the manager input, ask for observable behaviours, concrete examples, context, frequency, and impact.
-`;
-
+function buildAIAssessmentNotes(fieldLabel,observation){
+  return `Evaluate the performance for the following criterion: ${fieldLabel}\n with the following observation:\n${observation}`;
 }
 
 function parseAIAssessment(raw){
   const cleaned=raw.trim().replace(/^```(json)?/i,'').replace(/```$/,'').trim();
-  const data=JSON.parse(cleaned);
+  const jsonText=cleaned.startsWith('{')?cleaned:(cleaned.match(/\{[\s\S]*\}/)||[])[0];
+  if(!jsonText)throw new Error('Response was not JSON');
+  const data=JSON.parse(jsonText);
   const level=Number(data.suggestedLevel);
   if(!data.comment||!Number.isInteger(level)||level<1||level>5)throw new Error('Unexpected AI response shape');
-  return {comment:data.comment,level};
+  return {comment:data.comment,improvementPoints:data.improvementPoints||'',level};
+}
+
+function formatAIAssessmentResult(comment,improvementPoints){
+  return `Comment:\n${comment}${improvementPoints?`\n\nImprovement Points:\n${improvementPoints}`:''}`;
 }
 
 function markAISuggestedLevel(fieldKey,level){
@@ -608,27 +534,62 @@ function markAISuggestedLevel(fieldKey,level){
 function clearAIAssessments(){
   document.querySelectorAll('.rating label.ai-suggested').forEach(l=>l.classList.remove('ai-suggested'));
   document.querySelectorAll('.ai-assessment-result').forEach(el=>{el.style.display='none';el.textContent=''});
+  document.querySelectorAll('[data-add-to-obs-for]').forEach(btn=>btn.style.display='none');
+  document.querySelectorAll('[data-copy-ai-for]').forEach(btn=>btn.style.display='none');
+}
+
+function addAIResultToObservations(field){
+  const notesEl=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
+  if(!notesEl||!resultEl)return;
+  const feedback=resultEl.textContent.trim();
+  if(!feedback)return;
+  const separator='----------AI Generated--------';
+  notesEl.value=`${separator}\n${feedback}`;
+  autoSave();
+  flash('Observations replaced');
+}
+
+async function copyAIResult(field){
+  const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
+  const feedback=resultEl?.textContent.trim();
+  if(!feedback)return;
+  try{
+    await navigator.clipboard.writeText(feedback);
+    flash('Copied to clipboard');
+  }catch(error){
+    console.error(error);
+    flash('Could not copy to clipboard');
+  }
 }
 
 async function runAIAssessment(field,button){
-  const expectationEl=document.querySelector(`[data-key="perf-${field.key}-expectation"]`);
   const notesEl=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
   const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
-  const expectation=(expectationEl?.value||'').trim();
   const observation=(notesEl?.value||'').trim();
   if(!observation){flash('Add an observation before running AI Assessment');return}
-  if(!expectation){flash('Select a role to load the expectation first');return}
+  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  if(!role){flash('Select the associate\'s role before running AI Assessment');return}
   const buttonText=button.textContent;
   button.textContent='Assessing...';
   button.disabled=true;
   try{
-    const fullDataset=JSON.stringify(buildExportPayload(),null,2);
-    const raw=await callLLM(buildAIAssessmentPrompt(field.label,expectation,observation,fullDataset));
-    const {comment,level}=parseAIAssessment(raw);
-    resultEl.textContent=comment;
+    const raw=await callAssessment(role,buildAIAssessmentNotes(field.label,observation));
+    try{
+      const {comment,improvementPoints,level}=parseAIAssessment(raw);
+      resultEl.textContent=formatAIAssessmentResult(comment,improvementPoints);
+      markAISuggestedLevel(field.key,level);
+      flash('AI assessment added');
+    }catch(parseError){
+      console.warn('Could not parse structured AI response, showing raw text.',parseError);
+      resultEl.textContent=raw;
+      flash('AI response shown as-is (unexpected format)');
+    }
     resultEl.style.display='block';
-    markAISuggestedLevel(field.key,level);
-    flash('AI assessment added');
+    const addToObsBtn=document.querySelector(`[data-add-to-obs-for="${field.key}"]`);
+    if(addToObsBtn)addToObsBtn.style.display='';
+    const copyBtn=document.querySelector(`[data-copy-ai-for="${field.key}"]`);
+    if(copyBtn)copyBtn.style.display='';
   }catch(error){
     console.error(error);
     flash(`LLM error: ${error.message}`);
@@ -653,6 +614,22 @@ function addAIAssessmentButton(field){
   result.id=`perf-${field.key}-ai-result`;
   result.style.display='none';
   button.insertAdjacentElement('afterend',result);
+  const addToObsBtn=document.createElement('button');
+  addToObsBtn.type='button';
+  addToObsBtn.className='ai-field-action';
+  addToObsBtn.dataset.addToObsFor=field.key;
+  addToObsBtn.textContent='Replace Observations';
+  addToObsBtn.style.display='none';
+  addToObsBtn.addEventListener('click',()=>addAIResultToObservations(field));
+  result.insertAdjacentElement('afterend',addToObsBtn);
+  const copyBtn=document.createElement('button');
+  copyBtn.type='button';
+  copyBtn.className='ai-field-action';
+  copyBtn.dataset.copyAiFor=field.key;
+  copyBtn.textContent='Copy';
+  copyBtn.style.display='none';
+  copyBtn.addEventListener('click',()=>copyAIResult(field));
+  addToObsBtn.insertAdjacentElement('afterend',copyBtn);
 }
 
 const growthBox=document.getElementById('growthActions');
@@ -911,8 +888,8 @@ function buildExportPayload(){
   return all;
 }
 function suggestedFileName(payload){
-  const name=(payload.records[state.activeId]?.fields?.['id-name']||'career-development').trim().replace(/[^a-z0-9]+/gi,'-').toLowerCase();
-  return `leados-career-development-${name||'all'}.json`;
+  const count=Object.keys(payload.records||{}).length;
+  return `leados-career-development-${count}-associates.json`;
 }
 async function loadStateFromFileText(text){
   const data=JSON.parse(text);
