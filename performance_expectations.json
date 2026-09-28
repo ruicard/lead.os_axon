@@ -1171,5 +1171,2144 @@
                                         ]
                             }
                   }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Developer",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for design robustness, verification coverage, documentation accuracy, and compliance with standards, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for hardware architects, software engineers, test engineers, and suppliers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - Developer",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers circuit design, verification, and technical documentation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves design robustness, verification coverage, documentation accuracy, and compliance with standards with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving hardware development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with hardware architects, software engineers, test engineers, and suppliers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L1 - Developer",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined hardware development tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve design robustness, verification coverage, documentation accuracy, and compliance with standards.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about hardware development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with hardware architects, software engineers, test engineers, and suppliers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Architecture",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware and firmware architecture work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for architectural scalability, technical feasibility, security, and long-term robustness, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for hardware designers, software architects, product management, and technology stakeholders, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Reliability",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware reliability engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for design engineers, validation teams, quality engineers, and component specialists, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - Reliability",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers reliability targets, stress models, and failure mechanism analyses reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving hardware reliability engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with design engineers, validation teams, quality engineers, and component specialists, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Safety",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex functional safety engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for ISO 26262 compliance, safety concept robustness, HW/SW interface integrity, and risk mitigation effectiveness, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for safety managers, system architects, software engineers, and component specialists, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - PCB layout design",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex PCB layout design work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for layout manufacturability, EMC compliance, signal integrity, and production readiness, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for schematic designers, mechanical engineers, manufacturing engineers, and test engineers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - PCB layout design",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers PCB layouts, EMC compliance checks, and manufacturability reviews reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves layout manufacturability, EMC compliance, signal integrity, and production readiness with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving PCB layout design practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with schematic designers, mechanical engineers, manufacturing engineers, and test engineers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L1 - PCB layout design",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined PCB layout design tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve layout manufacturability, EMC compliance, signal integrity, and production readiness.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about PCB layout design, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with schematic designers, mechanical engineers, manufacturing engineers, and test engineers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - PM / PO",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for clients, suppliers, hardware engineers, and cross-functional project teams, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - PM / PO",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers project plans, stakeholder alignment, supplier coordination, and delivery tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving hardware project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with clients, suppliers, hardware engineers, and cross-functional project teams, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Applied Engineering",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex applied hardware engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for manufacturability, standards compliance, lifetime reliability, and cost optimization, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for system engineering, manufacturing, purchasing, suppliers, and project management, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - Applied Engineering",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers design validation, industrialization support, and technical problem resolution reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves manufacturability, standards compliance, lifetime reliability, and cost optimization with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving applied hardware engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with system engineering, manufacturing, purchasing, suppliers, and project management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Component Manager",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware component lifecycle management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for component availability, lifecycle risk mitigation, technical decision quality, and supplier alignment, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for hardware development, architecture teams, and suppliers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - Component Manager",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers PCN/PTN impact assessments, mitigation options, and component risk tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves component availability, lifecycle risk mitigation, technical decision quality, and supplier alignment with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving hardware component lifecycle management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with hardware development, architecture teams, and suppliers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L3 - Testing/V\u0026V",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex production test engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for test coverage, defect escape prevention, cycle time robustness, and launch readiness, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for HW, SW, production, and quality management stakeholders, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L2 - Testing/V\u0026V",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers test specifications, DFT input, and end-of-line test validation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves test coverage, defect escape prevention, cycle time robustness, and launch readiness with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving production test engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with HW, SW, production, and quality management stakeholders, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "HW Engineer L1 - Testing/V\u0026V",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined production test engineering tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve test coverage, defect escape prevention, cycle time robustness, and launch readiness.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about production test engineering, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with HW, SW, production, and quality management stakeholders, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - Developer",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex mechanical development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for design robustness, manufacturability, tolerance accuracy, and documentation quality, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for mechanical architects, electrical engineers, manufacturing engineers, and suppliers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L2 - Developer",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers mechanical designs, tolerance analyses, and technical documentation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves design robustness, manufacturability, tolerance accuracy, and documentation quality with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving mechanical development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with mechanical architects, electrical engineers, manufacturing engineers, and suppliers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L1 - Developer",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined mechanical development tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve design robustness, manufacturability, tolerance accuracy, and documentation quality.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about mechanical development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with mechanical architects, electrical engineers, manufacturing engineers, and suppliers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - Architecture",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex mechanical architecture work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for architectural feasibility, scalability, structural integrity, and long-term robustness, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for mechanical designers, hardware architects, product management, and technology stakeholders, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - Reliability",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex mechanical reliability engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for design engineers, validation teams, quality engineers, and suppliers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L2 - Reliability",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers reliability targets, stress analyses, and failure mechanism assessments reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving mechanical reliability engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with design engineers, validation teams, quality engineers, and suppliers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - Simulation",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex mechanical simulation engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for simulation accuracy, model validation rigor, design robustness, and predictive reliability, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for design engineers, reliability engineers, and test teams, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L2 - Simulation",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers simulation models, structural/thermal analyses, and design validation reports reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves simulation accuracy, model validation rigor, design robustness, and predictive reliability with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving mechanical simulation engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with design engineers, reliability engineers, and test teams, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - Applied Engineering",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex applied mechanical engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for manufacturability, standards compliance, lifetime reliability, and cost optimization, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for system engineering, manufacturing, purchasing, suppliers, and project management, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L2 - Applied Engineering",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers design validation, industrialization support, and technical problem resolution reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves manufacturability, standards compliance, lifetime reliability, and cost optimization with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving applied mechanical engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with system engineering, manufacturing, purchasing, suppliers, and project management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L3 - PM / PO",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex mechanical project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for clients, suppliers, mechanical engineers, and cross-functional project teams, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "MECH Engineer L2 - PM / PO",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers project plans, stakeholder alignment, supplier coordination, and delivery tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving mechanical project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with clients, suppliers, mechanical engineers, and cross-functional project teams, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L3 - PM R\u0026D",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex R\u0026D project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for schedule reliability, budget accuracy, risk visibility, and stakeholder satisfaction, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for engineering teams, customers, suppliers, and senior management, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L2 - PM R\u0026D",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers project plans, milestone tracking, risk registers, and stakeholder reporting reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves schedule reliability, budget accuracy, risk visibility, and stakeholder satisfaction with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving R\u0026D project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with engineering teams, customers, suppliers, and senior management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L3 - PM Series Care",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex series care project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for issue resolution speed, production stability, documentation accuracy, and customer satisfaction, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for manufacturing, quality, engineering, and customers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L2 - PM Series Care",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers change requests, production support plans, and customer issue resolution tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves issue resolution speed, production stability, documentation accuracy, and customer satisfaction with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving series care project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with manufacturing, quality, engineering, and customers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L1 - PM Series Care",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined series care coordination tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve issue resolution speed, production stability, documentation accuracy, and customer satisfaction.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about series care project management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with manufacturing, quality, engineering, and customers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L3 - HPM R\u0026D",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex hardware program management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for program schedule reliability, budget control, cross-team alignment, and delivery predictability, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for engineering leads, suppliers, customers, and senior management, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L2 - HPM R\u0026D",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers program plans, cross-functional coordination, and milestone governance reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves program schedule reliability, budget control, cross-team alignment, and delivery predictability with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving hardware program management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with engineering leads, suppliers, customers, and senior management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L1 - HPM R\u0026D",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined hardware program management tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve program schedule reliability, budget control, cross-team alignment, and delivery predictability.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about hardware program management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with engineering leads, suppliers, customers, and senior management, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L3 - Agile",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex agile delivery facilitation work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for Scrum Masters, Product Owners, development teams, and internal stakeholders, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L2 - Agile",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers sprint planning, backlog refinement, and agile ceremony facilitation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving agile delivery facilitation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with Scrum Masters, Product Owners, development teams, and internal stakeholders, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "Project Management L1 - Agile",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined agile coordination tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about agile delivery facilitation, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with Scrum Masters, Product Owners, development teams, and internal stakeholders, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L3 - Laboratory",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex materials characterization laboratory work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for R\u0026D, design, manufacturing, quality teams, and external partners, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L2 - Laboratory",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers failure analyses, material evaluations, and characterization reports reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving materials characterization laboratory practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with R\u0026D, design, manufacturing, quality teams, and external partners, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L1 - Laboratory",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined laboratory characterization tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about materials characterization laboratory work, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with R\u0026D, design, manufacturing, quality teams, and external partners, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L3 - SMT Production Process",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex SMT production process engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for production, design, quality teams, and equipment vendors, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L2 - SMT Production Process",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers equipment specifications, vendor evaluations, and process standardization plans reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving SMT production process engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with production, design, quality teams, and equipment vendors, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L1 - SMT Production Process",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined SMT production process support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about SMT production process engineering, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with production, design, quality teams, and equipment vendors, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L3 - SMT Technology",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex SMT process technology development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for process capability, DfM compliance, defect root-cause resolution, and reliability of new materials, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for product design, PCB layout engineers, quality teams, and suppliers, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L2 - SMT Technology",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers process documentation, DfM feedback, and defect root cause analyses reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves process capability, DfM compliance, defect root-cause resolution, and reliability of new materials with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving SMT process technology development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with product design, PCB layout engineers, quality teams, and suppliers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L1 - SMT Technology",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined SMT technology support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve process capability, DfM compliance, defect root-cause resolution, and reliability of new materials.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about SMT process technology development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with product design, PCB layout engineers, quality teams, and suppliers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L3 - DRBFM moderator",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex DRBFM and design review facilitation work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for design robustness, review maturity, failure prevention effectiveness, and methodology consistency, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for product engineering teams, design reviewers, and engineering leadership, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "PD Engineer L2 - DRBFM moderator",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers DRBFM reviews, design robustness assessments, and BES method coaching reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves design robustness, review maturity, failure prevention effectiveness, and methodology consistency with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving DRBFM and design review facilitation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with product engineering teams, design reviewers, and engineering leadership, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - D-FMEA Moderator",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers DFMEA moderation sessions, action tracking, and risk documentation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves risk identification completeness, DFMEA methodology rigor, preventive action follow-up, and cross-functional alignment with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving DFMEA moderation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with development, systems engineering, testing, quality, and manufacturing functions, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L3 - Problem Solving",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex structured problem solving (8D) work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for root cause accuracy, recurrence prevention, risk assessment quality, and customer trust, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for customers, senior engineers, management, and cross-functional teams, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - Problem Solving",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers 8D reports, risk assessments, and containment/mitigation plans reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves root cause accuracy, recurrence prevention, risk assessment quality, and customer trust with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving structured problem solving (8D) practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with customers, senior engineers, management, and cross-functional teams, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - Problem Solving",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined problem-solving support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve root cause accuracy, recurrence prevention, risk assessment quality, and customer trust.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about structured problem solving (8D), asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with customers, senior engineers, management, and cross-functional teams, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - Business Development",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers R\u0026D business development analyses, funding proposals, and strategic reporting reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves KPI accuracy, reporting reliability, strategic alignment, and stakeholder confidence with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving R\u0026D business development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with R\u0026D leadership, external funding partners, and management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - Controller",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined R\u0026D controlling tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve budget accuracy, forecast reliability, KPI consistency, and reporting quality.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about R\u0026D controlling, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with project managers, group leaders, and department heads, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - ISP Partner",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined data protection and information security compliance tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve compliance accuracy, audit readiness, privacy risk mitigation, and security measure implementation.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about data protection and information security compliance, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with project teams, specialists, and audit partners, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - IT Specialist \u0026 ITL",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined R\u0026D IT support and infrastructure tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve system availability, security compliance, support responsiveness, and documentation accuracy.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about R\u0026D IT support and infrastructure, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with development associates, vendors, and central IT/BD teams, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L3 - PDM BBM process expert",
+    "JG": "16",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Drives complex SAP/BBM process governance work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "hrEvaluationFocus": "Assess whether the associate improves flow beyond individual tasks through clear decisions, trade-offs, and removal of systemic blockers.",
+        "evidenceSignals": ["Delivers complex work without repeated escalation", "Reprioritizes effectively when constraints change", "Improves team throughput through better methods or tooling"]
+      },
+      "Quality": {
+        "associateExpectation": "Raises the quality bar for data integrity, governance robustness, process standardization, and compliance accuracy, preventing recurring issues and ensuring outputs stand up to review, integration, and stakeholder scrutiny.",
+        "hrEvaluationFocus": "Look for measurable improvement in quality outcomes, strong review discipline, and prevention of repeated defects or gaps.",
+        "evidenceSignals": ["Reduces recurring quality issues", "Defines or improves standards and practices", "Provides reliable evidence for decisions"]
+      },
+      "Engagement": {
+        "associateExpectation": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate drives improvement, stays resilient under pressure, and energizes problem solving across teams.",
+        "evidenceSignals": ["Introduces improvements without being asked", "Maintains momentum during ambiguity", "Helps teams respond constructively to change"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope when product or team success requires it.",
+        "hrEvaluationFocus": "Check whether the associate owns both success and failure, balances customer needs, cost, and targets, and follows risks through closure.",
+        "evidenceSignals": ["Owns issues through to closure", "Makes balanced decisions across quality, cost, and delivery", "Steps up on cross-team or high-risk problems"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Acts as a multiplier for Finance, Operations, Engineering, Supply Chain, and IT/SAP teams, aligning stakeholders, mentoring others, and improving shared ways of working.",
+        "hrEvaluationFocus": "Look for influence through cooperation: knowledge sharing, constructive conflict handling, and contribution to others\u0027 performance.",
+        "evidenceSignals": ["Aligns decisions across teams or stakeholders", "Coaches or mentors colleagues", "Communicates trade-offs clearly"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - PDM BBM process expert",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers process governance frameworks, master data quality controls, and SAP system alignment reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves data integrity, governance robustness, process standardization, and compliance accuracy with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving SAP/BBM process governance practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with Finance, Operations, Engineering, Supply Chain, and IT/SAP teams, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF - PDM Product and Lifecycle (JG13)",
+    "JG": "13",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined PDM product lifecycle support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve data accuracy, change control discipline, process consistency, and reporting reliability.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about PDM product lifecycle support, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with PDM users, IT/PDM teams, and cross-functional business partners, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - PDM BU Change Management",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined engineering change management (ECMF) support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve change compliance, data accuracy, cross-functional alignment, and governance robustness.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about engineering change management (ECMF), asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with Engineering, Quality, Supply Chain, and Product Management, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - IMDS Officer",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers IMDS environmental compliance submissions, material data reviews, and supplier follow-ups reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves compliance accuracy, data consistency, submission timeliness, and OEM alignment with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving IMDS environmental compliance management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with engineering, purchasing, quality, suppliers, and customers, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - IMDS Officer",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined IMDS environmental compliance support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve compliance accuracy, data consistency, submission timeliness, and OEM alignment.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about IMDS environmental compliance management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with engineering, purchasing, quality, suppliers, and customers, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L2 - PDM PCN\u0026PTN\u0026PDN-BU",
+    "JG": "15",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Delivers impact assessments, stakeholder alignment, and notification process governance reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "hrEvaluationFocus": "Assess whether the associate completes planned work on time, handles routine blockers independently, and keeps stakeholders informed.",
+        "evidenceSignals": ["Meets commitments on planned work", "Plans dependencies and follow-up actions", "Self-unblocks routine issues"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces stable, well-documented, and reviewable work that improves compliance accuracy, risk mitigation effectiveness, process timeliness, and customer communication quality with limited rework.",
+        "hrEvaluationFocus": "Look for solid technical judgment, accurate evidence, and a low need for correction from peers or leads.",
+        "evidenceSignals": ["Produces clear and reviewable deliverables", "Finds and fixes issues before handoff", "Uses validation evidence effectively"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows initiative in improving PCN/PTN/PDN governance practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "hrEvaluationFocus": "Evaluate whether the associate proactively solves problems and supports change without waiting for repeated prompting.",
+        "evidenceSignals": ["Raises improvement ideas", "Adapts quickly when priorities shift", "Engages early with risks or ambiguity"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "hrEvaluationFocus": "Check whether the associate takes accountability for outcomes in their area and contributes to resolving issues that affect the wider team.",
+        "evidenceSignals": ["Owns medium-sized work packages", "Raises risks before they become blockers", "Balances delivery pressure with quality standards"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Collaborates effectively with Engineering, Quality, Supply Chain, Sales, and Product Management, shares information clearly, and supports less experienced colleagues when needed.",
+        "hrEvaluationFocus": "Look for dependable collaboration, constructive communication, and evidence that the associate helps the team deliver as a unit.",
+        "evidenceSignals": ["Coordinates effectively with peers", "Shares knowledge with junior colleagues", "Contributes positively in reviews and discussions"]
+      }
+    }
+  },
+  {
+    "jobTitle": "ESF L1 - PDM PCN\u0026PTN\u0026PDN-BU",
+    "JG": "14",
+    "performanceExpectations": {
+      "Efficiency": {
+        "associateExpectation": "Completes well-defined PCN/PTN/PDN governance support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "hrEvaluationFocus": "Assess whether the associate delivers assigned work reliably, uses guidance efficiently, and improves speed and independence over time.",
+        "evidenceSignals": ["Completes small work packages on schedule", "Uses guidance and established procedures effectively", "Communicates blockers before they delay delivery"]
+      },
+      "Quality": {
+        "associateExpectation": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve compliance accuracy, risk mitigation effectiveness, process timeliness, and customer communication quality.",
+        "hrEvaluationFocus": "Look for accuracy, attention to detail, reduced repeated mistakes, and willingness to correct work based on review feedback.",
+        "evidenceSignals": ["Follows role-specific standards and procedures", "Learns from review comments", "Delivers acceptable quality with supervision"]
+      },
+      "Engagement": {
+        "associateExpectation": "Shows curiosity about PCN/PTN/PDN governance, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "hrEvaluationFocus": "Evaluate whether the associate demonstrates learning mindset, resilience, and growing initiative within a guided scope.",
+        "evidenceSignals": ["Asks for help or clarification early", "Adapts to changed assignments", "Shows interest in improvement opportunities"]
+      },
+      "Responsibility-Taking": {
+        "associateExpectation": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "hrEvaluationFocus": "Check whether the associate is dependable for their own work and increasingly accountable for outcomes in their scope.",
+        "evidenceSignals": ["Follows through on commitments", "Escalates blockers promptly", "Accepts and corrects mistakes"]
+      },
+      "Cooperation": {
+        "associateExpectation": "Works constructively with Engineering, Quality, Supply Chain, Sales, and Product Management, shares progress openly, and contributes to coordinated team delivery.",
+        "hrEvaluationFocus": "Look for respectful collaboration, responsiveness to guidance, and contribution to team goals.",
+        "evidenceSignals": ["Communicates progress clearly", "Works well with mentors and peers", "Contributes positively in team routines"]
+      }
+    }
   }
 ]

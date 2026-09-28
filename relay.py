@@ -264,21 +264,21 @@ def _call_tool_with_retry(tool_name: str, arguments: dict) -> str:
         return _call_tool(tool_name, arguments)
 
 
-def call_assessment_tool(role: str, notes: str) -> str:
+def call_assessment_tool(role: str, notes: str, target_resource_id: str = None) -> str:
     # performance_and_career_agent takes a single free-text message plus a corpus target, not separate {role, notes}.
     message = f"Role: {role}\n\n{notes}"
     return _call_tool_with_retry(ASSESSMENT_TOOL, {
         "message": message,
         "target_resource_kind": "corpus",
-        "target_resource_id": CHAT_TARGET_RESOURCE_ID,
+        "target_resource_id": target_resource_id or CHAT_TARGET_RESOURCE_ID,
     })
 
 
-def call_chat_tool(prompt: str) -> str:
+def call_chat_tool(prompt: str, target_resource_id: str = None) -> str:
     return _call_tool_with_retry(CHAT_TOOL, {
         "message": prompt,
         "target_resource_kind": "corpus",
-        "target_resource_id": CHAT_TARGET_RESOURCE_ID,
+        "target_resource_id": target_resource_id or CHAT_TARGET_RESOURCE_ID,
     })
 
 
@@ -322,13 +322,13 @@ class RelayHandler(BaseHTTPRequestHandler):
 
         try:
             if "role" in parsed and "notes" in parsed:
-                content = call_assessment_tool(parsed["role"], parsed["notes"])
+                content = call_assessment_tool(parsed["role"], parsed["notes"], parsed.get("targetResourceId"))
             else:
                 messages = parsed.get("messages") or []
                 user_prompt = messages[-1]["content"] if messages else ""
                 if not user_prompt:
                     raise ValueError("Request body must include either {role, notes} or {messages}.")
-                content = call_chat_tool(user_prompt)
+                content = call_chat_tool(user_prompt, parsed.get("targetResourceId"))
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
             self.send_cors()

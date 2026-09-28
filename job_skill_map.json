@@ -640,6 +640,1812 @@
         { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Articulates business value and ROI to senior leadership and external stakeholders." },
         { "indicator": "Creative drive", "category": "Interpersonal Impact", "why": "Champions incremental value delivery and new methodologies across the organization." }
       ]
+    },
+    {
+      "jobTitle": "HW Engineer L1 - Developer",
+      "JG": "14",
+      "roleFamily": "HW Developer",
+      "level": "L1",
+      "hardSkills": [
+        "Electronic schematic capture and circuit documentation under guidance",
+        "Foundational electronic HW design principles and component selection basics",
+        "PCB design basics, BOM creation, and electronic documentation",
+        "Applying established automotive electronics design methods and guidelines",
+        "Support for root-cause analysis of HW issues found in tests or production",
+        "Design review and peer review participation"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined hardware development tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve design robustness, verification coverage, documentation accuracy, and compliance with standards.",
+        "engagement": "Shows curiosity about hardware development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with hardware architects, software engineers, test engineers, and suppliers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Explores electronic HW design principles and asks questions early." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Applies design review feedback to reduce repeated mistakes." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers schematic and documentation tasks reliably under supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Begins making sound calls on simple circuit choices with mentorship." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - Developer",
+      "JG": "15",
+      "roleFamily": "HW Developer",
+      "level": "L2",
+      "hardSkills": [
+        "Electronic HW development ownership of components or subsystems from requirements through release",
+        "Circuit design according to automotive standards, design rules, and requirements",
+        "EMC, safety, reliability, and manufacturability target verification",
+        "Independent analysis and resolution of complex HW issues (EMC, thermal, aging, derating)",
+        "Design optimization for cost, robustness, manufacturability, and series stability",
+        "Cross-functional interface with system, SW, validation, PCB layout, manufacturing, and quality teams"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers circuit design, verification, and technical documentation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves design robustness, verification coverage, documentation accuracy, and compliance with standards with limited rework.",
+        "engagement": "Shows initiative in improving hardware development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with hardware architects, software engineers, test engineers, and suppliers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves complex EMC, thermal, aging, and derating HW issues independently." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Adapts designs quickly when constraints or requirements shift." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Negotiates design trade-offs with system, SW, and manufacturing teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Balances cost, robustness, and manufacturability trade-offs." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Developer",
+      "JG": "16",
+      "roleFamily": "HW Developer",
+      "level": "L3",
+      "hardSkills": [
+        "Ownership of electronic HW development responsibility for complex automotive components or platforms",
+        "Definition and justification of electronic HW architecture and key design decisions with system-level impact",
+        "Technical authority for electronic HW topics within the product line or competence area",
+        "Independent resolution of complex, cross-domain HW issues and root-cause analysis at scale",
+        "Definition and evolution of best practices for electronic HW design in automotive applications",
+        "Mentoring of engineers and technical direction influence across projects"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for design robustness, verification coverage, documentation accuracy, and compliance with standards, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for hardware architects, software engineers, test engineers, and suppliers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines HW architecture and key design decisions with system and vehicle-level impact." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Acts as technical authority resolving the most complex, cross-domain HW issues." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Represents electronic HW development in project milestones and cross-functional reviews." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Owns critical HW architecture trade-offs and escalations with full autonomy." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Architecture",
+      "JG": "16",
+      "roleFamily": "HW Architecture",
+      "level": "L3",
+      "hardSkills": [
+        "Ownership of hardware and firmware architecture for components, platforms, or product families",
+        "Architectural partitioning, interface definition, and key technology choices (power, analogue, digital, mixed-signal)",
+        "System-level analysis of architectural risks, constraints, and dependencies",
+        "EMC behavior, power distribution, thermal performance, derating, and lifetime trade-off design",
+        "Definition and evolution of architectural principles, patterns, and best practices",
+        "Mentoring of HW designers and senior engineers on architectural topics"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware and firmware architecture work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for architectural scalability, technical feasibility, security, and long-term robustness, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for hardware designers, software architects, product management, and technology stakeholders, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines the structure and long-term vision of electronic systems, influencing technology roadmaps." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances performance, complexity, cost, robustness, and scalability across architectures." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as the primary interface between system architecture and HW design across teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Establishes final technical authority for architectural decisions and trade-offs." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Reliability",
+      "JG": "16",
+      "roleFamily": "HW Reliability",
+      "level": "L3",
+      "hardSkills": [
+        "Derivation of realistic field loads and usage profiles at system, sub-system, and component level",
+        "Translation of field conditions into reliability targets and acceptance criteria",
+        "Structured reliability engineering methods: design analysis, stress modelling, failure physics",
+        "Design robustness evaluation based on dominant failure mechanisms",
+        "Reliability governance, standards definition, and organizational capability development",
+        "Final technical authority for reliability-related trade-offs and risk acceptance"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware reliability engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for design engineers, validation teams, quality engineers, and component specialists, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Shapes reliability governance, standards, and long-term organizational performance." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves complex reliability design problems spanning component, board, and system level." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Aligns design, component, and validation stakeholders across functions and organizational levels." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Acts as final technical authority for reliability targets and risk acceptance." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - Reliability",
+      "JG": "15",
+      "roleFamily": "HW Reliability",
+      "level": "L2",
+      "hardSkills": [
+        "Reliability target and acceptance criteria derivation from field loads and use conditions",
+        "Reliability analyses, mission-profile assessments, and design robustness evaluations",
+        "Structured reliability engineering methods, failure analysis, and failure-mechanism-based problem solving",
+        "Translation of field loads and mission profiles into design requirements and validation approaches",
+        "Complex reliability design problem resolution at component, board, and system level"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers reliability targets, stress models, and failure mechanism analyses reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction with limited rework.",
+        "engagement": "Shows initiative in improving hardware reliability engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with design engineers, validation teams, quality engineers, and component specialists, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves non-standard reliability issues using structured failure-mechanism analysis." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Improves methods for translating field loads into design requirements and targets." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Influences cross-functional teams on design-related reliability risks and priorities." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies analytical and experience-based judgment to derive reliability targets." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Safety",
+      "JG": "16",
+      "roleFamily": "HW Safety",
+      "level": "L3",
+      "hardSkills": [
+        "ISO 26262 functional safety requirement definition and tracking",
+        "HW safety concept development for products and platforms",
+        "Structured safety analysis methods (FMEDA, DFA, WCA) for complex HW products",
+        "HW/SW interface safety risk identification and mitigation",
+        "Critical safety component selection and functional safety authority for HW products",
+        "Escalation leadership for critical functional safety deviations"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex functional safety engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for ISO 26262 compliance, safety concept robustness, HW/SW interface integrity, and risk mitigation effectiveness, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for safety managers, system architects, software engineers, and component specialists, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Guarantees functional safety compliance strategy across the product lifecycle." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves non-standard safety challenges spanning mixed-signal, RF, and power interfaces." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Leads escalation of critical safety risks to specialists and managers for quick resolution." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Acts as HW functional safety authority approving safety-relevant technical decisions." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - PCB layout design",
+      "JG": "16",
+      "roleFamily": "PCB Layout Design",
+      "level": "L3",
+      "hardSkills": [
+        "Layout strategy definition for the most complex technologies and products",
+        "EMC and High-Speed Design (HSD) layout methodology creation and validation",
+        "Advanced layout simulation, production, and testing requirement interpretation",
+        "Definition of future layout specifications, rules, and methodologies",
+        "Supplier and technology partner collaboration for new PCB technologies",
+        "Mentoring and advanced training delivery for the design team"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex PCB layout design work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for layout manufacturability, EMC compliance, signal integrity, and production readiness, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for schematic designers, mechanical engineers, manufacturing engineers, and test engineers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines future technological standards and layout strategy for the organization." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves the most critical layout problems using deep physical-technical knowledge." },
+        { "indicator": "Creative drive", "category": "Interpersonal Impact", "why": "Initiates and promotes new specifications, rules, and layout methodologies." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Represents the company as technical specialist in internal and external forums." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - PCB layout design",
+      "JG": "15",
+      "roleFamily": "PCB Layout Design",
+      "level": "L2",
+      "hardSkills": [
+        "Implementation of electrical circuit requirements into manufacturable PCB layouts",
+        "Feasibility evaluation of component, circuit, mechanics, and production requirements",
+        "Independent High-Speed Design (HSD) layout implementation with specialist support",
+        "EMC layout requirement implementation based on physical-technical understanding",
+        "Layout specification derivation from new requirements using physical principles",
+        "Cross-functional coordination with simultaneous engineering (SE) teams and manufacturing plants"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers PCB layouts, EMC compliance checks, and manufacturability reviews reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves layout manufacturability, EMC compliance, signal integrity, and production readiness with limited rework.",
+        "engagement": "Shows initiative in improving PCB layout design practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with schematic designers, mechanical engineers, manufacturing engineers, and test engineers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Optimally implements electrical circuit requirements considering mechanics, EMC, and production interactions." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Derives new layout specifications and rules from new requirements." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Negotiates process restrictions and validates layouts with manufacturing plants." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Proposes toolchain optimizations based on practical, deep knowledge." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L1 - PCB layout design",
+      "JG": "14",
+      "roleFamily": "PCB Layout Design",
+      "level": "L1",
+      "hardSkills": [
+        "Implementation of electrical circuit requirements in the layout under guidance",
+        "Basic component, mechanical, and production requirement implementation with specialist support",
+        "Foundational EMC layout requirement understanding using documentation and support",
+        "Practical use of the layout toolchain (e.g. eADM, Zuken)",
+        "Recognition of gaps between project requirements and existing layout specifications"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined PCB layout design tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve layout manufacturability, EMC compliance, signal integrity, and production readiness.",
+        "engagement": "Shows curiosity about PCB layout design, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with schematic designers, mechanical engineers, manufacturing engineers, and test engineers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns layout specifications and asks specialists for guidance early." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves layout quality using senior team member feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Implements assigned layout tasks reliably under supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Recognizes when requirements are not covered by existing specifications." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - PM / PO",
+      "JG": "15",
+      "roleFamily": "PM / PO",
+      "level": "L2",
+      "hardSkills": [
+        "Integrated HW project plan definition covering scope, milestones, cost, and risks",
+        "HW requirement completeness, feasibility, and traceability management",
+        "Technical risk, constraint, and dependency identification and mitigation",
+        "Root cause analysis and corrective action application for complex HW issues",
+        "Stakeholder communication of project status, risks, and technical trade-offs"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers HW project plans, requirement traceability, and risk tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves requirement completeness, technical decision quality, delivery predictability, and stakeholder alignment with limited rework.",
+        "engagement": "Shows initiative in improving hardware project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with clients, suppliers, hardware engineers, and cross-functional project teams, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances HW requirement traceability, risk, and delivery across the project scope." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Adapts project plans when technical risks or constraints emerge." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Communicates feasibility, scope, and timing clearly to customers and stakeholders." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies root cause analysis and corrective actions to complex HW issues." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - PM / PO",
+      "JG": "16",
+      "roleFamily": "PM / PO",
+      "level": "L3",
+      "hardSkills": [
+        "End-to-end HW technical delivery ownership from concept through industrialization",
+        "Final technical authority for HW deliverables, trade-offs, and release decisions",
+        "System-level technical trade-off leadership balancing performance, cost, and reliability",
+        "Cross-domain risk escalation and resolution with organizational impact",
+        "HW engineering standards and governance definition",
+        "Major milestone and cross-team decision leadership"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for clients, suppliers, hardware engineers, and cross-functional project teams, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Owns end-to-end HW technical delivery across projects and stakeholders." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances system-level trade-offs between performance, cost, and manufacturability." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Serves as the primary HW technical lead across system, SW, and manufacturing teams." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Holds final technical authority for HW deliverables and critical trade-offs." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - Applied Engineering",
+      "JG": "15",
+      "roleFamily": "Applied Engineering",
+      "level": "L2",
+      "hardSkills": [
+        "Design validation, industrialization support, and technical problem resolution",
+        "Application of established hardware engineering methods, testing, and analysis techniques",
+        "Manufacturability, reliability, and cost-efficiency improvement of existing designs",
+        "Structured technical clarification with suppliers and external partners",
+        "Documentation and communication of test results and technical decisions"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers design validation, industrialization support, and technical problem resolution reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves manufacturability, standards compliance, lifetime reliability, and cost optimization with limited rework.",
+        "engagement": "Shows initiative in improving applied hardware engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with system engineering, manufacturing, purchasing, suppliers, and project management, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Analyzes technical issues considering functionality, quality, manufacturability, and cost." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Adapts and improves established hardware engineering methods and analysis techniques." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Provides structured, fact-based hardware engineering input to suppliers and partners." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies engineering judgment to resolve technical deviations during development." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Applied Engineering",
+      "JG": "16",
+      "roleFamily": "Applied Engineering",
+      "level": "L3",
+      "hardSkills": [
+        "Translation of system, product, manufacturing, and regulatory requirements into robust HW solutions",
+        "Technical leadership across design, validation, and industrialization phases",
+        "Advanced weak-point analysis, simulation-driven design, and validation correlation",
+        "Definition and evolution of hardware standards, guidelines, and best practices",
+        "Mentoring and technical guidance across projects and platforms",
+        "Cross-functional alignment with system engineering, manufacturing, purchasing, and suppliers"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex applied hardware engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for manufacturability, standards compliance, lifetime reliability, and cost optimization, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for system engineering, manufacturing, purchasing, suppliers, and project management, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Ensures technical decisions align with business goals and long-term standards evolution." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances functional performance, feasibility, quality, and economic impact in complex decisions." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as senior technical reference across development, manufacturing, and suppliers." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Drives systematic optimization and standardization across products and platforms." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - Component Manager",
+      "JG": "15",
+      "roleFamily": "Component Manager",
+      "level": "L2",
+      "hardSkills": [
+        "Electronic component selection, qualification, and lifecycle management",
+        "PCN/PTN impact assessment and technical mitigation option evaluation",
+        "Supplier technical interface management for specifications, quality, and cost",
+        "Second-source strategy and component risk tracking",
+        "Application of established component strategies and qualification methods"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers PCN/PTN impact assessments, mitigation options, and component risk tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves component availability, lifecycle risk mitigation, technical decision quality, and supplier alignment with limited rework.",
+        "engagement": "Shows initiative in improving hardware component lifecycle management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with hardware development, architecture teams, and suppliers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances availability, reliability, and cost efficiency of electronic components." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Proposes improvements to component selection and lifecycle management strategies." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Maintains a professional technical interface with component suppliers." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies professional technical judgment to component qualification decisions." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Component Manager",
+      "JG": "16",
+      "roleFamily": "Component Manager",
+      "level": "L3",
+      "hardSkills": [
+        "End-to-end technical management of electronic component lifecycles",
+        "PCN/PTN cross-functional impact analysis and mitigation option definition",
+        "Component strategy ownership across multiple projects or portfolios",
+        "Supplier escalation leadership and second-source concept development",
+        "Component qualification, release process, and lifecycle governance expertise"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware component lifecycle management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for component availability, lifecycle risk mitigation, technical decision quality, and supplier alignment, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for hardware development, architecture teams, and suppliers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Owns component strategies and key technical decisions across multiple portfolios." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Coordinates cross-functional technical impact analyses for PCNs and PTNs." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Leads technical communication with key electronic component suppliers." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Acts as technical authority steering complex component decisions." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L1 - Testing/V&V",
+      "JG": "14",
+      "roleFamily": "Testing / V&V",
+      "level": "L1",
+      "hardSkills": [
+        "Implementation and maintenance of production test steps for assigned functions",
+        "Test coverage and diagnostics contribution within a defined scope",
+        "Incremental test automation and limit refinement under guidance",
+        "APQP/V-model and FMEA concept application to routine tasks",
+        "Status reporting and issue escalation to technical leads"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined production test engineering tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve test coverage, defect escape prevention, cycle time robustness, and launch readiness.",
+        "engagement": "Shows curiosity about production test engineering, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with HW, SW, production, and quality management stakeholders, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns test methods and asks the PTE lead for clarification early." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves diagnostics and limits using senior engineer feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers reliable test steps within own module or station under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies obvious test defects and follows troubleshooting guides." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L2 - Testing/V&V",
+      "JG": "15",
+      "roleFamily": "Testing / V&V",
+      "level": "L2",
+      "hardSkills": [
+        "Test specification, DFT input, and end-of-line test validation ownership for defined scope",
+        "Test limit, diagnostics, and coverage definition impacting yield and ramp-up stability",
+        "Test automation, data analytics, and process optimization",
+        "Cross-functional coordination with HW, SW, production, and quality teams",
+        "Structured risk-based test concept and implementation planning"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers test specifications, DFT input, and end-of-line test validation reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves test coverage, defect escape prevention, cycle time robustness, and launch readiness with limited rework.",
+        "engagement": "Shows initiative in improving production test engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with HW, SW, production, and quality management stakeholders, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Owns test concept and implementation for a defined manufacturing scope." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Develops new test approaches when new architectures require adaptation." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Aligns and convinces stakeholders on test coverage targets and priorities." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Balances trade-offs between cycle time, robustness, and diagnostics." }
+      ]
+    },
+    {
+      "jobTitle": "HW Engineer L3 - Testing/V&V",
+      "JG": "16",
+      "roleFamily": "Testing / V&V",
+      "level": "L3",
+      "hardSkills": [
+        "Cross-functional Test Team leadership bringing together HW, SW, Production, and Quality",
+        "Design-for-Test (DFT) governance and end-of-line test strategy definition",
+        "Production Test Specification (PAV) development aligned with project milestones",
+        "Test readiness, robustness, and cycle-time optimization across manufacturing sites",
+        "Coaching and mentoring of production test engineers",
+        "Escalation and Task Force leadership for quality or timing risks"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex production test engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for test coverage, defect escape prevention, cycle time robustness, and launch readiness, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for HW, SW, production, and quality management stakeholders, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Leads DFT governance and test strategy across projects and manufacturing sites." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Leads cross-functional Test Team execution across HW, SW, production, and quality." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Aligns and convinces stakeholders across development, plants, and suppliers." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Initiates and steers escalations or Task Forces when quality or timing is at risk." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L1 - Developer",
+      "JG": "14",
+      "roleFamily": "MECH Developer",
+      "level": "L1",
+      "hardSkills": [
+        "Mechanical design adaptation and optimization of existing products, modules, and components",
+        "Basic CAD modeling, technical drawings, and GD&T application",
+        "Basic mechanical calculations for strength, lifetime, and dimensioning under supervision",
+        "Design data preparation, analyses, and documentation support for senior engineers",
+        "Application of Bosch engineering standards and quality/documentation processes"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined mechanical development tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve design robustness, manufacturability, tolerance accuracy, and documentation quality.",
+        "engagement": "Shows curiosity about mechanical development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with mechanical architects, electrical engineers, manufacturing engineers, and suppliers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns mechanical design principles, materials, and manufacturing technologies." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Applies feedback to improve design accuracy and documentation quality." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers assigned engineering tasks reliably under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies basic mechanical calculations correctly under supervision." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L2 - Developer",
+      "JG": "15",
+      "roleFamily": "MECH Developer",
+      "level": "L2",
+      "hardSkills": [
+        "Design, development, and optimization of mechanical components and subsystems",
+        "CAD, technical drawing, BOM management, and mechanical calculation proficiency",
+        "Structured problem-solving (DFMEA, DRBFM, 5-Why, root cause analysis)",
+        "Simulation, calculation, and prototype validation to reduce technical risk",
+        "Benchmarking and best-practice integration from Bosch, customers, and competitors"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers mechanical designs, calculations, and validations reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves design robustness, manufacturability, tolerance accuracy, and documentation quality with limited rework.",
+        "engagement": "Shows initiative in improving mechanical development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with mechanical architects, electrical engineers, manufacturing engineers, and suppliers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Balances functionality, robustness, manufacturability, and cost in design decisions." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Develops alternative mechanical design solutions to enhance robustness or cost efficiency." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Coordinates with project management, manufacturing, and suppliers on design intent." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies structured problem-solving to reduce technical risk." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - Developer",
+      "JG": "16",
+      "roleFamily": "MECH Developer",
+      "level": "L3",
+      "hardSkills": [
+        "Definition, development, and validation of mechanical systems, architectures, and platforms",
+        "Translation of complex functional, regulatory, and business requirements into robust designs",
+        "Advanced simulation, DFMEA, and mechanical calculation mastery",
+        "Standardization and best-practice definition across mechanical development",
+        "Coaching and mentoring of L1/L2 mechanical developers",
+        "Root cause analysis of field feedback and failure data with corrective/preventive measures"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex mechanical development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for design robustness, manufacturability, tolerance accuracy, and documentation quality, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for mechanical architects, electrical engineers, manufacturing engineers, and suppliers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Owns architectures and key technical decisions influencing long-term product strategy." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Acts as technical escalation point for high-complexity mechanical topics." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Leads technical alignment with customers, suppliers, and internal stakeholders." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Resolves challenging development situations with full technical ownership." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - Architecture",
+      "JG": "16",
+      "roleFamily": "MECH Architecture",
+      "level": "L3",
+      "hardSkills": [
+        "Mechanical architecture definition for products, modules, or subsystems",
+        "Critical technical interface management and architectural consistency",
+        "Architecture concept evaluation and trade-off resolution (performance, packaging, cost, reliability)",
+        "Architectural principle and decision criteria establishment",
+        "Advanced engineering reasoning for non-obvious, complex technical challenges"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex mechanical architecture work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for architectural feasibility, scalability, structural integrity, and long-term robustness, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for mechanical designers, hardware architects, product management, and technology stakeholders, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines and safeguards the mechanical architecture aligned with long-term product goals." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Resolves non-obvious trade-offs involving performance, packaging, cost, and reliability." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as key technical reference point across design, validation, and manufacturing." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Establishes architectural principles and decision criteria guiding design choices." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L2 - Reliability",
+      "JG": "15",
+      "roleFamily": "MECH Reliability",
+      "level": "L2",
+      "hardSkills": [
+        "Reliability requirement, target, and validation strategy derivation from field loads and lifecycle assumptions",
+        "FMEA, FTA, and statistical life-data analysis application",
+        "FEM and environmental/accelerated testing interpretation",
+        "Mechanical failure and damage mechanism assessment",
+        "Structured root-cause analysis and lessons-learned integration"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers reliability targets, simulations, and test evidence reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction with limited rework.",
+        "engagement": "Shows initiative in improving mechanical reliability engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with design engineers, validation teams, quality engineers, and suppliers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Interprets simulation, measurement, and test results to quantify reliability risks." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Continuously improves reliability methods used to translate field loads into targets." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Aligns reliability targets and assumptions across development and quality teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Connects field conditions, validation evidence, and design decisions soundly." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - Reliability",
+      "JG": "16",
+      "roleFamily": "MECH Reliability",
+      "level": "L3",
+      "hardSkills": [
+        "Reliability engineering direction ownership across products, projects, and variants",
+        "Reliability target, acceptance criteria, and validation strategy leadership (DVT/PVT/QZ)",
+        "Senior technical authority for reliability trade-offs balancing performance, cost, and risk",
+        "Design-for-Reliability embedding into early technical decisions",
+        "Reliability roadmap definition and mentoring of engineering teams"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex mechanical reliability engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for field robustness, failure mechanism understanding, validation rigor, and warranty risk reduction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for design engineers, validation teams, quality engineers, and suppliers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Contributes to the reliability domain roadmap and long-term capability development." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Steers reliability-related development and validation activities across products." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Leads alignment with internal and external stakeholders on reliability requirements." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Acts as senior technical authority balancing performance, cost, and risk." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L2 - Simulation",
+      "JG": "15",
+      "roleFamily": "Simulation",
+      "level": "L2",
+      "hardSkills": [
+        "Independent execution and interpretation of complex mechanical simulations",
+        "Simulation model creation, quality assessment, and assumption validation",
+        "Structural, thermal, CFD, magnetics, dynamics, or multiphysics analysis (per domain)",
+        "Calculation script use/development and pre/post-processing tool configuration",
+        "Comparison of simulation results with test or measurement data"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers simulation models, analyses, and validation comparisons reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves simulation accuracy, model validation rigor, design robustness, and predictive reliability with limited rework.",
+        "engagement": "Shows initiative in improving mechanical simulation engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with design engineers, reliability engineers, and test teams, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Selects appropriate simulation methods and critically assesses model quality." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Adapts simulation methods to new products and supports new tool introduction." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Communicates assumptions, limitations, and results to support transparent decisions." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Assesses result validity against real-world system behavior and sensitivities." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - Simulation",
+      "JG": "16",
+      "roleFamily": "Simulation",
+      "level": "L3",
+      "hardSkills": [
+        "Development of new and innovative simulation methods, models, and methodologies",
+        "Expert-level simulation, model development, and validation for strategic decisions",
+        "Evaluation of market-available simulation hardware/software for strategic applicability",
+        "Scientific method transfer into industrial application",
+        "Collaboration with universities, institutes, and technology providers"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex mechanical simulation engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for simulation accuracy, model validation rigor, design robustness, and predictive reliability, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for design engineers, reliability engineers, and test teams, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines future-oriented simulation methodologies influencing product concepts." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Solves complex, novel technical problems through advanced simulation approaches." },
+        { "indicator": "Creative drive", "category": "Interpersonal Impact", "why": "Initiates exploratory simulation concepts and transfers scientific methods into practice." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as technical authority and reference across organizational boundaries." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L2 - Applied Engineering",
+      "JG": "15",
+      "roleFamily": "Applied Engineering",
+      "level": "L2",
+      "hardSkills": [
+        "Design contribution, review, and evaluation supporting system and product engineering",
+        "Application of design rules, guidelines, and standards within assigned domains",
+        "Simulation, testing, and prototyping-based design improvement",
+        "Technical issue resolution during development, industrialization, or customer feedback",
+        "Structured documentation and knowledge sharing within the team"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers design contributions, reviews, and technical evaluations reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves manufacturability, standards compliance, lifetime reliability, and cost optimization with limited rework.",
+        "engagement": "Shows initiative in improving applied mechanical engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with system engineering, manufacturing, purchasing, suppliers, and project management, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Analyzes technical issues considering functionality, manufacturability, and cost." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Contributes ideas for continuous improvement of products and processes." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Clarifies technical requirements and constraints with cross-functional teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Uses sound engineering judgment within a defined scope of responsibility." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - Applied Engineering",
+      "JG": "16",
+      "roleFamily": "Applied Engineering",
+      "level": "L3",
+      "hardSkills": [
+        "Senior technical authority across platforms and key mechanical technologies",
+        "Technical architecture and design decisions balancing scalability and reusability",
+        "Systematic weak-point analysis, simulation-driven design, and validation correlation",
+        "Technical standard, guideline, and solution-pattern evolution",
+        "Coaching of development teams and cross-site technical alignment"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex applied mechanical engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for manufacturability, standards compliance, lifetime reliability, and cost optimization, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for system engineering, manufacturing, purchasing, suppliers, and project management, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Aligns product and system solutions with business goals and long-term standards." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Drives complex technical decisions balancing feasibility, quality, and cost." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as senior technical reference point across teams, suppliers, and customers." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Builds expert networks and drives evolution of engineering standards." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L2 - PM / PO",
+      "JG": "15",
+      "roleFamily": "PM / PO",
+      "level": "L2",
+      "hardSkills": [
+        "Day-to-day mechanical project coordination within defined scope",
+        "Milestone, deliverable, and technical activity follow-up",
+        "Risk, dependency, and priority tracking across contributors",
+        "Structured problem-solving for execution-level issues",
+        "Stakeholder communication of project status and open points"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers project coordination, tracking, and follow-up reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility with limited rework.",
+        "engagement": "Shows initiative in improving mechanical project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with clients, suppliers, mechanical engineers, and cross-functional project teams, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Consolidates progress and maintains alignment of priorities and dependencies." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Adjusts follow-up methods and priorities when project conditions change." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Communicates project status and open issues clearly to stakeholders." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Applies structured problem-solving to moderately difficult project challenges." }
+      ]
+    },
+    {
+      "jobTitle": "MECH Engineer L3 - PM / PO",
+      "JG": "16",
+      "roleFamily": "PM / PO",
+      "level": "L3",
+      "hardSkills": [
+        "Day-to-day mechanical project execution leadership within defined scope",
+        "Milestone, timing, cost, and technical risk tracking with escalation authority",
+        "Cross-functional coordination of mechanical development contributors",
+        "Structured problem-solving integrating multiple technical inputs into decisions",
+        "Stakeholder alignment across customers, suppliers, and global project teams"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex mechanical project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for requirement translation accuracy, delivery predictability, stakeholder alignment, and risk visibility, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for clients, suppliers, mechanical engineers, and cross-functional project teams, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Leads mechanical project execution balancing customer expectations and constraints." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Coordinates cross-functional contributors and resolves coordination gaps." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Represents mechanical project status with customers, suppliers, and global teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Drives resolution of moderately complex issues into actionable project decisions." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L2 - PM R&D",
+      "JG": "15",
+      "roleFamily": "PM R&D",
+      "level": "L2",
+      "hardSkills": [
+        "Project business case ownership and profitability (EBIT) accountability",
+        "Investment budget control and weekly/monthly financial performance tracking",
+        "Quality Gate (QGC) delivery and project phase release management",
+        "Customer requirement feasibility analysis and work package breakdown",
+        "Risk and Opportunity Management with countermeasure implementation"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers project plans, budgets, and Quality Gate milestones reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves schedule reliability, budget accuracy, risk visibility, and stakeholder satisfaction with limited rework.",
+        "engagement": "Shows initiative in improving R&D project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with engineering teams, customers, suppliers, and senior management, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Owns the project business case while controlling budget and profitability." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Applies lessons learned to refine project execution and planning." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Aligns customer requirements, timelines, and milestones as primary contact." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Makes critical trade-offs between scope, time, and cost." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L3 - PM R&D",
+      "JG": "16",
+      "roleFamily": "PM R&D",
+      "level": "L3",
+      "hardSkills": [
+        "End-to-end R&D project leadership with strategic business case ownership",
+        "Global project team leadership and cross-functional coordination",
+        "Master Project Management Plan definition covering all work packages and dependencies",
+        "IP strategy leadership and Quality Gate (QGC) accountability",
+        "Executive-level stakeholder and steering committee communication"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex R&D project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for schedule reliability, budget accuracy, risk visibility, and stakeholder satisfaction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for engineering teams, customers, suppliers, and senior management, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Owns the project business case, ensuring alignment with strategic company goals." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Leads the global project team through cross-functional dependencies and priorities." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as primary strategic interface with the customer and steering committee." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Holds final decision authority for critical scope, time, and cost trade-offs." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L1 - PM Series Care",
+      "JG": "14",
+      "roleFamily": "PM Series Care",
+      "level": "L1",
+      "hardSkills": [
+        "Series project management for cost-down programs and lifecycle management",
+        "Sub-project investment budget tracking for changes and improvements",
+        "Engineering change request (ECR) analysis and coordination",
+        "Production KPI monitoring and reporting",
+        "Coordination with manufacturing plant, supply chain, and engineering teams"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined series care project management tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve issue resolution speed, production stability, documentation accuracy, and customer satisfaction.",
+        "engagement": "Shows curiosity about series care project management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with manufacturing, quality, engineering, and customers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns the plant's manufacturing processes and quality control systems." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Applies lessons learned to refine future series care activities." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers ECR implementation reliably under close supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Performs initial ECR analysis and coordinates the evaluation process." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L2 - PM Series Care",
+      "JG": "15",
+      "roleFamily": "PM Series Care",
+      "level": "L2",
+      "hardSkills": [
+        "Series project management for cost-down programs with mid-level economic impact",
+        "Sub-project investment budget control and cost-benefit tracking",
+        "Local/cross-functional team leadership for series care",
+        "Approved ECR implementation management on budget and schedule",
+        "Production KPI monitoring and stakeholder communication plans"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers series care project plans, ECR implementation, and KPI tracking reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves issue resolution speed, production stability, documentation accuracy, and customer satisfaction with limited rework.",
+        "engagement": "Shows initiative in improving series care project management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with manufacturing, quality, engineering, and customers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Controls investment budgets while tracking cost-benefit of each change." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Applies lessons learned to refine current and future series care processes." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Arbitrates communication between plant, engineering, and the customer." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Manages ECR evaluation and implementation risk trade-offs." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L3 - PM Series Care",
+      "JG": "16",
+      "roleFamily": "PM Series Care",
+      "level": "L3",
+      "hardSkills": [
+        "Strategic series project management with high economic impact and full lifecycle ownership",
+        "Cost-saving initiative execution and customer redesign management",
+        "High-cost/high-risk ECR approval and implementation oversight",
+        "Global/cross-functional series care team leadership",
+        "Executive-level stakeholder communication and conflict arbitration"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex series care project management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for issue resolution speed, production stability, documentation accuracy, and customer satisfaction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for manufacturing, quality, engineering, and customers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Manages strategically series projects including cost-down and lifecycle management." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Leads global or cross-functional teams responsible for series care." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Oversees stakeholder communication strategy with executive leadership and plants." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Approves high-cost or high-risk change requests with full accountability." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L1 - HPM R&D",
+      "JG": "14",
+      "roleFamily": "HPM R&D",
+      "level": "L1",
+      "hardSkills": [
+        "Hardware Component Project Management (HW PCM) execution under guidance",
+        "Investment budget tracking and Quality Gate (QGC) delivery",
+        "Carry-over project requirement maintenance and specification updates",
+        "Basic domain understanding: mechanical/electronic architecture, RF components, signal processing",
+        "Risk and Opportunity Management support with countermeasure tracking"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined hardware program management tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve program schedule reliability, budget control, cross-team alignment, and delivery predictability.",
+        "engagement": "Shows curiosity about hardware program management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering leads, suppliers, customers, and senior management, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns to understand mechanical, electronic, and RF domains under guidance." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Documents successes and failures to improve future project execution." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Executes defined targets reliably with management support." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Steers allocated resources with management guidance toward project goals." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L2 - HPM R&D",
+      "JG": "15",
+      "roleFamily": "HPM R&D",
+      "level": "L2",
+      "hardSkills": [
+        "Hardware Component Project Management (HW PCM) execution with limited guidance",
+        "Investment budget control and KPI-based performance tracking",
+        "Hardware Component Project Management Plan definition and maintenance",
+        "Domain steering: mechanical/electronic architecture, RF components, signal processing algorithms",
+        "Risk and Opportunity Management execution"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers hardware program plans, budgets, and Quality Gate milestones reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves program schedule reliability, budget control, cross-team alignment, and delivery predictability with limited rework.",
+        "engagement": "Shows initiative in improving hardware program management practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with engineering leads, suppliers, customers, and senior management, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Steers allocated resources across mechanical, RF, and signal processing domains." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Applies lessons learned to improve future hardware component project execution." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Aligns with the customer on project scope, timeline, and key milestones." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Executes the defined project goal with limited guidance." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L3 - HPM R&D",
+      "JG": "16",
+      "roleFamily": "HPM R&D",
+      "level": "L3",
+      "hardSkills": [
+        "Hardware Component Project Management (HW PCM) leadership with strategic importance",
+        "Investment budget ownership and business-decision platform influence",
+        "Hardware Component Project Management Plan strategic definition",
+        "Deep domain steering: mechanical/electronic architecture, RF components, signal processing, vehicle integration",
+        "Quality Gate (QGC) accountability and executive stakeholder alignment"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex hardware program management work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for program schedule reliability, budget control, cross-team alignment, and delivery predictability, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for engineering leads, suppliers, customers, and senior management, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Derives targets within project scope and uses the right platform for business decisions." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Steers domains spanning mechanical, electronic, RF, and vehicle integration." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as the primary interface with the customer for HW-related topics." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Influences decision makers in favor of the project with sound reasoning." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L1 - Agile",
+      "JG": "14",
+      "roleFamily": "Agile",
+      "level": "L1",
+      "hardSkills": [
+        "Sprint board hygiene, action item tracking, and impediment logging",
+        "Basic Scrum/Kanban ceremony and artifact support",
+        "Backlog item and sprint commitment clarification",
+        "Definition of Done and acceptance criteria awareness",
+        "Support for team-level agile facilitation under guidance"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined agile delivery facilitation tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction.",
+        "engagement": "Shows curiosity about agile delivery facilitation, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with Scrum Masters, Product Owners, development teams, and internal stakeholders, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns Scrum and Kanban ceremonies, artifacts, and roles under guidance." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves sprint board hygiene and impediment logging from feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers action tracking and impediment logging reliably." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies missing acceptance criteria or incomplete Definition of Done." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L2 - Agile",
+      "JG": "15",
+      "roleFamily": "Agile",
+      "level": "L2",
+      "hardSkills": [
+        "Full Agile event facilitation (sprint planning, refinement, retrospectives)",
+        "Sprint velocity, Definition of Done, and acceptance criteria compliance management",
+        "Dependency and risk management coaching for the team",
+        "Retrospective format, estimation technique, and WIP policy improvement",
+        "Development process compliance and release coordination"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers sprint facilitation, velocity tracking, and process compliance reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction with limited rework.",
+        "engagement": "Shows initiative in improving agile delivery facilitation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with Scrum Masters, Product Owners, development teams, and internal stakeholders, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Ensures the team manages dependencies and risks correctly." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Updates retrospective formats, estimation techniques, and WIP policies." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Facilitates sprint planning and refinement through flexibility and compromise." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Acts as change agent resolving team dysfunctions and process issues." }
+      ]
+    },
+    {
+      "jobTitle": "Project Management L3 - Agile",
+      "JG": "16",
+      "roleFamily": "Agile",
+      "level": "L3",
+      "hardSkills": [
+        "Scaled agile transformation coaching across multiple squads (SAFe, LeSS, Nexus)",
+        "Delivery system and cross-team coordination model redesign",
+        "Agile metrics mastery (flow efficiency, cycle time, DORA metrics)",
+        "Organizational impediment identification and multi-disciplinary delivery integration",
+        "Coaching of Scrum Masters, Product Owners, and management in agile principles"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex agile delivery facilitation work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for sprint predictability, Definition of Done compliance, team velocity, and stakeholder satisfaction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for Scrum Masters, Product Owners, development teams, and internal stakeholders, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Designs delivery transformation strategy embedding agile practices at scale." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Redesigns cross-team coordination models integrating hardware, software, and regulatory tracks." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Convinces senior stakeholders and department heads to adopt scaled delivery practices." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Challenges cultural resistance to transparency without formal command authority." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L1 - Laboratory",
+      "JG": "14",
+      "roleFamily": "Laboratory",
+      "level": "L1",
+      "hardSkills": [
+        "Basic solder joint characterization using optical microscopy and supervised SEM operation",
+        "Sample preparation support for failure analysis and reliability testing",
+        "Materials science principles application (metals, electronic materials)",
+        "Laboratory safety protocol and metallography technique familiarity",
+        "Data entry, documentation, and report preparation support"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined materials characterization laboratory tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality.",
+        "engagement": "Shows curiosity about materials characterization laboratory work, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with R&D, design, manufacturing, quality teams, and external partners, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns solder metallurgy, microstructure, and characterization techniques." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Applies feedback from senior engineers to improve data quality." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers sample preparation and data collection reliably under supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Follows detailed instructions for sample preparation and analytical procedures." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L2 - Laboratory",
+      "JG": "15",
+      "roleFamily": "Laboratory",
+      "level": "L2",
+      "hardSkills": [
+        "Independent solder joint characterization (SEM/EDS, 3D X-ray/CT, optical microscopy)",
+        "Metallographic sample preparation (cross-sectioning, polishing, etching) for electronic components",
+        "Failure analysis methodology application and reporting",
+        "Reliability test sample preparation and metallurgical analysis before/after stress testing",
+        "Mentoring of junior engineers on solder joint metallurgy and characterization techniques"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers solder joint characterization, failure analysis, and reliability test data reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality with limited rework.",
+        "engagement": "Shows initiative in improving materials characterization laboratory practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with R&D, design, manufacturing, quality teams, and external partners, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Interprets complex material and reliability data to draw engineering conclusions." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Proposes minor modifications to characterization techniques to improve accuracy." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Presents failure analysis findings and preliminary recommendations to cross-functional teams." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Diagnoses anomalous results and unexpected material behaviors independently." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L3 - Laboratory",
+      "JG": "16",
+      "roleFamily": "Laboratory",
+      "level": "L3",
+      "hardSkills": [
+        "Failure analysis leadership for electronic components with root-cause determination",
+        "Advanced solder joint metallurgy and intermetallic compound expertise",
+        "Novel characterization method and sample preparation technique development",
+        "Material compatibility studies and reliability stress correlation",
+        "Standard operating procedure development and cross-team technical guidance"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex materials characterization laboratory work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for analytical accuracy, failure analysis rigor, documentation completeness, and reliability data quality, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for R&D, design, manufacturing, quality teams, and external partners, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Leads failure analysis with conclusions guiding product reliability strategy." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Analyzes microstructure, crack propagation, and degradation mechanisms." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Collaborates with R&D, manufacturing, quality, and external partners, including OEMs." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Leads root-cause investigations using innovative problem-solving techniques." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L1 - SMT Production Process",
+      "JG": "14",
+      "roleFamily": "SMT Production Process",
+      "level": "L1",
+      "hardSkills": [
+        "Data gathering and analysis to support SMT equipment specification",
+        "Vendor specification comparison and equipment benchmarking support",
+        "Standardized test protocol execution on new SMT equipment",
+        "Capital expenditure request data compilation and ROI calculation support",
+        "Basic understanding of SMT process flow (printing, placement, reflow, AOI)"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined SMT production process engineering tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency.",
+        "engagement": "Shows curiosity about SMT production process engineering, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with production, design, quality teams, and equipment vendors, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns the entire SMT process flow and equipment capabilities." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves data compilation and test protocol accuracy from feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers standardized test protocols reliably under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Compiles feature-by-feature comparisons to support equipment decisions." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L2 - SMT Production Process",
+      "JG": "15",
+      "roleFamily": "SMT Production Process",
+      "level": "L2",
+      "hardSkills": [
+        "Technical requirement and specification support for new/upgraded SMT equipment",
+        "Equipment evaluation, benchmarking, and cost-benefit analysis support",
+        "Vendor selection process support including technical specification negotiation",
+        "Standardized process improvement implementation across SMT lines",
+        "Automation opportunity identification (material handling, robotic loading, inspection)"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers SMT equipment evaluations, standardization, and process improvements reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency with limited rework.",
+        "engagement": "Shows initiative in improving SMT production process engineering practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with production, design, quality teams, and equipment vendors, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Translates production, design, and quality needs into coherent equipment requirements." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Stays informed about emerging automation trends and new technologies." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Facilitates discussions to build consensus on conflicting priorities." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Uses data-driven methods to evaluate performance, cost, and benefit of solutions." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L3 - SMT Production Process",
+      "JG": "16",
+      "roleFamily": "SMT Production Process",
+      "level": "L3",
+      "hardSkills": [
+        "Center of Excellence (CoE) leadership for SMT equipment and automation",
+        "Global/regional equipment standard definition and vendor strategy leadership",
+        "Deep SMT process flow expertise (printing, SPI, placement, reflow, AOI)",
+        "Pilot installation planning and standardized operational procedure rollout",
+        "Automation and technology roadmap development across manufacturing sites"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex SMT production process engineering work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for equipment standardization, process efficiency, data-driven decision quality, and cross-site consistency, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for production, design, quality teams, and equipment vendors, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Establishes and leads a Center of Excellence for SMT equipment across sites." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Manages global equipment standards, vendor strategy, and automation roadmaps." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Persuades senior management and manages vendor relationships to shape outcomes." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Assesses how new technologies solve problems or create competitive advantage." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L1 - SMT Technology",
+      "JG": "14",
+      "roleFamily": "SMT Technology",
+      "level": "L1",
+      "hardSkills": [
+        "Support for SMT assembly process development, implementation, and optimization",
+        "DOE result analysis and statistical process control support",
+        "Root cause analysis support using structured methodologies",
+        "Risk assessment data gathering for deviations to internal/external standards",
+        "Basic SMT design rule and process requirement understanding"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined SMT process technology development tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve process capability, DfM compliance, defect root-cause resolution, and reliability of new materials.",
+        "engagement": "Shows curiosity about SMT process technology development, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with product design, PCB layout engineers, quality teams, and suppliers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns SMT process requirements and design rules while supporting the specialist." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves root cause analysis support from senior engineer feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers data gathering and analysis tasks reliably under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Supports risk assessments concerning standard deviations." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L2 - SMT Technology",
+      "JG": "15",
+      "roleFamily": "SMT Technology",
+      "level": "L2",
+      "hardSkills": [
+        "SMT assembly process development, implementation, and optimization",
+        "Design of Experiments (DOE) and statistical process control (SPC) execution",
+        "DfM feedback to product design and PCB layout engineers",
+        "Root cause analysis and corrective/preventive action proposal for yield issues",
+        "New material and technology exploration based on benchmarking"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers SMT process development, DOE analysis, and DfM feedback reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves process capability, DfM compliance, defect root-cause resolution, and reliability of new materials with limited rework.",
+        "engagement": "Shows initiative in improving SMT process technology development practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with product design, PCB layout engineers, quality teams, and suppliers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Characterizes processes and identifies critical parameters through DOE and SPC." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Explores new materials, processes, and application environments." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Influences design choices on component selection and PCB stack-up for manufacturability." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Provides risk assessments concerning deviations to support decision-making." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L3 - SMT Technology",
+      "JG": "16",
+      "roleFamily": "SMT Technology",
+      "level": "L3",
+      "hardSkills": [
+        "SMT technology roadmap definition and R&D investment direction",
+        "Design element quality criteria definition from reliability and process capability requirements",
+        "Divisional technical authority for SMT material and technology qualification",
+        "Advanced DfM negotiation with product design and PCB layout engineers",
+        "Structured root-cause resolution for complex process-related defects"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex SMT process technology development work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for process capability, DfM compliance, defect root-cause resolution, and reliability of new materials, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for product design, PCB layout engineers, quality teams, and suppliers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Defines the technology roadmap influencing R&D investment direction." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Acts as divisional technical authority for SMT material and technology qualification." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Negotiates with product designers, suppliers, and external partners on DfM." },
+        { "indicator": "Creative drive", "category": "Interpersonal Impact", "why": "Leads new discoveries and patents strengthening the company's IP portfolio." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L2 - DRBFM moderator",
+      "JG": "15",
+      "roleFamily": "DRBFM Moderator",
+      "level": "L2",
+      "hardSkills": [
+        "Daily application of DRBFM principles, mindset, and skillset to engineering tasks",
+        "Bosch Engineering System (BES) method application (Architecture, Risk Management, Implementation)",
+        "Design review organization and facilitation within own engineering circle",
+        "Domain-level functional and behavioral model sharing with expert network",
+        "Design and review maturity tracking and reporting to management"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers DRBFM workouts, BES application, and design reviews reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves design robustness, review maturity, failure prevention effectiveness, and methodology consistency with limited rework.",
+        "engagement": "Shows initiative in improving DRBFM and design review facilitation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with product engineering teams, design reviewers, and engineering leadership, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Understands design behaviors at depth and breadth levels to prevent failures." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Extends DRBFM application to new areas and project situations." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Involves leaders and experts in reviews and recognizes application opportunities." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies most critical projects to prioritize DRBFM application." }
+      ]
+    },
+    {
+      "jobTitle": "PD Engineer L3 - DRBFM moderator",
+      "JG": "16",
+      "roleFamily": "DRBFM Moderator",
+      "level": "L3",
+      "hardSkills": [
+        "Engineering methodology assessment and best-practice framework tailoring",
+        "BES and DRBFM systematic leadership across engineering teams",
+        "Design and review culture shaping as organizational role model",
+        "Engineering metric monitoring and data-driven improvement identification",
+        "Coaching and training of DRBFM experts at multiple complexity levels"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex DRBFM and design review facilitation work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for design robustness, review maturity, failure prevention effectiveness, and methodology consistency, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for product engineering teams, design reviewers, and engineering leadership, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Aligns chosen engineering methods with business strategy and product vision." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Tailors and implements engineering methodologies to fit unique organizational contexts." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Coaches teams, leaders, and individuals across the organization on DRBFM and BES." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Drives organizational change by addressing resistance and empowering teams." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - D-FMEA Moderator",
+      "JG": "15",
+      "roleFamily": "D-FMEA Moderator",
+      "level": "L2",
+      "hardSkills": [
+        "DFMEA planning, moderation, and cross-functional facilitation using AIAG/VDA methodology",
+        "Bosch quality standard application (IATF 16949) within product development lifecycle (V-model)",
+        "Risk prioritization logic and preventive/corrective action management",
+        "DFMEA software tool proficiency and structured documentation",
+        "Coaching of engineering and project teams in DFMEA principles and best practices"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers DFMEA moderation and design risk analysis reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves design robustness, review facilitation, risk identification, and preventive action follow-up with limited rework.",
+        "engagement": "Shows initiative in improving DFMEA moderation practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with development, systems engineering, testing, quality, manufacturing, and safety teams, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Understands system, subsystem, and component design across the V-model to structure DFMEA discussions." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Guides cross-functional teams through structured DFMEA discussions without direct line authority." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Integrates lessons learned and evolving standards into DFMEA execution across projects." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Prioritizes risks and preventive actions based on structured analysis." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - Problem Solving",
+      "JG": "14",
+      "roleFamily": "Problem Solving",
+      "level": "L1",
+      "hardSkills": [
+        "8D problem-solving support and structured data gathering for risk assessments",
+        "Low-complexity PS ticket handling and troubleshooting guide application",
+        "Technical fact and analysis result communication within guidelines",
+        "Documentation of PS activities according to standard procedures",
+        "Escalation of knowledge gaps and requests for support"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined structured problem solving (8D) tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve root cause resolution accuracy, risk assessment quality, recurrence prevention, and customer satisfaction.",
+        "engagement": "Shows curiosity about structured problem solving (8D), asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering, quality, manufacturing teams, and customers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns 8D methodology, troubleshooting guides, and PS tools under guidance." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves data structuring and analysis quality based on peer feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers assigned PS tickets reliably within supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies obvious issues and applies existing solutions correctly." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - Problem Solving",
+      "JG": "15",
+      "roleFamily": "Problem Solving",
+      "level": "L2",
+      "hardSkills": [
+        "8D leadership and Risk Assessment (RA) ownership for mid- to high-complexity cases",
+        "Root cause analysis using structured problem-solving methodologies",
+        "Cross-functional stakeholder alignment on containment and mitigation actions",
+        "Non-standard case escalation and structured problem management (context, data, impact)",
+        "Mentoring of less experienced PS engineers"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers 8D case resolution and risk assessments reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves root cause resolution accuracy, risk assessment quality, recurrence prevention, and customer satisfaction with limited rework.",
+        "engagement": "Shows initiative in improving structured problem solving (8D) practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with engineering, quality, manufacturing teams, and customers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Owns Risk Assessments and adapts PS methods for mid- to high-complexity cases." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Smartly adapts existing PS methods to non-standard or escalated cases." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Aligns stakeholders with different technical views and priorities." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Recognizes non-technical root causes and escalates appropriately." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L3 - Problem Solving",
+      "JG": "16",
+      "roleFamily": "Problem Solving",
+      "level": "L3",
+      "hardSkills": [
+        "8D leadership for high-complexity, critical cases with significant business and technical risk",
+        "PS strategy development and risk handling beyond individual cases",
+        "Cross-domain application and continuous improvement of PS approaches",
+        "Functional leadership and quality supervision of other PS engineers",
+        "Customer expectation management in critical or escalated situations"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex structured problem solving (8D) work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for root cause resolution accuracy, risk assessment quality, recurrence prevention, and customer satisfaction, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for engineering, quality, manufacturing teams, and customers, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Influences PS strategy and risk handling beyond individual cases." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Manages high-complexity and critical PS cases with significant technical and business risk." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Manages customer expectations and aligns stakeholders with conflicting interests globally." },
+        { "indicator": "Courage", "category": "Emotional Power", "why": "Takes ownership beyond assigned tasks and drives resolution of critical escalations." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - Business Development",
+      "JG": "15",
+      "roleFamily": "Business Development",
+      "level": "L2",
+      "hardSkills": [
+        "R&D business model guidance and strategic/operational alignment",
+        "KPI benchmarking, creation, and monitoring (Investments, Innovation, Product portfolio)",
+        "External Public Funded program and Innovation program interlocution",
+        "High-level recurrent reporting design and adaptation to management needs",
+        "Coordination of High-Level-Management visits and key meetings"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers R&D business development plans and strategic reporting reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves KPI accuracy, reporting reliability, and strategic alignment with limited rework.",
+        "engagement": "Shows initiative in improving R&D business development and strategic reporting practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with R&D management, external program partners, and department stakeholders, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Coordinates R&D department strategy and guides current/new business models." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Elaborates benchmarks and monitors multiple KPI streams across the department." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Acts as department interlocutor for external Public Funded and Innovation programs." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Selects relevant KPIs and adapts reporting to evolving management needs." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - Controller",
+      "JG": "14",
+      "roleFamily": "Controller",
+      "level": "L1",
+      "hardSkills": [
+        "R&D Business Plan and Current Forecast coordination with quarterly budget updates",
+        "Cost and resource management via MCR as process key user",
+        "R&D tracking method, KPI, and dashboard development for budget/forecast monitoring",
+        "Cost debiting coordination to Business Units",
+        "Headcount and budget planning support with project managers and group leaders"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined R&D controlling and financial management tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve budget accuracy, forecast reliability, and reporting consistency.",
+        "engagement": "Shows curiosity about R&D controlling and financial management, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with project managers, group leaders, and department heads, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns R&D budgeting, forecasting, and MCR cost management processes." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Refines KPIs and dashboards based on variance analysis feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers recurring financial reporting reliably under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies risks not immediately evident in budgeting and forecasting data." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - ISP Partner",
+      "JG": "14",
+      "roleFamily": "ISP Partner",
+      "level": "L1",
+      "hardSkills": [
+        "Data protection guidance aligned with European Data Protection Regulation and legal norms",
+        "Privacy compliance training delivery and awareness promotion within R&D",
+        "External and internal audit setup, support, and tracking (GDPR, ISO 27001, ISP base audit)",
+        "IT security measure implementation as ITL-proxy per Central Directive 07151",
+        "Best practice adaptation from beyond Bosch norms into R&D products and processes"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined data protection compliance tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve compliance accuracy, audit readiness, and privacy awareness.",
+        "engagement": "Shows curiosity about data protection compliance, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with project teams, specialists, and audit bodies, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns data protection regulation and audit requirements across GDPR and ISO 27001." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves training content and privacy guidance based on project feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers audit tracking and compliance guidance reliably." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Adapts external best practices to fit existing Bosch norms." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - IT Specialist \u0026 ITL",
+      "JG": "14",
+      "roleFamily": "IT Specialist \u0026 ITL",
+      "level": "L1",
+      "hardSkills": [
+        "Access Identity Management (AIM) deployment and standardized IT access implementation",
+        "Test bench and storage server hardware support, procurement, and inventory management",
+        "IT security measure implementation as ITL-proxy per Central Directive 07151",
+        "HPC/GPU and Isilon Cluster interface and collaboration with central BD teams",
+        "IT process training delivery for new Development associates"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined R&D IT operations and infrastructure support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve system availability, access management accuracy, and support responsiveness.",
+        "engagement": "Shows curiosity about R&D IT operations and infrastructure support, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with development associates, central IT teams, and vendors, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns HPC/GPU cluster operations and IT security compliance requirements." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves IT support processes based on associate and audit feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers first-level IT support and inventory management reliably." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Validates department-specific IT needs and applies central BD norms correctly." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L3 - PDM BBM process expert",
+      "JG": "16",
+      "roleFamily": "PDM BBM process expert",
+      "level": "L3",
+      "hardSkills": [
+        "SAP-supported BBM process ownership and corporate standard alignment",
+        "Master data governance framework definition across Finance, Supply Chain, and Manufacturing",
+        "S/4HANA, automation, and analytics capability adoption leadership",
+        "Data-driven decision-making framework enablement across the Business Unit",
+        "Strategic interface leadership between business leadership and IT/SAP teams"
+      ],
+      "softSkills": {
+        "efficiency": "Drives complex SAP-supported BBM process governance work efficiently, prioritizing effort by customer value, project risk, and long-term impact.",
+        "quality": "Raises the quality bar for data governance accuracy, process standardization, and system performance, preventing recurring issues.",
+        "engagement": "Proactively shapes solutions, challenges assumptions, and keeps momentum when priorities, risks, or working conditions change.",
+        "responsibilityTaking": "Takes full accountability for outcomes, including difficult trade-offs, escalations, and issues beyond formal scope.",
+        "cooperation": "Acts as a multiplier for business leadership, IT/SAP teams, and cross-functional stakeholders, mentoring others and improving shared ways of working."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Strategic perspective", "category": "Intellectual Capacity", "why": "Acts as process owner ensuring alignment with corporate standards and business strategy." },
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Governs end-to-end SAP process execution across Finance, Supply Chain, and Manufacturing." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Represents the Business Unit in cross-BU and corporate SAP/BBM initiatives." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Leads resolution of complex, high-impact system and process issues." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - PDM BBM process expert",
+      "JG": "15",
+      "roleFamily": "PDM BBM process expert",
+      "level": "L2",
+      "hardSkills": [
+        "SAP solution alignment with BBM principles across finance, logistics, and manufacturing",
+        "Data integrity, financial accuracy, and process compliance safeguarding",
+        "Business requirement translation into structured SAP solutions and functional specifications",
+        "Continuous improvement and standardization of SAP-supported processes",
+        "Workshop and training facilitation for stakeholder alignment"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers SAP-supported BBM process governance work reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves data governance accuracy, process standardization, and system performance with limited rework.",
+        "engagement": "Shows initiative in improving SAP-supported BBM process governance practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with business leadership, IT/SAP teams, and cross-functional stakeholders, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Ensures SAP solutions and configurations align with BBM principles across functions." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Drives continuous improvement and optimization of SAP-supported processes." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Leads alignment with key functions including Finance, Supply Chain, and Operations." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Translates business requirements into structured SAP solutions." }
+      ]
+    },
+    {
+      "jobTitle": "ESF - PDM Product and Lifecycle (JG13)",
+      "JG": "13",
+      "roleFamily": "PDM Product and Lifecycle",
+      "level": "L1",
+      "hardSkills": [
+        "PDM single-source-of-truth data governance and change control execution",
+        "BOM management, document control, and workflow operations",
+        "PDM user training, guidelines, and workshop delivery",
+        "PDM/PLM/ERP integration testing (UAT) support and enhancement contribution",
+        "Data governance principle application and lifecycle transition tracking"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined PDM product lifecycle support tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve data accuracy, change control discipline, process consistency, and reporting reliability.",
+        "engagement": "Shows curiosity about PDM product lifecycle support, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering, manufacturing, supply chain, and IT/PDM teams, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns PDM/PLM/ERP integration and product structure data models." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves data accuracy and change control based on review feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers PDM data governance tasks reliably within supervision." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Identifies process gaps and proposes improvements aligned with business needs." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - PDM BU Change Management",
+      "JG": "14",
+      "roleFamily": "PDM BU Change Management",
+      "level": "L1",
+      "hardSkills": [
+        "End-to-end engineering change process execution within the ECMF system",
+        "Cross-functional impact assessment coordination (Engineering, Quality, Supply Chain, Manufacturing)",
+        "ECMF performance indicator monitoring (lead time, backlog, compliance, data accuracy)",
+        "Engineering change compliance verification against corporate standards and regulations",
+        "ECMF-related stakeholder alignment and escalation support"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined engineering change management (ECMF) tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve compliance accuracy, change process robustness, and data traceability.",
+        "engagement": "Shows curiosity about engineering change management (ECMF), asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering, quality, supply chain, and product management teams, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns ECMF workflows and engineering change governance requirements." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves change process compliance based on cross-functional feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers structured impact assessments reliably under guidance." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Supports resolution of ECMF-related operational issues within own scope." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - IMDS Officer",
+      "JG": "15",
+      "roleFamily": "IMDS Officer",
+      "level": "L2",
+      "hardSkills": [
+        "IMDS (International Material Data System) process coordination at Division level",
+        "Automotive OEM direct contact and IMDS compliance assurance",
+        "IMDS Mac information management and cross-Division user meeting facilitation",
+        "Stakeholder alignment across engineering, purchasing, quality, suppliers, and customers",
+        "IMDS tool implementation and data accuracy improvement"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers IMDS environmental compliance work reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves submission accuracy, compliance reliability, and data quality with limited rework.",
+        "engagement": "Shows initiative in improving IMDS environmental compliance practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with engineering, purchasing, quality teams, suppliers, and customers, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Coordinates IMDS activities and guideline implementation at Division level." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Implements and tests new IMDS tools to improve process accuracy." },
+        { "indicator": "Networking", "category": "Interpersonal Impact", "why": "Establishes direct contact with Automotive OEMs within the IMDS process." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Analyzes IMDS experiences and problems to define solutions in Division meetings." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - IMDS Officer",
+      "JG": "14",
+      "roleFamily": "IMDS Officer",
+      "level": "L1",
+      "hardSkills": [
+        "IMDS submission management within Braga location",
+        "Automotive OEM contact support for IMDS compliance",
+        "Contribution to collective IMDS Macs information and regular Division meetings",
+        "Alignment participation on problem solving and deadlines across IMDS stakeholders",
+        "IMDS process improvement suggestions and tool testing support"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined IMDS environmental compliance tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve submission accuracy, compliance reliability, and data quality.",
+        "engagement": "Shows curiosity about IMDS environmental compliance, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering, purchasing, quality teams, suppliers, and customers, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns IMDS submission requirements and compliance processes." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves submission accuracy based on Division meeting feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers IMDS submissions reliably within Braga location scope." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Suggests improvements to IMDS process and data accuracy." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L2 - PDM PCN\u0026PTN\u0026PDN-BU",
+      "JG": "15",
+      "roleFamily": "PDM PCN\u0026PTN\u0026PDN-BU",
+      "level": "L2",
+      "hardSkills": [
+        "PCN/PTN/PDN governance and strategic steering across the Business Unit",
+        "Cross-functional impact assessment leadership (technical, commercial, supply chain)",
+        "Performance indicator monitoring for notification processes (timeliness, compliance, completeness)",
+        "Scalable governance model design for product change/discontinuation processes",
+        "Customer communication strategy alignment for critical product changes"
+      ],
+      "softSkills": {
+        "efficiency": "Delivers PCN/PTN/PDN lifecycle governance work reliably with limited supervision, manages dependencies, and prioritizes work according to project value and risk.",
+        "quality": "Produces stable, well-documented, and reviewable work that improves process timeliness, compliance, and completeness with limited rework.",
+        "engagement": "Shows initiative in improving PCN/PTN/PDN lifecycle governance practices, adapts to changing priorities, and contributes practical improvement ideas.",
+        "responsibilityTaking": "Owns assigned modules, features, or workstreams end to end, escalates risks early, and balances quality, cost, and delivery needs.",
+        "cooperation": "Collaborates effectively with engineering, quality, supply chain, sales, and product management teams, and supports less experienced colleagues."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Managing complexity", "category": "Intellectual Capacity", "why": "Leads complex cross-functional impact assessments across technical, commercial, and supply chain dimensions." },
+        { "indicator": "Willingness to change", "category": "Learning Ambition", "why": "Designs and continuously optimizes scalable governance models for PCN/PTN/PDN processes." },
+        { "indicator": "Assertiveness", "category": "Interpersonal Impact", "why": "Acts as central interface and escalation point for all PCN/PTN/PDN topics." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Drives proactive risk mitigation strategies for product changes and discontinuations." }
+      ]
+    },
+    {
+      "jobTitle": "ESF L1 - PDM PCN\u0026PTN\u0026PDN-BU",
+      "JG": "14",
+      "roleFamily": "PDM PCN\u0026PTN\u0026PDN-BU",
+      "level": "L1",
+      "hardSkills": [
+        "PCN/PTN/PDN process execution coordination within the Business Unit",
+        "Impact assessment activity support for product lifecycle changes",
+        "Status tracking and timely follow-up on notification actions",
+        "Communication interface support between Engineering, Supply Chain, and Sales",
+        "Process improvement and best practice implementation support"
+      ],
+      "softSkills": {
+        "efficiency": "Completes well-defined PCN/PTN/PDN lifecycle governance tasks on time with guidance, follows established methods, and learns to prioritize work effectively.",
+        "quality": "Produces correct outputs within assigned scope, follows standards, and applies feedback to improve process timeliness, compliance, and completeness.",
+        "engagement": "Shows curiosity about PCN/PTN/PDN lifecycle governance, asks questions early, and adapts constructively when tasks or working conditions change.",
+        "responsibilityTaking": "Owns assigned tasks, communicates uncertainty or blockers promptly, and follows through on agreed corrections.",
+        "cooperation": "Works constructively with engineering, quality, supply chain, sales, and product management teams, sharing progress openly."
+      },
+      "boschPotentialIndicators": [
+        { "indicator": "Curiosity", "category": "Learning Ambition", "why": "Learns product lifecycle and change notification processes (PDM, ERP)." },
+        { "indicator": "Self-reflection", "category": "Learning Ambition", "why": "Improves coordination and follow-up based on stakeholder feedback." },
+        { "indicator": "Inner stability", "category": "Emotional Power", "why": "Delivers status tracking and follow-up tasks reliably." },
+        { "indicator": "Judgment", "category": "Intellectual Capacity", "why": "Supports impact assessment activities for product changes." }
+      ]
     }
   ]
 }

@@ -196,9 +196,9 @@
 </section>
 
 <section class="identity" id="identityFields" style="display:none">
-  <div class="field"><label>Associate Name</label><input data-key="id-name" placeholder="Full name"></div>
-  <div class="field"><label>Role</label><input data-key="id-role" list="role-options" placeholder="Select or type a role"><datalist id="role-options"></datalist></div>
-  <div class="field"><label>Team Name</label><input data-key="id-team" placeholder="Team / department"></div>
+  <div class="field"><label>Associate Name</label><input data-key="associate-name" placeholder="Full name"></div>
+  <div class="field"><label>Role</label><input data-key="associate-role" list="role-options" placeholder="Select or type a role"><datalist id="role-options"></datalist></div>
+  <div class="field"><label>Team Name</label><input data-key="associate-team" placeholder="Team / department"></div>
 </section>
 
 <div class="zone zone-career" id="zone-career">
@@ -210,19 +210,19 @@
   </button>
   <div class="zone-body">
   <section class="grid">
-  <div class="card strengths"><h2>Self-Driving Strengths / Motivation</h2><p class="hint">What energizes this person and where do they naturally excel?</p><div class="field"><textarea data-key="cd-strengths" placeholder="Intrinsic strengths, motivators, distinctive contribution..."></textarea></div></div>
-  <div class="card aspiration"><h2>Career Aspiration (3yrs)</h2><p class="hint">Where would they like to be in 3 years?</p><div class="field"><textarea data-key="cd-aspiration" placeholder="Desired role, impact, direction..."></textarea></div></div>
+  <div class="card strengths"><h2>Self-Driving Strengths / Motivation</h2><p class="hint">What energizes this person and where do they naturally excel?</p><div class="field"><textarea data-key="career-strengths-motivation" placeholder="Intrinsic strengths, motivators, distinctive contribution..."></textarea></div></div>
+  <div class="card aspiration"><h2>Career Aspiration (3yrs)</h2><p class="hint">Where would they like to be in 3 years?</p><div class="field"><textarea data-key="career-aspiration" placeholder="Desired role, impact, direction..."></textarea></div></div>
   <div class="card skills-exposure"><h2>Skills Needed & Exposure / Network</h2><p class="hint">Which skills or capabilities are required, and who can support that growth?</p>
     <div class="skills-exposure-grid">
-      <div class="field"><label>Skills Needed</label><textarea data-key="cd-skills" placeholder="Technical, leadership, soft skills..."></textarea></div>
-      <div class="field"><label>Exposure / Network</label><textarea data-key="cd-exposure" placeholder="Who can this person learn from or connect with?"></textarea></div>
+      <div class="field"><label>Skills Needed</label><textarea data-key="career-skills-needed" placeholder="Technical, leadership, soft skills..."></textarea></div>
+      <div class="field"><label>Exposure / Network</label><textarea data-key="career-exposure-network" placeholder="Who can this person learn from or connect with?"></textarea></div>
     </div>
     <button class="ai-field-action" type="button" id="skillsAdviceBtn" onclick="getSkillsAdvice(this)">Get AI Advise</button><div class="ai-assessment-result" id="skillsAdviceResult" style="display:none"></div>
   </div>
   <div class="card growth">
     <h2>Priority Growth Area (next 12 months)</h2>
     <p class="hint">Define the one capability to focus on, then break it into owned, dated action items.</p>
-    <div class="field"><textarea data-key="cd-growth" placeholder="The single priority capability/behavior and why it matters..."></textarea></div>
+    <div class="field"><textarea data-key="career-growth-priority" placeholder="The single priority capability/behavior and why it matters..."></textarea></div>
     <div class="action-row mini-label"><span>Action item</span><span>Due date</span><span></span></div>
     <div id="growthActions"></div>
     <button class="add" type="button" onclick="addGrowthAction()">+ Add action item</button>
@@ -252,7 +252,7 @@
   </button>
   <div class="zone-body">
   <section class="grid">
-  <div class="card notebook"><h2>Individual Remarks</h2><p class="hint">Ongoing notes from 1:1s and everyday observations — a running log to remember context over time.</p><div class="field"><textarea data-key="notebook-notes" placeholder="Date, context and remarks from 1:1 dialogues, informal chats, observations..."></textarea></div></div>
+  <div class="card notebook"><h2>Individual Remarks</h2><p class="hint">Ongoing notes from 1:1s and everyday observations — a running log to remember context over time.</p><div class="field"><textarea data-key="notebook-remarks" placeholder="Date, context and remarks from 1:1 dialogues, informal chats, observations..."></textarea></div><button class="ai-field-action" type="button" id="pushAIIngestBtn" onclick="pushAIIngest(this)" style="display:none">Push AI Ingest</button></div>
   </section>
   </div>
 </div>
@@ -266,15 +266,15 @@
   </button>
   <div class="zone-body">
   <section class="grid">
-  <div class="card positive"><h2>Positive Points</h2><p class="hint">What is going well and should continue?</p><div class="field"><textarea data-key="fb-positive" placeholder="Strengths observed, good practices, achievements..."></textarea></div></div>
-  <div class="card improvement"><h2>Improvement Points</h2><p class="hint">What should change or develop further?</p><div class="field"><textarea data-key="fb-improvement" placeholder="Areas to improve, gaps, concerns..."></textarea></div></div>
+  <div class="card positive"><h2>Positive Points</h2><p class="hint">What is going well and should continue?</p><div class="field"><textarea data-key="feedback-positive-points" placeholder="Strengths observed, good practices, achievements..."></textarea></div></div>
+  <div class="card improvement"><h2>Improvement Points</h2><p class="hint">What should change or develop further?</p><div class="field"><textarea data-key="feedback-improvement-points" placeholder="Areas to improve, gaps, concerns..."></textarea></div></div>
   <div class="card sbi">
     <h2>Feedback Preparation — SBI Model</h2>
     <p class="hint">Use Situation, Behaviour, Impact to prepare clear, factual feedback before the conversation.</p>
     <div class="sbi-grid">
-      <div class="field sbi-item"><span class="tag">Situation</span><textarea data-key="sbi-situation" placeholder="When and where did it happen? Be specific (date, meeting, project)..."></textarea></div>
-      <div class="field sbi-item"><span class="tag">Behaviour</span><textarea data-key="sbi-behavior" placeholder="What did you observe the person say or do? Facts, not judgments..."></textarea></div>
-      <div class="field sbi-item"><span class="tag">Impact</span><textarea data-key="sbi-impact" placeholder="What was the effect on you, the team, the customer or the result?"></textarea></div>
+      <div class="field sbi-item"><span class="tag">Situation</span><textarea data-key="feedback-sbi-situation" placeholder="When and where did it happen? Be specific (date, meeting, project)..."></textarea></div>
+      <div class="field sbi-item"><span class="tag">Behaviour</span><textarea data-key="feedback-sbi-behavior" placeholder="What did you observe the person say or do? Facts, not judgments..."></textarea></div>
+      <div class="field sbi-item"><span class="tag">Impact</span><textarea data-key="feedback-sbi-impact" placeholder="What was the effect on you, the team, the customer or the result?"></textarea></div>
     </div>
     <button class="add" type="button" onclick="generateSBI()">Generate feedback draft</button>
     <div class="sbi-preview" id="sbiPreview" style="margin-top:10px">Draft will appear here...</div>
@@ -422,15 +422,39 @@ async function callAssessment(role,notes){
   return callRelay({role,notes});
 }
 
+const NOTEBOOK_INGEST_TARGET_RESOURCE_ID='team-management-ruicardoso';
+async function pushAIIngest(button){
+  const notes=document.querySelector('[data-key="notebook-remarks"]').value.trim();
+  if(!notes){flash('Add some notebook remarks before pushing to AI Ingest');return}
+  const name=document.querySelector('[data-key="associate-name"]').value.trim();
+  if(!name){flash('Enter the associate\'s name before pushing to AI Ingest');return}
+  const role=document.querySelector('[data-key="associate-role"]').value.trim();
+  if(!role){flash('Select the associate\'s role before pushing to AI Ingest');return}
+  const message=`Consider the inputs of this individual profile ("${name}") with the role: "${role}" with the information added by the manager here and ingest it into Corpus:\n${notes}`;
+  const buttonText=button.textContent;
+  button.textContent='Pushing...';
+  button.disabled=true;
+  try{
+    await callRelay({role,notes:message,targetResourceId:NOTEBOOK_INGEST_TARGET_RESOURCE_ID});
+    flash('Pushed to AI Ingest');
+  }catch(error){
+    console.error(error);
+    flash(`LLM error: ${error.message}`);
+  }finally{
+    button.textContent=buttonText;
+    button.disabled=false;
+  }
+}
+
 function buildCareerAdviceNotes(aspiration,strengths){
   return `Career management request: provide career development advice, not a performance evaluation.\n\nSelf-driving strengths / motivation:\n${strengths||'Not specified yet.'}\n\nCurrent vision and 3-year aspiration:\n${aspiration||'Not specified yet.'}`;
 }
 
 async function getSkillsAdvice(button){
-  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  const role=document.querySelector('[data-key="associate-role"]').value.trim();
   if(!role){flash('Select the associate\'s role before requesting AI advice');return}
-  const aspiration=document.querySelector('[data-key="cd-aspiration"]').value.trim();
-  const strengths=document.querySelector('[data-key="cd-strengths"]').value.trim();
+  const aspiration=document.querySelector('[data-key="career-aspiration"]').value.trim();
+  const strengths=document.querySelector('[data-key="career-strengths-motivation"]').value.trim();
   const resultEl=document.getElementById('skillsAdviceResult');
   const buttonText=button.textContent;
   button.textContent='Thinking...';
@@ -465,9 +489,9 @@ const perfGrid=document.getElementById('perfGrid');
 PERF_FIELDS.forEach(f=>{
   const div=document.createElement('div');div.className='perf-item';
   div.innerHTML=`<h3>${f.label}</h3><p class="hint" style="margin:0 0 8px">${f.hint}</p>
-  <div class="rating">${[1,2,3,4,5].map(n=>`<label><input type="radio" name="perf-${f.key}" data-key="perf-${f.key}-rating" value="${n}"><span>${n}</span></label>`).join('')}</div>
-  <div class="field"><label>Expectation based on role</label><textarea data-key="perf-${f.key}-expectation" placeholder="Select a role to show the role-based expectation..." readonly></textarea></div>
-  <div class="field"><label>Observation about fulfillment</label><textarea data-key="perf-${f.key}-notes" placeholder="Observed fulfillment, examples, evidence..."></textarea></div>`;
+  <div class="rating">${[1,2,3,4,5].map(n=>`<label><input type="radio" name="performance-${f.key}-rating" data-key="performance-${f.key}-rating" value="${n}"><span>${n}</span></label>`).join('')}</div>
+  <div class="field"><label>Expectation based on role</label><textarea data-key="performance-${f.key}-expectation" placeholder="Select a role to show the role-based expectation..." readonly></textarea></div>
+  <div class="field"><label>Observation about fulfillment</label><textarea data-key="performance-${f.key}-notes" placeholder="Observed fulfillment, examples, evidence..."></textarea></div>`;
   perfGrid.appendChild(div);
 });
 document.querySelectorAll('.rating label').forEach(l=>{const i=l.querySelector('input');l.textContent='';l.appendChild(i);const s=document.createElement('span');s.textContent=i.value;l.appendChild(s)});
@@ -492,10 +516,10 @@ function findExpectationsForRole(role){
 }
 
 function updatePerformanceExpectations(){
-  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  const role=document.querySelector('[data-key="associate-role"]').value.trim();
   const expectations=findExpectationsForRole(role);
   PERF_FIELDS.forEach(field=>{
-    const el=document.querySelector(`[data-key="perf-${field.key}-expectation"]`);
+    const el=document.querySelector(`[data-key="performance-${field.key}-expectation"]`);
     if(!el)return;
     const criterion=PERFORMANCE_CRITERIA_KEYS[field.key];
     el.value=formatPerformanceExpectation(expectations[criterion]);
@@ -526,7 +550,7 @@ function formatAIAssessmentResult(comment,improvementPoints){
 }
 
 function markAISuggestedLevel(fieldKey,level){
-  document.querySelectorAll(`.rating input[name="perf-${fieldKey}"]`).forEach(input=>{
+  document.querySelectorAll(`.rating input[name="performance-${fieldKey}-rating"]`).forEach(input=>{
     input.closest('label').classList.toggle('ai-suggested',Number(input.value)===level);
   });
 }
@@ -539,7 +563,7 @@ function clearAIAssessments(){
 }
 
 function addAIResultToObservations(field){
-  const notesEl=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  const notesEl=document.querySelector(`[data-key="performance-${field.key}-notes"]`);
   const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
   if(!notesEl||!resultEl)return;
   const feedback=resultEl.textContent.trim();
@@ -564,11 +588,11 @@ async function copyAIResult(field){
 }
 
 async function runAIAssessment(field,button){
-  const notesEl=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  const notesEl=document.querySelector(`[data-key="performance-${field.key}-notes"]`);
   const resultEl=document.getElementById(`perf-${field.key}-ai-result`);
   const observation=(notesEl?.value||'').trim();
   if(!observation){flash('Add an observation before running AI Assessment');return}
-  const role=document.querySelector('[data-key="id-role"]').value.trim();
+  const role=document.querySelector('[data-key="associate-role"]').value.trim();
   if(!role){flash('Select the associate\'s role before running AI Assessment');return}
   const buttonText=button.textContent;
   button.textContent='Assessing...';
@@ -600,7 +624,7 @@ async function runAIAssessment(field,button){
 }
 
 function addAIAssessmentButton(field){
-  const notesField=document.querySelector(`[data-key="perf-${field.key}-notes"]`);
+  const notesField=document.querySelector(`[data-key="performance-${field.key}-notes"]`);
   if(!notesField||notesField.parentElement.querySelector(`[data-ai-assessment-for="${field.key}"]`))return;
   const button=document.createElement('button');
   button.type='button';
@@ -669,9 +693,9 @@ function apply(d){
   clearAIAssessments();
 }
 function generateSBI(){
-  const s=document.querySelector('[data-key="sbi-situation"]').value.trim();
-  const b=document.querySelector('[data-key="sbi-behavior"]').value.trim();
-  const i=document.querySelector('[data-key="sbi-impact"]').value.trim();
+  const s=document.querySelector('[data-key="feedback-sbi-situation"]').value.trim();
+  const b=document.querySelector('[data-key="feedback-sbi-behavior"]').value.trim();
+  const i=document.querySelector('[data-key="feedback-sbi-impact"]').value.trim();
   const draft=`Situation: ${s||'…'}\nBehaviour: ${b||'…'}\nImpact: ${i||'…'}`;
   const previewEl=document.getElementById('sbiPreview');
   previewEl.textContent=draft;
@@ -699,12 +723,17 @@ function restoreZoneStates(){
 }
 
 function updateIdentitySummary(){
-  const name=document.querySelector('[data-key="id-name"]').value.trim();
-  const role=document.querySelector('[data-key="id-role"]').value.trim();
-  const team=document.querySelector('[data-key="id-team"]').value.trim();
+  const name=document.querySelector('[data-key="associate-name"]').value.trim();
+  const role=document.querySelector('[data-key="associate-role"]').value.trim();
+  const team=document.querySelector('[data-key="associate-team"]').value.trim();
   document.getElementById('heroName').textContent=name||'Unnamed associate';
   document.getElementById('summaryRole').textContent=role||'No role selected';
   document.getElementById('summaryTeam').textContent=team||'No team';
+  const assoc=state.associates.find(a=>a.id===state.activeId);
+  if(assoc&&assoc.name!==(name||'New associate')){
+    assoc.name=name||'New associate';
+    saveState(state);
+  }
 }
 function toggleIdentityEdit(){
   const box=document.getElementById('identityFields');
@@ -719,18 +748,53 @@ function toggleIdentityEdit(){
     renderTabs();
   }
 }
-['id-name','id-role','id-team'].forEach(k=>{
+['associate-name','associate-role','associate-team'].forEach(k=>{
   document.querySelector(`[data-key="${k}"]`).addEventListener('input',updateIdentitySummary);
 });
-['input','change'].forEach(evt=>document.querySelector('[data-key="id-role"]').addEventListener(evt,refreshPerformanceExpectations));
+['input','change'].forEach(evt=>document.querySelector('[data-key="associate-role"]').addEventListener(evt,refreshPerformanceExpectations));
 
 // ---- Multi-associate (tab) management ----
 const STATE_KEY='leados_associates_state';
 const RECORD_PREFIX='leados_associate_';
+// maps pre-rename field keys to their current, more descriptive names for backward compatibility
+const LEGACY_FIELD_KEY_MAP={
+  'id-name':'associate-name','id-role':'associate-role','id-team':'associate-team',
+  'cd-strengths':'career-strengths-motivation','cd-aspiration':'career-aspiration',
+  'cd-skills':'career-skills-needed','cd-exposure':'career-exposure-network','cd-growth':'career-growth-priority',
+  'notebook-notes':'notebook-remarks',
+  'fb-positive':'feedback-positive-points','fb-improvement':'feedback-improvement-points',
+  'sbi-situation':'feedback-sbi-situation','sbi-behavior':'feedback-sbi-behavior','sbi-impact':'feedback-sbi-impact'
+};
+function migrateLegacyFields(fields){
+  if(!fields)return fields;
+  Object.entries(LEGACY_FIELD_KEY_MAP).forEach(([oldKey,newKey])=>{
+    if(fields[oldKey]!==undefined){
+      if(fields[newKey]===undefined)fields[newKey]=fields[oldKey];
+      delete fields[oldKey];
+    }
+  });
+  PERF_FIELDS.forEach(f=>{
+    ['','-expectation','-notes'].forEach(suffix=>{
+      const oldKey=`perf-${f.key}${suffix||''}`;
+      const newKey=`performance-${f.key}${suffix||'-rating'}`;
+      if(fields[oldKey]!==undefined){
+        if(fields[newKey]===undefined)fields[newKey]=fields[oldKey];
+        delete fields[oldKey];
+      }
+    });
+  });
+  return fields;
+}
 function uid(){return 'a'+Date.now().toString(36)+Math.random().toString(36).slice(2,7)}
 function loadState(){try{return JSON.parse(localStorage.getItem(STATE_KEY))||null}catch{return null}}
 function saveState(state){localStorage.setItem(STATE_KEY,JSON.stringify(state))}
-function loadRecord(id){try{return JSON.parse(localStorage.getItem(RECORD_PREFIX+id))}catch{return null}}
+function loadRecord(id){
+  try{
+    const rec=JSON.parse(localStorage.getItem(RECORD_PREFIX+id));
+    if(rec)migrateLegacyFields(rec.fields);
+    return rec;
+  }catch{return null}
+}
 function saveRecord(id,rec){localStorage.setItem(RECORD_PREFIX+id,JSON.stringify(rec))}
 function deleteRecord(id){localStorage.removeItem(RECORD_PREFIX+id)}
 
@@ -743,7 +807,7 @@ if(!state||!state.associates||!state.associates.length){
 
 function tabLabel(assoc){
   const rec=loadRecord(assoc.id);
-  const name=rec&&rec.fields&&rec.fields['id-name'];
+  const name=rec&&rec.fields&&rec.fields['associate-name'];
   return (name&&name.trim())||assoc.name||'New associate';
 }
 function tabInitials(name){
@@ -884,8 +948,15 @@ function disconnectFileHandle(){
 function buildExportPayload(){
   saveRecord(state.activeId,currentRecordFromForm());
   const all={state,records:{}};
-  state.associates.forEach(a=>all.records[a.id]=loadRecord(a.id));
+  state.associates.forEach(a=>all.records[a.id]=stripRoleExpectations(loadRecord(a.id)));
   return all;
+}
+// role-based expectations are re-derived from performance_expectations.json on load, so exclude them from exports
+function stripRoleExpectations(record){
+  if(!record||!record.fields)return record;
+  const fields={...record.fields};
+  PERF_FIELDS.forEach(f=>{delete fields[`performance-${f.key}-expectation`]});
+  return {...record,fields};
 }
 function suggestedFileName(payload){
   const count=Object.keys(payload.records||{}).length;
